@@ -14,32 +14,42 @@
   </head>
   <body>
     <form class="sign-up">
-      <div class="logo">
-        <img src="Images/final logo monogram 3.png" alt="logo3" />
+      <div class="logoBox">
+        <img src="Images/final logo monogram 2.png" alt="logo3" class="logo" />
       </div>
-      <div class="code-text">
-        <h4>An email with the code has been sent to cyadianu@gmail.com</h4>
+
+      <div class="inputBox">
+        <div class="code-text">
+          <h4>An email with the code has been sent to cyadianu@gmail.com</h4>
+        </div>
+
+        <div class="input">
+          <label for="email" class="inputLabel"
+            ><span
+              ><img
+                src="Icons/Frame 281.png"
+                class="codeIcon"
+                alt="cube"
+                width="36"
+                height="36" /></span
+          ></label>
+          <input type="text" id="text" name="text" placeholder="Enter code" />
+        </div>
+
+        <div class="get-code">
+          <a href="#" type="submit" class="Alink-noCode"
+            >Did not get the code?</a
+          >
+        </div>
       </div>
-      <div class="input">
-        <label for="email"
-          ><span
-            ><img
-              src="Icons/Frame 281.png"
-              alt="cube"
-              width="36"
-              height="36" /></span
-        ></label>
-        <input type="text" id="text" name="text" placeholder="Enter code" />
-      </div>
-      <div class="get-code">
-        <a href="#">Didn't get a code?</a>
-      </div>
+
       <div class="btn2">
-        <button>
+        <button type="submit" class="submitButton">
           SUBMIT
           <span
             ><img
               src="Icons/arrow-front.png"
+              class="arrow"
               alt="arrow"
               width="36"
               height="36"

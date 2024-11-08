@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Dongle", "Arial", "sans-serif";
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
 }
 
 section {
@@ -118,8 +118,7 @@ h5 {
   font-style: oblique;
 }
 
-.Alink-proceed:link,
-.Alink-proceed:visited {
+.proceedButton {
   background-color: #8f1b1b;
   color: white;
   text-decoration: none;
@@ -136,8 +135,7 @@ h5 {
   margin-top: 2vh;
 }
 
-.Alink-proceed:hover,
-.Alink-proceed:active {
+.proceedButton:hover {
   background-color: #d62828;
   color: white;
   font-style: oblique;
