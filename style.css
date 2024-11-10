@@ -1,0 +1,1050 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+.head-wrap {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBox {
+  background-color: white;
+}
+
+.logo {
+  width: 19vw;
+  height: 18vh;
+}
+
+.navbar {
+  list-style: none;
+  width: 53vw;
+  margin: auto;
+  margin-left: 10vh;
+  margin-top: 5vh;
+}
+
+.navul {
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navli {
+  font-size: 4.6vh;
+  font-weight: 500;
+  text-align: center;
+}
+
+a.Alink-nav:link,
+a.Alink-nav:visited {
+  color: rgba(76, 76, 76, 0.881);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.active,
+a.Alink-nav:hover {
+  color: #d62828;
+  font-style: oblique;
+}
+
+.loginBox {
+  width: 20vh;
+  margin-left: 25vh;
+}
+
+#loginButton {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 8.5vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 4.8vh;
+}
+
+#loginButton:hover {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
+}
+
+.hero {
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 16.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+  height: 80vh;
+  padding-top: 12vh;
+}
+
+.hero-text {
+  margin: auto;
+  width: 90vw;
+  height: 40vh;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: -2vh;
+  z-index: 4;
+}
+
+h1 {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 11vh;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.2vw;
+}
+
+.heroYellow {
+  color: #ffc300;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+}
+
+.paraHeaderBox {
+  width: 74vw;
+  margin: auto;
+}
+
+.paraHeader {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 7vh;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 7vh;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  margin: auto;
+  margin-top: -6vh;
+  z-index: 2;
+}
+
+.input-wrapBox {
+  display: flex;
+}
+
+#search {
+  width: 38vw;
+  height: 8vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+}
+
+.searchButton {
+  border: none;
+  background-color: #4567b7;
+  border-radius: 6px;
+  height: 6vh;
+  width: 3.5vw;
+  margin-left: -9vh;
+  margin-top: 1vh;
+  z-index: 3;
+}
+
+.searchButton:hover {
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  height: 6vh;
+  width: 3.5vw;
+  margin-left: -9vh;
+  margin-top: 1vh;
+}
+
+.searchIcon {
+  width: 1.8vw;
+  height: 4vh;
+}
+
+.logoBack {
+  z-index: 1;
+  margin-left: -25vw;
+  margin-top: -6vh;
+}
+
+.monogramHeader {
+  width: 50vw;
+  height: 62vh; /* 62*/
+}
+
+.intro {
+  height: 100vh;
+  background-color: #4567b7;
+  display: flex;
+  flex-direction: row;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 17.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.intro-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-img {
+  margin-left: 6vh;
+  padding-top: 6.6vh;
+}
+
+.introImage {
+  width: 450px;
+  height: 450px;
+}
+
+.intro-textBox {
+  width: 52vw;
+  height: 96vh;
+  z-index: 6;
+  align-content: center;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 6vh;
+}
+
+.introHeader {
+  font-family: "Dongle", sans-serif;
+  color: white;
+  font-size: 20vh;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  line-height: 13vh;
+  height: 26vh;
+  text-shadow: 1px 2px 5px black;
+  margin-top: -3vh;
+}
+
+.introObl {
+  font-style: oblique;
+  font-weight: 600;
+  letter-spacing: 0.4vw;
+}
+
+.hintroBox {
+  width: 42vw;
+  height: 23vh;
+}
+
+.minHeader {
+  color: #d62828;
+  font-weight: 300;
+  font-size: 10vh;
+  font-style: normal;
+}
+
+.introYellow {
+  color: #ffc300;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+}
+
+.pintroBox {
+  width: 50vw;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  font-size: 5vh;
+  font-weight: 500;
+  text-align: justify;
+  color: white;
+  text-shadow: 1px 2px 5px black;
+}
+
+.artisan {
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 30.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+  height: 100vh;
+}
+
+.artisan-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.artisan-text {
+  width: 50vw;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.artisan-heading {
+  height: 25vh;
+}
+
+.artisan-minHeading {
+  color: #d62828;
+  font-weight: 300;
+  font-size: 10vh;
+  font-style: normal;
+}
+
+.artisan-maxHeading {
+  font-family: "Dongle", sans-serif;
+  color: #4567b7;
+  font-size: 20vh;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  line-height: 13vh;
+  height: 26vh;
+  margin-top: -3vh;
+  letter-spacing: 0.4rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+.artisan-write-up {
+  width: 45vw;
+  margin-top: -10vh;
+}
+
+.request {
+  font-size: 6vh;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 7vh;
+}
+
+.inspection,
+.quote,
+.project {
+  font-size: 5vh;
+  font-weight: 300;
+  color: rgba(76, 76, 76, 0.881);
+}
+
+.artisan-img {
+  margin-top: 20vh;
+}
+
+.phoneimg {
+  width: 420px;
+  height: 450px;
+}
+
+.category-wrap {
+  background-color: black;
+}
+
+.category-heading {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+  padding-top: 5vh;
+}
+
+.service-provider-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.catrow1 {
+  height: 100vh;
+  width: 98.7vw;
+  background-color: #ffc300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 19.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.catrow2 {
+  height: 100vh;
+  width: 98.7vw;
+  background-color: #ffc300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 20.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.catrow3 {
+  height: 100vh;
+  width: 98.7vw;
+  background-color: #ffc300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 21.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.vul-img,
+.pai-img,
+.gar-img,
+.car-img,
+.plu-img,
+.ele-img,
+.wel-img,
+.hou-img,
+.mec-img {
+  width: 380px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.vul-text,
+.painter-text,
+.gardener-text,
+.carpenter-text,
+.plumber-text,
+.electrician-text,
+.welder-text,
+.house-keeper-text,
+.mechanic-text {
+  background-color: white;
+  height: 20vh;
+  margin-top: -3vh;
+  padding: 3vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catsubHead {
+  font-size: 6vh;
+  font-style: normal;
+  letter-spacing: 0.3rem;
+}
+
+a.Alink-catlink:link,
+a.Alink-catlink:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.8vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 3vh;
+}
+
+a.Alink-catlink:hover,
+a.Alink-catlink:active {
+  color: #8f1b1b;
+  font-style: oblique;
+}
+
+a.Alink-allserviceslink:link,
+a.Alink-allserviceslink:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+  margin-bottom: 1vh;
+  margin-left: 80vh;
+}
+
+a.Alink-allserviceslink:hover,
+a.Alink-allserviceslink:active {
+  color: white;
+  font-style: oblique;
+}
+
+.experience {
+  height: 100vh;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 26.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 30%;
+  background-position-y: 90%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.expHeading {
+  margin: auto;
+  width: 180vh;
+  line-height: 9vh;
+  text-align: center;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
+  font-size: 10vh;
+}
+
+.expSpan {
+  font-family: "Dongle", sans-serif;
+  color: #ffc300;
+  font-size: 16vh;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+  letter-spacing: 0.3rem;
+}
+
+.experience-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.review {
+  height: 55vh;
+  width: 30vw;
+  background-color: white;
+  border-radius: 2vh;
+  box-shadow: 1px 2px 5px black;
+}
+
+.reviewBio {
+  width: 15vw;
+  height: 40vh;
+  margin: auto;
+}
+
+.cusImg {
+  width: 88px;
+  height: 90px;
+  margin-left: 3.3vw;
+  margin-top: 2vh;
+}
+
+.review-name {
+  font-size: 7.7vh;
+  text-align: center;
+  font-weight: 300;
+}
+
+.review-status {
+  font-size: 5vh;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.3vw;
+  font-style: oblique;
+  margin-top: -3vh;
+}
+
+.reviewText {
+  width: 27vw;
+  margin: auto;
+}
+
+.review-para {
+  font-size: 4vh;
+  line-height: 4vh;
+  text-align: center;
+}
+
+.sub {
+  background-color: black;
+  height: 55vh;
+}
+
+.subText {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-bottom: 5vh;
+}
+
+.subHeading {
+  margin: auto;
+  width: 180vh;
+  line-height: 9vh;
+  text-align: center;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
+  font-size: 10vh;
+  color: white;
+}
+
+.subPara {
+  font-size: 7vh;
+  text-align: center;
+  line-height: 7vh;
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.pHyellow {
+  color: #ffc300;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 8vh;
+  letter-spacing: 0.3rem;
+}
+
+.email-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  margin: auto;
+}
+
+#email {
+  width: 38vw;
+  height: 8vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 0;
+}
+
+#subButton {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  border-radius: 1.1rem;
+  width: 12vw;
+  height: 6.4vh;
+  border: none;
+  text-align: center;
+  z-index: 1;
+  margin-left: -19.6vw;
+  margin-top: 0.8vh;
+}
+
+#subButton:hover {
+  background-color: #8f1b1b;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: oblique;
+  border-radius: 1.1rem;
+  width: 12vw;
+  height: 6.4vh;
+  border: none;
+  text-align: center;
+}
+
+.footer {
+  height: 195vh;
+  background-color: #4567b7;
+}
+
+.mobile-app {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 90%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.nokiaPhone {
+  width: 385px;
+  height: 449px;
+}
+
+.app-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-textBox {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: 22vw;
+  margin-top: 13vh;
+}
+
+.app-textBoxHeading {
+  height: 35vh;
+}
+
+.appHeading {
+  font-size: 12vh;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+  text-align: left;
+  line-height: 10vh;
+  height: 25vh;
+}
+
+.nowRed {
+  color: #d62828;
+  font-weight: 600;
+  font-size: 14;
+  font-style: oblique;
+  letter-spacing: 0.3rem;
+}
+
+.appSpan {
+  font-size: 22vh;
+  font-style: oblique;
+  font-weight: 600;
+  letter-spacing: 0.4vw;
+  color: #ffc300;
+  letter-spacing: 0.6rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.appPara {
+  font-size: 7vh;
+  text-align: left;
+  line-height: 7vh;
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.download-app-icon {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 38vw;
+  justify-content: space-between;
+  margin-top: -5vh;
+}
+
+.downloadGplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h6 {
+  color: black;
+  font-size: 5vh;
+  font-weight: 300;
+  display: inline-flex;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.appIconBox {
+  width: 3vw;
+  height: 5vh;
+  margin-left: 1vw;
+  margin-top: 0.5vh;
+}
+
+.appIcon {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+.appIcon:hover {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+.downloadApp {
+  text-decoration: none;
+  display: flex;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 18vw;
+  height: 8vh;
+  border: 2px solid white;
+  text-align: center;
+  background-color: #ffc300;
+  padding: 0.5vh;
+}
+
+.downloadApp:hover {
+  border: 2px solid black;
+  background-color: white;
+  width: 18.5vw;
+  transition: ease-out 1s;
+  transition-delay: 0s;
+}
+
+.line-up {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 87vw;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6vh;
+  border-top: 1.88px solid white;
+  border-bottom: 1.88px solid white;
+}
+
+.company,
+.services,
+.support {
+  width: 18vw;
+  height: 50vh;
+}
+
+.legal {
+  width: 24vw;
+  height: 50vh;
+}
+
+.footerHeading {
+  color: white;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 6vh;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.footul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2vh;
+  line-height: 8vh;
+}
+
+.footli {
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+}
+
+a.Alink-foot:link,
+a.Alink-foot:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-foot:hover,
+a.Alink-foot:active {
+  color: white;
+  font-style: oblique;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-emailnum:link,
+a.Alink-emailnum:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+}
+
+a.Alink-emailnum:hover,
+a.Alink-emailnum:active {
+  color: #ffc300;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px #d62828;
+}
+
+.paraTeam8 {
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 86vw;
+  margin: auto;
+  margin-top: 8vh;
+}
+
+.wkhLogo {
+  width: 230px;
+  height: 110px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  margin-top: 15vh;
+}
+
+.copyrightIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.pRRtextbox {
+  display: inline-block;
+  height: 6vh;
+  margin-left: 1vw;
+}
+
+.rightsreservedtext {
+  color: white;
+  font-size: 4vh;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 12vw;
+  margin-top: 7vh;
+  justify-content: space-between;
+}
+
+.socialsIcon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
