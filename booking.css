@@ -482,12 +482,13 @@ h1 {
 
 .balBackgImg {
   width: 39vw;
-  height: 54vh;
+  height: 55vh;
   z-index: 0;
   object-fit: contain;
   object-position: 20% 80%;
   display: inline-block;
   border: 2px solid red;
+  margin-top: -3.4vh;
 }
 
 .balance-wrap {
