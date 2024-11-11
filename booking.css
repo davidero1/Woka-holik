@@ -487,7 +487,6 @@ h1 {
   object-fit: contain;
   object-position: 20% 80%;
   display: inline-block;
-  margin-top: -1vh;
   border: 2px solid red;
 }
 
