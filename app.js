@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Get the container element
 var activePage = document.getElementById("navul");
 
@@ -12,3 +13,19 @@ for (var i = 0; i < activeContainer.length; i++) {
     this.className += " active";
   });
 }
+=======
+// Get the container element
+var activePage = document.getElementById("navul");
+
+// Get all buttons with class="Alink-nav" inside the container
+var activeContainer = activePage.getElementsByClassName("Alink-nav");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < activeContainer.length; i++) {
+  activeContainer[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+>>>>>>> 9b1cc6bfd3e8836097d0291253e11007f7469b37
