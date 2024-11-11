@@ -429,7 +429,9 @@ h1 {
   height: 15.5vh;
   margin: auto;
   margin-top: 6vh;
+  padding: 2vw;
   border-radius: 2.6rem;
+  margin-left: 1vw;
 }
 
 .hire-headingTxt {
