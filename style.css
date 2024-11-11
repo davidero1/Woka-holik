@@ -210,12 +210,12 @@ h1 {
 .logoBack {
   z-index: 1;
   margin-left: -25vw;
-  margin-top: -6vh;
+  margin-top: -5vh;
 }
 
 .monogramHeader {
   width: 50vw;
-  height: 62vh; /* 62*/
+  height: 60vh; /* 62*/
 }
 
 .intro {
