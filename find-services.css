@@ -430,8 +430,8 @@ h1 {
   margin: auto;
   margin-top: 6vh;
   padding: 2vw;
+  padding-left: 1vw;
   border-radius: 2.6rem;
-  margin-left: 1vw;
 }
 
 .hire-headingTxt {
