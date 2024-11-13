@@ -1,0 +1,861 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+.head-wrap {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBox {
+  background-color: white;
+}
+
+.logo {
+  width: 19vw;
+  height: 18vh;
+}
+
+.navbar {
+  list-style: none;
+  width: 53vw;
+  margin: auto;
+  margin-left: 10vh;
+  margin-top: 5vh;
+}
+
+.navul {
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navli {
+  font-size: 4.6vh;
+  font-weight: 500;
+  text-align: center;
+}
+
+a.Alink-nav:link,
+a.Alink-nav:visited {
+  color: rgba(76, 76, 76, 0.881);
+  text-decoration: none;
+  font-style: normal;
+}
+
+a.Alink-nav:hover {
+  color: black;
+  font-style: oblique;
+}
+
+a.Alink-nav:active {
+  color: #d62828;
+}
+
+.loginBox {
+  width: 20vh;
+  margin-left: 25vh;
+}
+
+#loginButton {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 8.5vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 4.8vh;
+}
+
+#loginButton:hover {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
+}
+
+.find-services-hero {
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+  height: 80vh;
+}
+
+.f_hero-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-around;
+}
+
+.f_heading {
+  width: 42vw;
+  height: 18vh;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 11vh;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.2vw;
+  line-height: 8vh;
+  text-align: center;
+}
+
+.heroYellow {
+  color: #ffc300;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  height: 10vh;
+  margin: auto;
+  margin-top: 1vh;
+  z-index: 2;
+}
+
+.f_input-wrap {
+  display: flex;
+}
+
+#searchservice {
+  width: 48vw;
+  height: 8vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+}
+
+.searchButton {
+  border: none;
+  background-color: #4567b7;
+  border-radius: 6px;
+  height: 6vh;
+  width: 3.5vw;
+  margin-left: -9.6vh;
+  margin-top: 1vh;
+  z-index: 3;
+}
+
+.searchButton:hover {
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  height: 6vh;
+  margin-left: -9.6vh;
+  margin-top: 1vh;
+  width: 3.5vw;
+}
+
+.searchIcon {
+  width: 1.8vw;
+  height: 4vh;
+}
+
+.para-txtBox {
+  width: 80vw;
+  margin: auto;
+}
+
+.para-txt {
+  color: #d62828;
+  font-weight: 300;
+  font-size: 10vh;
+  font-style: normal;
+}
+
+.introObl {
+  font-family: "Dongle", sans-serif;
+  color: #4567b7;
+  font-size: 20vh;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  font-style: oblique;
+  text-align: left;
+  line-height: 13vh;
+  height: 26vh;
+  margin-top: -3vh;
+}
+
+.services {
+  width: 88vw;
+  margin: auto;
+  text-align: center;
+}
+
+#any,
+#auto,
+#house,
+#elect,
+#mech,
+#carpenter,
+#paint,
+#dry,
+#sec,
+#car,
+#fit,
+#trans,
+#cat,
+#home,
+#weld,
+#private {
+  color: #d62828;
+}
+
+.servLabel {
+  font-size: 5vh;
+  margin-right: 2vw;
+}
+
+.location {
+  height: 78vh;
+  background-color: #ffc300;
+  padding: 8vh;
+}
+
+.location-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.location-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-form {
+  display: flex;
+  width: 45vw;
+  height: 10vh;
+  margin-bottom: 2vh;
+}
+
+.location-headingBox {
+  width: 40vw;
+  height: 20vh;
+  margin-bottom: 4.6vh;
+}
+
+.location-heading {
+  color: white;
+  text-align: left;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+  padding-top: 5vh;
+}
+
+.location_input-wrap {
+  display: flex;
+  border: 2px solid red;
+  flex-direction: row;
+  width: 40vw;
+  height: 10vh;
+}
+
+#search2 {
+  width: 38vw;
+  height: 8vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 2vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+}
+
+.searchButtonloc {
+  border: none;
+  background-color: #4567b7;
+  border-radius: 6px;
+  height: 6vh;
+  width: 3.5vw;
+  margin: auto;
+  margin-top: -7vh;
+  margin-left: 34vw;
+  z-index: 3;
+  display: flex;
+}
+
+.searchButtonloc:hover {
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  height: 6vh;
+  width: 3.5vw;
+  margin: auto;
+  margin-top: -7vh;
+  margin-left: 34vw;
+}
+
+.searchIcon {
+  width: 1.8vw;
+  height: 4vh;
+  margin: auto;
+}
+
+.area-wrap {
+  width: 33vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4vh;
+}
+
+.egbeda,
+.abule,
+.lekki,
+.oshodi,
+.sango {
+  background-color: black;
+  width: 10vw;
+  height: 6vh;
+  border-radius: 3vh;
+}
+
+.island {
+  background-color: black;
+  width: 11vw;
+  height: 6vh;
+  border-radius: 3vh;
+}
+
+.locIcon {
+  width: 2vw;
+  margin-left: 1vw;
+  margin-top: 0.6vh;
+  display: block;
+}
+
+.areaSpantext {
+  color: white;
+  font-size: 3.6vh;
+  line-height: 0.3rem;
+  text-align: left;
+  margin-top: -2.4vh;
+  margin-left: 3.5vw;
+  display: flex;
+}
+
+/*
+.map {
+}
+*/
+
+.mapImage {
+  width: 432px;
+  height: 339px;
+}
+
+.hire {
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+  height: 130vh;
+}
+
+.hire-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.hire-heading {
+  background-color: #ffc300;
+  width: 51.5vw;
+  height: 15.5vh;
+  margin: auto;
+  margin-top: 6vh;
+  padding: 2vw;
+  border-radius: 2.6rem;
+  padding-right: -1vw;
+  box-shadow: 1px 2px 5px black;
+}
+
+.hire-headingTxt {
+  margin: auto;
+  line-height: 9vh;
+  text-align: center;
+  padding-top: 6vh;
+  font-size: 10vh;
+  color: white;
+  display: inline;
+  text-shadow: 1px 2px 5px black;
+}
+
+.s_providersBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  margin-top: 7vh;
+}
+
+.column1 {
+  width: 217px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column2 {
+  width: 217px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column3 {
+  width: 217px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column4 {
+  width: 217px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column5 {
+  width: 217px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hannah {
+  background-image: url("Images/Rectangle 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1.5vw;
+}
+
+.name-text {
+  color: white;
+  width: 13vw;
+  margin-top: 20vh;
+  margin-left: 1vw;
+}
+
+.name-txtHead {
+  font-size: 6vh;
+  letter-spacing: 0.3rem;
+  font-style: oblique;
+  line-height: 4vh;
+  text-shadow: 1px 2px 5px black;
+}
+
+.name-txtPara {
+  font-size: 4.1vh;
+  line-height: 4vh;
+  text-shadow: 1px 2px 5px black;
+}
+
+.star-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 13vh;
+  justify-content: space-between;
+}
+
+.star {
+  width: 15vw;
+  height: 5vh;
+  margin: auto;
+  display: flex;
+}
+
+.starIcon {
+  width: 8vw;
+  height: 4vh;
+}
+
+.MCL {
+  width: 10vw;
+  height: 7vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: flex-end;
+  margin-right: 1vh;
+}
+
+.MCLicon-mess {
+  height: 6vh;
+}
+
+.MCLicon-call {
+  height: 6vh;
+}
+
+.MCLicon-loca {
+  height: 6vh;
+  margin-left: 1vw;
+}
+
+.coach {
+  background-image: url("Images/Rectangle 13.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1vw;
+}
+
+.aminat {
+  background-image: url("Images/Rectangle 6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1.5vw;
+}
+
+.ramon {
+  background-image: url("Images/Rectangle 12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1.5vw;
+}
+
+.abiola {
+  background-image: url("Images/Rectangle 5-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+}
+
+.stephen {
+  background-image: url("Images/Rectangle 11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+}
+
+.james {
+  background-image: url("Images/Rectangle 7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 1vw;
+}
+
+.officer {
+  background-image: url("Images/Rectangle 10.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 1vw;
+}
+
+.julius {
+  background-image: url("Images/Rectangle 8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 2vw;
+}
+
+.hilda {
+  background-image: url("Images/Rectangle 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 240px;
+  border-radius: 2.4rem;
+  border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 2vw;
+}
+
+.footer {
+  background-color: #4567b7;
+  height: 107vh;
+}
+
+.line-up {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 87vw;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6vh;
+  border-top: 1.88px solid white;
+  border-bottom: 1.88px solid white;
+}
+
+.company,
+.servicesFoot,
+.support {
+  width: 18vw;
+  height: 50vh;
+}
+
+.legal {
+  width: 24vw;
+  height: 50vh;
+}
+
+.footerHeading {
+  color: white;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 6vh;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.footul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2vh;
+  line-height: 8vh;
+}
+
+.footli {
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+}
+
+a.Alink-foot:link,
+a.Alink-foot:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-foot:hover,
+a.Alink-foot:active {
+  color: white;
+  font-style: oblique;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-emailnum:link,
+a.Alink-emailnum:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+}
+
+a.Alink-emailnum:hover,
+a.Alink-emailnum:active {
+  color: #ffc300;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px #d62828;
+}
+
+.paraTeam8 {
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 86vw;
+  margin: auto;
+  margin-top: 8vh;
+}
+
+.wkhLogo {
+  width: 230px;
+  height: 110px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  margin-top: 15vh;
+}
+
+.copyrightIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.pRRtextbox {
+  display: inline-block;
+  height: 6vh;
+  margin-left: 1vw;
+}
+
+.rightsreservedtext {
+  color: white;
+  font-size: 4vh;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 12vw;
+  margin-top: 7vh;
+  justify-content: space-between;
+}
+
+.socialsIcon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
