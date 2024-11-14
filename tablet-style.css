@@ -17,16 +17,16 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 20vh;
+    height: 18vh;
+    width: 100%;
   }
 
   .nav-wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: auto;
-    padding-top: 2.5vh;
-    z-index: 2;
+    width: 100vw;
+    height: 18vh;
   }
 
   .navBox {
@@ -35,26 +35,20 @@
 
   .logoBox {
     background-color: white;
-    width: 32vw;
+    width: 36vw;
     height: 16vh;
     margin-top: -1vh;
+    padding-left: 2vh;
   }
 
   .logo {
-    width: 30vw;
+    width: 32vw;
     margin-top: -2vh;
-  }
-
-  .navBox {
-    display: none;
-    border: 2px solid teal;
   }
 
   .navbar {
     list-style: none;
-    width: 40%;
-    margin: auto;
-    margin-top: 5vh;
+    display: none;
   }
 
   .navbar:hover,
@@ -65,8 +59,7 @@
   .navul {
     list-style-type: none;
     margin: auto;
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     display: none;
   }
 
@@ -75,6 +68,7 @@
     font-weight: 500;
     text-align: center;
     display: none;
+    text-decoration: none;
   }
 
   a.Alink-nav:link,
@@ -91,7 +85,7 @@
   }
 
   .loginBox {
-    width: 20vh;
+    width: 18vw;
     margin-left: 25vh;
   }
 
@@ -120,18 +114,16 @@
 
   .barsiconBox {
     display: flex;
-    justify-content: space-between;
-    width: 8vw;
-    margin-right: 3rem;
   }
 
   .barsicon {
-    display: flex;
+    margin-right: 2rem;
+    margin-top: 3vh;
   }
 
   .fa-solid {
     color: black;
-    font-size: 6vh;
+    font-size: 5vh;
   }
 
   .hero {
@@ -145,27 +137,34 @@
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 80vh;
-    padding-top: 12vh;
+    height: 49vh;
+    padding-top: 0vh;
+  }
+
+  .hero-div-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    justify-content: space-between;
+    padding-bottom: 2vh;
   }
 
   .hero-text {
-    margin: auto;
-    width: 95vw;
+    width: 75vw;
     height: 40vh;
-    text-align: center;
-    margin-bottom: 5vh;
-    margin-top: -2vh;
-    z-index: 4;
+    text-align: left;
+    margin-top: 0vh;
+    margin-left: 5vw;
   }
 
   h1 {
     font-family: "Dongle", sans-serif;
     color: black;
-    font-size: 10.9vh;
+    font-size: 7.4vh;
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0.2vw;
+    line-height: 6vh;
   }
 
   .heroYellow {
@@ -176,26 +175,28 @@
   }
 
   .paraHeaderBox {
-    width: 75vw;
+    width: 83vw;
     margin: auto;
+    padding-top: 2vh;
   }
 
   .paraHeader {
     font-family: "Dongle", sans-serif;
     color: black;
-    font-size: 6.9vh;
+    font-size: 4vh;
     font-weight: 100;
     font-style: normal;
-    line-height: 7vh;
+    line-height: 4vh;
+    text-align: left;
   }
 
   .searchBox {
     display: flex;
     flex-direction: row;
-    width: 30vw;
-    margin: auto;
-    margin-top: -6vh;
-    z-index: 2;
+    width: 59vw;
+    height: 7vh;
+    margin-top: -3vh;
+    margin-left: 5vw;
   }
 
   .input-wrapBox {
@@ -203,8 +204,8 @@
   }
 
   #search {
-    width: 38vw;
-    height: 8vh;
+    width: 70vw;
+    height: 6vh;
     display: flex;
     background-color: rgba(255, 255, 255, 0.968);
     margin: auto;
@@ -223,10 +224,10 @@
     border: none;
     background-color: #4567b7;
     border-radius: 6px;
-    height: 6vh;
-    width: 3.5vw;
-    margin-left: -9vh;
-    margin-top: 1vh;
+    height: 4.6vh;
+    width: 6.4vw;
+    margin-left: -6vh;
+    margin-top: 0.7vh;
     z-index: 3;
   }
 
@@ -234,30 +235,30 @@
     border: none;
     background-color: white;
     border-radius: 6px;
-    height: 6vh;
-    width: 3.5vw;
-    margin-left: -9vh;
-    margin-top: 1vh;
+    height: 4.6vh;
+    width: 6.4vw;
+    margin-left: -6vh;
+    margin-top: 0.7vh;
   }
 
   .searchIcon {
-    width: 1.8vw;
-    height: 4vh;
+    width: 3.9vw;
+    height: 3vh;
   }
 
   .logoBack {
     z-index: 1;
-    margin-left: -25vw;
-    margin-top: -5vh;
+    margin-left: -45vw;
+    margin-top: -2vh;
   }
 
   .monogramHeader {
-    width: 50vw;
-    height: 59vh; /* 62*/
+    width: 56vw;
+    height: 26vh;
   }
 
   .intro {
-    height: 100vh;
+    height: 130vh;
     background-color: #4567b7;
     display: flex;
     flex-direction: row;
@@ -275,42 +276,45 @@
 
   .intro-wrap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .intro-img {
-    margin-left: 6vh;
-    padding-top: 6.6vh;
+    margin: auto;
+    margin-top: 2vh;
+    margin-left: 21vw;
   }
 
   .introImage {
-    width: 450px;
-    height: 450px;
+    width: 260px;
+    height: 260px;
   }
 
   .intro-textBox {
-    width: 52vw;
+    width: 80vw;
     height: 96vh;
     z-index: 6;
     align-content: center;
-    padding: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 6vh;
+    margin: auto;
+    margin-left: 6vw;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
   }
 
   .introHeader {
     font-family: "Dongle", sans-serif;
     color: white;
-    font-size: 20vh;
+    font-size: 12vh;
     font-weight: 300;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     line-height: 13vh;
-    height: 26vh;
     text-shadow: 1px 2px 5px black;
-    margin-top: -3vh;
+    margin-top: 0vh;
+    letter-spacing: 0.5rem;
   }
 
   .introObl {
@@ -320,15 +324,19 @@
   }
 
   .hintroBox {
-    width: 42vw;
-    height: 23vh;
+    width: 65vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
   }
 
   .minHeader {
     color: #d62828;
     font-weight: 300;
-    font-size: 10vh;
+    font-size: 7.3vh;
     font-style: normal;
+    text-align: left;
   }
 
   .introYellow {
@@ -339,8 +347,8 @@
   }
 
   .pintroBox {
-    width: 50vw;
-    height: 66vh;
+    width: 75vw;
+    height: 57vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -350,11 +358,11 @@
   .p2,
   .p3,
   .p4 {
-    font-size: 5vh;
-    font-weight: 500;
-    text-align: justify;
+    font-size: 4vh;
+    text-align: left;
     color: white;
     text-shadow: 1px 2px 5px black;
+    line-height: 4vh;
   }
 
   .artisan {
@@ -368,44 +376,53 @@
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 100vh;
+    height: 137vh;
   }
 
   .artisan-wrap {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90vw;
+    height: auto;
   }
 
   .artisan-text {
-    width: 50vw;
-    padding: 5vh;
+    width: 80vw;
+    height: 69vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: auto;
+    margin-top: 3vh;
   }
 
   .artisan-heading {
-    height: 25vh;
+    width: 72vw;
+    height: 20vh;
+    margin: auto;
+    margin-top: -2vh;
+    margin-left: -4.2vw;
   }
 
   .artisan-minHeading {
     color: #d62828;
     font-weight: 300;
-    font-size: 10vh;
+    font-size: 7.3vh;
     font-style: normal;
+    text-align: center;
   }
 
   .artisan-maxHeading {
     font-family: "Dongle", sans-serif;
-    color: #4567b7;
-    font-size: 20vh;
+    color: black;
+    font-size: 13vh;
     font-weight: 600;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     line-height: 13vh;
     height: 26vh;
-    margin-top: -3vh;
     letter-spacing: 0.4rem;
   }
 
@@ -414,40 +431,58 @@
   }
 
   .artisan-write-up {
-    width: 45vw;
-    margin-top: -10vh;
+    width: 78vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -6vw;
+    margin-top: 2vh;
+  }
+
+  .pStep1 {
+    width: 82vw;
   }
 
   .request {
-    font-size: 6vh;
+    font-size: 4vh;
     font-weight: 300;
     font-style: normal;
-    line-height: 7vh;
+    line-height: 4vh;
   }
 
   .inspection,
   .quote,
   .project {
-    font-size: 5vh;
+    font-size: 4vh;
+    line-height: 4vh;
     font-weight: 300;
     color: rgba(76, 76, 76, 0.881);
   }
 
   .artisan-img {
-    margin-top: 23.1vh;
+    width: 81vw;
+    height: 72.5vh;
+    margin: auto;
   }
 
   .phoneimg {
-    width: 420px;
-    height: 450px;
+    width: 400px;
+    height: 420px;
+    margin: auto;
   }
 
   .category {
     background-color: black;
+    height: 560vh;
+    width: 96.7vw;
   }
 
   .category-wrap {
     background-color: black;
+    height: 559.9vh;
+    width: 96.5vw;
+    margin: auto;
   }
 
   .category-heading {
@@ -456,29 +491,30 @@
     font-weight: 600;
     font-style: oblique;
     text-shadow: 1px 2px 5px black;
-    padding-top: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
   }
 
   .service-provider-wrap {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    margin: auto;
+    height: 541vh;
   }
 
   .catrow1 {
-    height: 100vh;
-    width: 98.7vw;
-    background-color: #ffc300;
+    height: 180vh;
+    width: 96.6vw;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 19.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position-x: 30%;
+    background-position-x: 70%;
     background-position-y: 45%;
-    background-size: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
@@ -486,19 +522,18 @@
   }
 
   .catrow2 {
-    height: 100vh;
-    width: 98.7vw;
-    background-color: #ffc300;
+    height: 180vh;
+    width: 96.6vw;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 20.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: 30%;
+    background-position-x: 70%;
     background-position-y: 45%;
-    background-size: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
@@ -506,19 +541,18 @@
   }
 
   .catrow3 {
-    height: 100vh;
-    width: 98.7vw;
-    background-color: #ffc300;
+    height: 180vh;
+    width: 96.6vw;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 21.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: 30%;
+    background-position-x: 70%;
     background-position-y: 45%;
-    background-size: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
@@ -546,10 +580,10 @@
   .wel-img,
   .hou-img,
   .mec-img {
-    width: 380px;
-    height: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 300px;
+    height: 240px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .vul-text,
@@ -562,8 +596,7 @@
   .house-keeper-text,
   .mechanic-text {
     background-color: white;
-    height: 20vh;
-    margin-top: -3vh;
+    height: 17vh;
     padding: 3vh;
     border-radius: 10px;
     display: flex;
@@ -571,7 +604,7 @@
   }
 
   .catsubHead {
-    font-size: 6vh;
+    font-size: 5vh;
     font-style: normal;
     letter-spacing: 0.3rem;
   }
@@ -581,7 +614,7 @@
     color: #d62828;
     text-decoration: none;
     display: inline-block;
-    font-size: 4.8vh;
+    font-size: 4vh;
     font-family: "Dongle", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -594,18 +627,21 @@
     font-style: oblique;
   }
 
+  .servProParaBox {
+    width: 50vw;
+    height: 5vh;
+    margin: auto;
+    margin-top: 1vh;
+  }
+
   a.Alink-allserviceslink:link,
   a.Alink-allserviceslink:visited {
+    font-size: 4vh;
     color: #d62828;
     text-decoration: none;
-    display: inline-block;
-    font-size: 6vh;
-    font-family: "Dongle", sans-serif;
-    font-weight: 300;
     font-style: normal;
     letter-spacing: 0.3vw;
-    margin-bottom: 1vh;
-    margin-left: 80vh;
+    margin: auto;
   }
 
   a.Alink-allserviceslink:hover,
@@ -615,63 +651,84 @@
   }
 
   .experience {
-    height: 100vh;
+    height: 215vh;
+    width: 96.7vw;
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 26.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position-x: 30%;
-    background-position-y: 90%;
-    background-size: 100%;
+    background-position-x: 84%;
+    background-position-y: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .expHeadingBox {
+    height: 25vh;
+    width: 90vw;
+    margin: auto;
+    padding-top: 4vh;
   }
 
   .expHeading {
     margin: auto;
-    width: 180vh;
-    line-height: 9vh;
     text-align: center;
-    padding-top: 6vh;
-    padding-bottom: 4vh;
-    font-size: 10vh;
+    font-size: 6vh;
+    display: inline-block;
+    width: 90vw;
+    height: 20vh;
+    line-height: 5.4vh;
+    padding-bottom: 2vh;
+    padding-top: 0vh;
   }
 
   .expSpan {
     font-family: "Dongle", sans-serif;
     color: #ffc300;
-    font-size: 16vh;
+    font-size: 11vh;
     font-weight: 600;
     font-style: oblique;
     text-shadow: 1px 2px 5px black;
     letter-spacing: 0.3rem;
+    line-height: 8vh;
   }
 
   .experience-wrap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    margin: auto;
+    width: 62vw;
+    height: 180vh;
+    padding-left: 1vw;
+    margin-top: -5vh;
   }
 
   .review {
-    height: 55vh;
-    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    height: 57vh;
+    width: 60vw;
     background-color: rgb(255, 254, 252);
-    border-radius: 2vh;
+    border: 1px solid #ffc300;
+    border-radius: 3vh;
     box-shadow: 1px 2px 5px black;
   }
 
   .reviewBio {
-    width: 15vw;
-    height: 40vh;
+    width: 35vw;
+    height: 30.5vh;
     margin: auto;
   }
 
   .cusImg {
     width: 88px;
     height: 90px;
-    margin-left: 3.3vw;
+    margin-left: 7vw;
     margin-top: 2vh;
   }
 
@@ -691,14 +748,19 @@
   }
 
   .reviewText {
-    width: 27vw;
+    width: 50vw;
+    height: 20vh;
     margin: auto;
   }
 
   .review-para {
     font-size: 4vh;
     line-height: 4vh;
-    text-align: center;
+    text-align: justify;
+  }
+
+  .sub-wrap {
+    margin: auto;
   }
 
   .sub {
@@ -707,28 +769,27 @@
   }
 
   .subText {
-    margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 80vw;
+    height: 33vh;
     margin-bottom: 5vh;
   }
 
   .subHeading {
-    margin: auto;
-    width: 180vh;
-    line-height: 9vh;
+    width: 67vh;
     text-align: center;
-    padding-top: 6vh;
-    padding-bottom: 4vh;
-    font-size: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    font-size: 7vh;
     color: white;
   }
 
   .subPara {
-    font-size: 7vh;
+    font-size: 4vh;
     text-align: center;
-    line-height: 7vh;
+    line-height: 4vh;
     color: white;
     font-style: normal;
     font-weight: 300;
@@ -738,24 +799,24 @@
     color: #ffc300;
     font-style: oblique;
     font-weight: 600;
-    font-size: 8vh;
+    font-size: 5vh;
     letter-spacing: 0.3rem;
   }
 
   .email-wrap {
     display: flex;
     flex-direction: row;
-    width: 45vw;
+    width: 80vw;
     margin: auto;
   }
 
   #email {
-    width: 38vw;
-    height: 8vh;
+    width: 80vw;
+    height: 7vh;
     display: flex;
     background-color: rgba(255, 255, 255, 0.968);
     margin: auto;
-    border-radius: 6px;
+    border-radius: 7px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
     font-family: "Dongle", sans-serif;
@@ -769,19 +830,18 @@
     background-color: #b22121;
     color: white;
     text-decoration: none;
-    display: inline-block;
-    font-size: 4.4vh;
+    font-size: 4vh;
     font-weight: 500;
     font-family: "Dongle", sans-serif;
     font-style: normal;
-    border-radius: 1.1rem;
-    width: 12vw;
-    height: 6.4vh;
+    border-radius: 0.8rem;
+    width: 20vw;
+    height: 6vh;
     border: none;
     text-align: center;
     z-index: 1;
-    margin-left: -19.6vw;
-    margin-top: 0.8vh;
+    margin-left: -22vw;
+    margin-top: 0.5vh;
   }
 
   #subButton:hover {
@@ -789,19 +849,22 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 4.4vh;
+    font-size: 4vh;
     font-weight: 500;
     font-family: "Dongle", sans-serif;
     font-style: oblique;
-    border-radius: 1.1rem;
-    width: 12vw;
-    height: 6.4vh;
+    border-radius: 0.8rem;
+    width: 20vw;
+    height: 6vh;
     border: none;
     text-align: center;
   }
 
   footer {
-    height: 195vh;
+    height: 360vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #4567b7;
   }
 
@@ -816,55 +879,64 @@
     background-attachment: fixed;
     background-position-x: 30%;
     background-position-y: 90%;
-    background-size: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
   }
 
+  .app-img {
+    margin: auto;
+  }
+
   .nokiaPhone {
-    width: 385px;
-    height: 449px;
+    width: 380px;
+    height: 444px;
   }
 
   .app-text {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin-bottom: 7vh;
   }
 
   .app-textBox {
     display: flex;
     flex-direction: column;
-    width: 45vw;
-    height: 22vw;
-    margin-top: 13vh;
+    width: 90vw;
+    height: 18vw;
+    margin-top: 4vh;
   }
 
   .app-textBoxHeading {
-    height: 35vh;
+    height: 15vh;
+    width: 88vw;
+    margin: auto;
   }
 
   .appHeading {
-    font-size: 12vh;
+    font-size: 7vh;
     font-style: normal;
     font-weight: 300;
     color: white;
-    text-align: left;
-    line-height: 10vh;
-    height: 25vh;
+    text-align: center;
+    line-height: 6vh;
+    height: 12vh;
+    margin-top: -6vh;
   }
 
   .nowRed {
     color: #d62828;
     font-weight: 600;
-    font-size: 14;
+    font-size: 7vh;
     font-style: oblique;
     letter-spacing: 0.3rem;
   }
 
   .appSpan {
-    font-size: 22vh;
+    font-size: 11vh;
     font-style: oblique;
     font-weight: 600;
     letter-spacing: 0.4vw;
@@ -873,10 +945,16 @@
     text-shadow: 1px 2px 5px black;
   }
 
+  .app-textBoxPara {
+    width: 88vw;
+    height: 16vh;
+    margin: auto;
+  }
+
   .appPara {
-    font-size: 7vh;
+    font-size: 5vh;
     text-align: left;
-    line-height: 7vh;
+    line-height: 5vh;
     color: white;
     font-style: normal;
     font-weight: 300;
@@ -886,9 +964,9 @@
     display: flex;
     flex-direction: row;
     height: 10vh;
-    width: 38vw;
+    width: 83vw;
     justify-content: space-between;
-    margin-top: -5vh;
+    margin-top: 2vh;
   }
 
   .downloadGplay {
@@ -899,7 +977,7 @@
 
   h6 {
     color: black;
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: 300;
     display: inline-flex;
     margin: auto;
@@ -917,24 +995,24 @@
     width: 22px;
     height: 22px;
     color: white;
+    margin-left: -3vw;
   }
 
   .appIcon:hover {
-    width: 22px;
-    height: 22px;
-    color: white;
+    width: 21px;
+    height: 21px;
   }
 
   .downloadApp {
     text-decoration: none;
     display: flex;
-    font-size: 4.4vh;
+    font-size: 3vh;
     font-weight: 500;
     font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
-    width: 18vw;
-    height: 8vh;
+    width: 40vw;
+    height: 7vh;
     border: 2px solid white;
     text-align: center;
     background-color: #ffc300;
@@ -944,46 +1022,44 @@
   .downloadApp:hover {
     border: 2px solid black;
     background-color: white;
-    width: 18.5vw;
-    transition: ease-out 1s;
+    width: 38vw;
+    height: 7vh;
+    transition: ease-out 0.7s;
     transition-delay: 0s;
   }
 
   .line-up {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
+    height: 190vh;
   }
 
   .footer-nav {
     display: flex;
-    flex-direction: row;
-    height: 70vh;
+    flex-direction: column;
+    height: 190vh;
     width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
     border-top: 1.88px solid white;
-    border-bottom: 1.88px solid white;
   }
 
   .company,
   .services,
   .support {
-    width: 18vw;
-    height: 50vh;
+    width: 50vw;
+    height: 42vh;
   }
 
   .legal {
-    width: 24vw;
-    height: 50vh;
+    width: 60vw;
+    height: 42vh;
   }
 
   .footerHeading {
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 6vh;
+    font-size: 5.6vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -994,11 +1070,11 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2vh;
-    line-height: 8vh;
+    line-height: 6vh;
   }
 
   .footli {
-    font-size: 4.8vh;
+    font-size: 4.3vh;
     font-weight: 300;
     text-align: left;
   }
@@ -1028,7 +1104,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.8vh;
+    font-size: 4.3vh;
     font-weight: 300;
     text-align: left;
   }
@@ -1041,7 +1117,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.8vh;
+    font-size: 4.3vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -1050,18 +1126,25 @@
     letter-spacing: 0.1rem;
   }
 
-  .logo-text {
+  .line-down {
+    width: 95vw;
+    height: 60vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 86vw;
+    flex-direction: column;
     margin: auto;
-    margin-top: 8vh;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+  }
+
+  .logo-text {
+    width: 60vw;
+    height: 28vh;
+    margin: auto;
   }
 
   .wkhLogo {
-    width: 230px;
-    height: 110px;
+    height: 152px;
+    width: 59vw;
   }
 
   .copyright {
@@ -1069,18 +1152,24 @@
     flex-direction: row;
     height: 5vh;
     margin-top: 15vh;
+    margin: auto;
+    order: 1;
+    width: 70vw;
+    margin-bottom: 17vh;
   }
 
   .copyrightIcon {
     width: 24px;
     height: 24px;
-    display: inline-block;
+    display: inline;
+    padding-top: 1vh;
   }
 
   .pRRtextbox {
     display: inline-block;
     height: 6vh;
-    margin-left: 1vw;
+    margin-left: 0vw;
+    width: 60vw;
   }
 
   .rightsreservedtext {
@@ -1091,15 +1180,17 @@
   .socials {
     display: flex;
     flex-direction: row;
-    height: 10vh;
-    width: 12vw;
+    height: 7vh;
+    width: 40vw;
     margin-top: 7vh;
     justify-content: space-between;
+    margin: auto;
+    order: 0;
   }
 
   .socialsIcon {
-    width: 28px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
     color: white;
   }
 }
