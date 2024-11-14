@@ -33,6 +33,10 @@ body {
   height: 18vh;
 }
 
+.navBox {
+  display: flex;
+}
+
 .navbar {
   list-style: none;
   width: 53vw;
@@ -94,6 +98,22 @@ a.Alink-nav:hover {
   background-color: #8f1b1b;
   color: white;
   font-style: oblique;
+}
+
+.barsiconBox {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+  margin-right: 3rem;
+}
+
+.barsicon {
+  display: none;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 6vh;
 }
 
 .hero {
@@ -223,7 +243,7 @@ h1 {
   background-color: #4567b7;
   display: flex;
   flex-direction: row;
-  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 17.png");
+  background-image: url("Images/bkgheader.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-x: 30%;
@@ -404,8 +424,13 @@ h1 {
   height: 450px;
 }
 
+.category {
+  background-color: black;
+}
+
 .category-wrap {
   background-color: black;
+  margin: auto;
 }
 
 .category-heading {
@@ -481,6 +506,19 @@ h1 {
   z-index: 0;
   object-fit: cover;
   object-position: 100% 100%;
+}
+
+.vul,
+.painter,
+.gardener,
+.carpenter,
+.plumber,
+.electrician,
+.welder,
+.house-keeper,
+.mechanic {
+  box-shadow: 1px 2px 5px black;
+  border-radius: 15px;
 }
 
 .vul-img,
@@ -574,6 +612,11 @@ a.Alink-allserviceslink:active {
   object-position: 100% 100%;
 }
 
+.expHeadingBox {
+  width: 80vw;
+  margin: auto;
+}
+
 .expHeading {
   margin: auto;
   width: 180vh;
@@ -603,8 +646,9 @@ a.Alink-allserviceslink:active {
 .review {
   height: 55vh;
   width: 30vw;
-  background-color: white;
+  background-color: rgb(255, 254, 252);
   border-radius: 2vh;
+  border: 1px solid #ffc300;
   box-shadow: 1px 2px 5px black;
 }
 
@@ -746,7 +790,7 @@ a.Alink-allserviceslink:active {
   text-align: center;
 }
 
-.footer {
+footer {
   height: 195vh;
   background-color: #4567b7;
 }
@@ -921,7 +965,7 @@ h6 {
 }
 
 .legal {
-  width: 24vw;
+  width: 25vw;
   height: 50vh;
 }
 
@@ -996,12 +1040,17 @@ a.Alink-emailnum:active {
   letter-spacing: 0.1rem;
 }
 
-.logo-text {
+.line-down {
+  width: 98vw;
+  height: 30vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 86vw;
   margin: auto;
+  justify-content: space-evenly;
+}
+
+.logo-text {
+  width: 18vw;
   margin-top: 8vh;
 }
 
@@ -1014,7 +1063,9 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 15vh;
+  width: 22vw;
+  margin-top: 24vh;
+  justify-content: space-evenly;
 }
 
 .copyrightIcon {
@@ -1026,6 +1077,7 @@ a.Alink-emailnum:active {
 .pRRtextbox {
   display: inline-block;
   height: 6vh;
+  width: 22vw;
   margin-left: 1vw;
 }
 
@@ -1038,8 +1090,9 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 10vh;
-  width: 12vw;
-  margin-top: 7vh;
+  width: 20vw;
+  height: 7vh;
+  margin-top: 14vh;
   justify-content: space-between;
 }
 
