@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+.head-wrap {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBox {
+  background-color: white;
+}
+
+.logo {
+  width: 19vw;
+  height: 18vh;
+}
+
+.navbar {
+  list-style: none;
+  width: 53vw;
+  margin: auto;
+  margin-left: 10vh;
+  margin-top: 5vh;
+}
+
+.navul {
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navli {
+  font-size: 4.6vh;
+  font-weight: 500;
+  text-align: center;
+}
+
+a.Alink-nav:link,
+a.Alink-nav:visited {
+  color: rgba(76, 76, 76, 0.881);
+  text-decoration: none;
+  font-style: normal;
+}
+
+a.Alink-nav:hover:not(.active) {
+  color: black;
+  font-style: oblique;
+}
+
+a.Alink-nav,
+.active {
+  color: #d62828;
+  font-style: oblique;
+  text-decoration: none;
+}
+
+a.Alink-nav:active {
+  color: #d62828;
+}
+
+.loginBox {
+  width: 20vh;
+  margin-left: 25vh;
+}
+
+#loginButton {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 8.5vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 4.8vh;
+}
+
+#loginButton:hover {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
+}
+
+.abt-hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 16.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.abt-txt {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 40vh;
+  width: 88vw;
+  margin-top: 10vh;
+}
+
+.headingBox {
+  margin: auto;
+  width: 60vw;
+  height: 20vh;
+  text-align: center;
+  z-index: 4;
+}
+
+h1 {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 11vh;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.2vw;
+  line-height: 8vh;
+  text-align: center;
+}
+
+.heroYellow {
+  color: #ffc300;
+  font-size: 12vh;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.para-txtBox {
+  width: 88vw;
+  margin: auto;
+}
+
+.paraHeader {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 7vh;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 7vh;
+  text-align: center;
+}
