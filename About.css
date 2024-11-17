@@ -191,7 +191,7 @@ h1 {
 .team-wrap {
   display: flex;
   flex-direction: column;
-  width: 85vw;
+  width: 90vw;
   height: 180vh;
   margin: auto;
   justify-content: space-evenly;
