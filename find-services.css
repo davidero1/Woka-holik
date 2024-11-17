@@ -62,16 +62,9 @@ a.Alink-nav:visited {
   font-style: normal;
 }
 
-a.Alink-nav:hover:not(.active) {
+a.Alink-nav:hover {
   color: black;
   font-style: oblique;
-}
-
-a.Alink-nav,
-.active {
-  color: #d62828;
-  font-style: oblique;
-  text-decoration: none;
 }
 
 a.Alink-nav:active {
@@ -525,7 +518,7 @@ h1 {
 .name-text {
   color: white;
   width: 13vw;
-  margin-top: 20vh;
+  margin-top: 15vh;
   margin-left: 1vw;
 }
 
@@ -568,7 +561,6 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   align-self: flex-end;
-  margin-right: 1vh;
 }
 
 .MCLicon-mess {

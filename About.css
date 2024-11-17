@@ -173,3 +173,371 @@ h1 {
   line-height: 7vh;
   text-align: center;
 }
+
+.team {
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: cover;
+  background-origin: padding-box;
+  object-fit: cover;
+  object-position: 100% 100%;
+  height: 200vh;
+  align-content: space-around;
+}
+
+.team-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: 180vh;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.team-wrap-row1,
+.team-wrap-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.cee,
+.timi,
+.precious,
+.ezi,
+.sev,
+.ero {
+}
+
+.team-mem-img {
+  width: 350px;
+  height: 325px;
+  border-radius: 4vh;
+  box-shadow: 1px 2px 5px black;
+  filter: grayscale(0%);
+}
+
+.imgBox {
+  order: 0;
+}
+
+.role {
+  background-color: #ffc300;
+  border-radius: 3vh;
+  width: 15vw;
+  height: 6vh;
+  margin-top: 2vh;
+  box-shadow: 1px 2px 5px black;
+}
+
+.rolePara {
+  color: black;
+  font-size: 4.4vh;
+  text-align: center;
+}
+
+.bioBox {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  height: 12vh;
+  margin-top: 2vh;
+}
+
+.bioBox-name {
+  font-size: 6vh;
+  color: white;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+  line-height: 6vh;
+}
+
+.emailnumBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.emailnumBox:hover {
+  display: flex;
+  flex-direction: row;
+}
+
+.bioBox-emailnum {
+  font-size: 4vh;
+  color: #d62828;
+}
+
+a.Alink-email:link,
+a.Alink-email:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 3.5vh;
+  text-align: left;
+}
+
+a.Alink-email:hover,
+a.Alink-email:active {
+  color: #22b573;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-num:link,
+a.Alink-num:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 3.5vh;
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-num:hover,
+a.Alink-num:active {
+  color: #ffc300;
+  font-style: oblique;
+  letter-spacing: 0.1rem;
+}
+
+.mission {
+  height: 100vh;
+  align-content: center;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 30.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.mission-yellow-wrap {
+  width: 77vw;
+  height: 70vh;
+  background-color: #ffc300;
+  border-radius: 16vw; /* OR border-top-left-radius: 16vw; border-bottom-right-radius: 16vw; */
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.mission-state,
+.vision-state {
+  height: 60vh;
+  width: 25vw;
+  margin: auto;
+}
+
+.mstextHeading {
+  font-size: 8vh;
+  letter-spacing: 0rem;
+  padding-left: 3vw;
+}
+
+.statement-wrap1 {
+  width: 24vw;
+  height: 51vh;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 50rem;
+  margin: auto;
+  border: 5px solid #cf9f01;
+}
+
+.statement-wrap2 {
+  width: 24vw;
+  height: 51vh;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 50rem;
+  margin: auto;
+  border: 5px solid #cf9f01;
+}
+
+.mstextPara1 {
+  font-size: 4.4vh;
+  line-height: 4.8vh;
+  text-align: center;
+  padding-top: 7vh;
+  padding-left: 3vw;
+  width: 20vw;
+}
+
+.mstextPara2 {
+  font-size: 4.4vh;
+  line-height: 4.8vh;
+  text-align: center;
+  padding-top: 1.3vh;
+  padding-left: 2vw;
+  width: 22vw;
+}
+
+.footer {
+  height: 106vh;
+  background-color: #4567b7;
+}
+
+.line-up {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 87vw;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6vh;
+  border-top: 1.88px solid white;
+  border-bottom: 1.88px solid white;
+}
+
+.company,
+.services,
+.support {
+  width: 18vw;
+  height: 50vh;
+}
+
+.legal {
+  width: 24vw;
+  height: 50vh;
+}
+
+.footerHeading {
+  color: white;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 6vh;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.footul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2vh;
+  line-height: 8vh;
+}
+
+.footli {
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+}
+
+a.Alink-foot:link,
+a.Alink-foot:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-foot:hover,
+a.Alink-foot:active {
+  color: white;
+  font-style: oblique;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-emailnum:link,
+a.Alink-emailnum:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+}
+
+a.Alink-emailnum:hover,
+a.Alink-emailnum:active {
+  color: #ffc300;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px #d62828;
+}
+
+.paraTeam8 {
+  font-size: 4.8vh;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 86vw;
+  margin: auto;
+  margin-top: 8vh;
+}
+
+.wkhLogo {
+  width: 230px;
+  height: 110px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  margin-top: 15vh;
+}
+
+.copyrightIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.pRRtextbox {
+  display: inline-block;
+  height: 6vh;
+  margin-left: 1vw;
+}
+
+.rightsreservedtext {
+  color: white;
+  font-size: 4vh;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 12vw;
+  margin-top: 7vh;
+  justify-content: space-between;
+}
+
+.socialsIcon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}

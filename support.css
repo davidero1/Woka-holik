@@ -176,10 +176,10 @@ h1 {
   background-color: #4567b7;
   width: 612px;
   height: 198px;
-  border-radius: 3rem;
+  border-radius: 5vw;
   margin: auto;
   box-shadow: 1px 2px 5px black;
-  margin-top: -6vh;
+  margin-top: 0vh;
   z-index: 1;
 }
 
@@ -228,7 +228,7 @@ h1 {
 
 .logotext {
   z-index: 4;
-  margin-top: -11vh;
+  margin-top: -14vh;
   display: flex;
   justify-content: space-between;
 }
@@ -237,12 +237,14 @@ h1 {
   display: flex;
   width: 25vw;
   justify-content: space-evenly;
+  margin-left: 2vw;
 }
 
 .lt2 {
   display: flex;
   width: 25vw;
   justify-content: space-evenly;
+  margin-right: 1vw;
 }
 
 .logotext-imgBox1 {
@@ -347,7 +349,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #292d32;
-  width: 424px;
+  width: 430px;
   height: 49px;
   background-color: #d9d9d9;
   border-radius: 7px;
@@ -357,7 +359,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color: white;
-  width: 424px;
+  width: 430px;
   height: 49px;
   background-color: #ffc300;
   border-radius: 7px;
@@ -375,7 +377,7 @@ h1 {
 .qB {
   font-size: 4vh;
   color: #292d32;
-  padding-left: 4vw;
+  padding-left: 3vw;
   padding-top: 1.5vh;
 }
 
