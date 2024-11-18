@@ -33,6 +33,10 @@ body {
   height: 18vh;
 }
 
+.navBox {
+  display: flex;
+}
+
 .navbar {
   list-style: none;
   width: 53vw;
@@ -67,15 +71,11 @@ a.Alink-nav:hover:not(.active) {
   font-style: oblique;
 }
 
-a.Alink-nav,
+a.Alink-nav:active,
 .active {
   color: #d62828;
   font-style: oblique;
   text-decoration: none;
-}
-
-a.Alink-nav:active {
-  color: #d62828;
 }
 
 .loginBox {
@@ -104,6 +104,22 @@ a.Alink-nav:active {
   background-color: #8f1b1b;
   color: white;
   font-style: oblique;
+}
+
+.barsiconBox {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+  margin-right: 3rem;
+}
+
+.barsicon {
+  display: none;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 6vh;
 }
 
 .provider-hero {
