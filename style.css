@@ -71,15 +71,11 @@ a.Alink-nav:hover:not(.active) {
   font-style: oblique;
 }
 
-a.Alink-nav,
+a.Alink-nav:active,
 .active {
   color: #d62828;
   font-style: oblique;
   text-decoration: none;
-}
-
-a.Alink-nav:active {
-  color: #d62828;
 }
 
 .loginBox {
