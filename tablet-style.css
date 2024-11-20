@@ -73,7 +73,7 @@
 
   a.Alink-nav:link,
   a.Alink-nav:visited {
-    color: rgba(76, 76, 76, 0.881);
+    color: black;
     text-decoration: none;
     font-style: normal;
   }
