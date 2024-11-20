@@ -23,15 +23,21 @@
   .nav-wrap {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18vh;
   }
 
   .logoBox {
     background-color: white;
+    width: 36vw;
+    height: 16vh;
+    padding-left: 2vh;
+    padding-top: 2vh;
   }
 
   .logo {
-    width: 19vw;
-    height: 18vh;
+    width: 32vw;
   }
 
   .navBox {
@@ -84,7 +90,7 @@
   }
 
   a.Alink-nav:hover:not(.active) {
-    color: black;
+    color: rgba(132, 132, 132, 0.358);
     font-style: oblique;
   }
 
@@ -130,17 +136,20 @@
   .barsIconBox {
     display: flex;
     background-color: white;
-    border: 2px solid red;
-    width: 15vw;
+    width: 7vw;
+    height: 12vh;
+    margin-right: 5vw;
   }
 
   .barsicon {
-    margin-top: 3vh;
+    display: inline-block;
+    margin-top: 0vh;
+    padding-top: 4vh;
   }
 
   .fa-solid {
     color: black;
-    font-size: 5vh;
+    font-size: 6vh;
   }
 
   .find-services-hero {
@@ -149,25 +158,28 @@
     background-attachment: fixed;
     background-position-x: 30%;
     background-position-y: 45%;
-    background-size: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 80vh;
+    height: 150vh;
   }
 
   .f_hero-wrap {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 145vh;
     justify-content: space-around;
   }
 
   .f_heading {
-    width: 42vw;
-    height: 18vh;
-    margin: auto;
+    width: 80vw;
+    height: 30vh;
+    text-align: left;
+    margin-top: 0vh;
+    margin-left: 5vw;
+    padding-top: 3vh;
   }
 
   h1 {
@@ -177,25 +189,25 @@
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0.2vw;
-    line-height: 8vh;
-    text-align: center;
+    line-height: 9vh;
+    text-align: left;
   }
 
   .heroYellow {
     color: #ffc300;
     font-weight: 600;
     font-style: oblique;
+    letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
 
   .searchBox {
     display: flex;
     flex-direction: row;
-    width: 50vw;
-    height: 10vh;
+    width: 80vw;
+    height: 8vh;
+    margin-left: 5vw;
     margin: auto;
-    margin-top: 1vh;
-    z-index: 2;
   }
 
   .f_input-wrap {
@@ -203,8 +215,8 @@
   }
 
   #searchservice {
-    width: 48vw;
-    height: 8vh;
+    width: 80vw;
+    height: 7vh;
     display: flex;
     background-color: rgba(255, 255, 255, 0.968);
     margin: auto;
@@ -223,10 +235,10 @@
     border: none;
     background-color: #4567b7;
     border-radius: 6px;
-    height: 6vh;
-    width: 3.5vw;
-    margin-left: -9.6vh;
-    margin-top: 1vh;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: -7.7vh;
+    margin-top: 0.8vh;
     z-index: 3;
   }
 
@@ -234,33 +246,36 @@
     border: none;
     background-color: white;
     border-radius: 6px;
-    height: 6vh;
-    margin-left: -9.6vh;
-    margin-top: 1vh;
-    width: 3.5vw;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: -7.7vh;
+    margin-top: 0.8vh;
   }
 
   .searchIcon {
-    width: 1.8vw;
-    height: 4vh;
+    width: 4vw;
+    height: 3.4vh;
   }
 
   .para-txtBox {
     width: 80vw;
-    margin: auto;
+    height: 23vh;
+    text-align: left;
+    margin-left: 5vw;
   }
 
   .para-txt {
     color: #d62828;
     font-weight: 300;
-    font-size: 10vh;
+    font-size: 7vh;
     font-style: normal;
+    line-height: 7vh;
   }
 
   .introObl {
     font-family: "Dongle", sans-serif;
     color: #4567b7;
-    font-size: 20vh;
+    font-size: 15vh;
     font-weight: 600;
     letter-spacing: 0.3rem;
     font-style: oblique;
@@ -271,9 +286,37 @@
   }
 
   .services {
-    width: 88vw;
+    width: 80vw;
+    height: 70vh;
     margin: auto;
+    text-align: left;
+    margin-top: -5vh;
+  }
+
+  h4 {
+    font-size: 5vh;
+  }
+
+  .serviceGo {
+    background-color: #b22121;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4.4vh;
+    font-weight: 500;
+    font-family: "Dongle", sans-serif;
+    font-style: normal;
+    border-radius: 1.2rem;
+    width: 8.5vw;
+    height: 7vh;
+    border: none;
     text-align: center;
+  }
+
+  .serviceGo:hover {
+    background-color: #8f1b1b;
+    color: white;
+    font-style: oblique;
   }
 
   #any,
@@ -293,28 +336,29 @@
   #weld,
   #private {
     color: #d62828;
+    margin-left: 0vw;
   }
 
   .servLabel {
-    font-size: 5vh;
-    margin-right: 2vw;
+    font-size: 4.8vh;
+    margin-right: 6vw;
   }
 
   .location {
-    height: 78vh;
+    height: 150vh;
     background-color: #ffc300;
-    padding: 8vh;
   }
 
   .location-box {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
   }
 
   .location-wrap {
     display: flex;
     flex-direction: column;
+    margin: auto;
   }
 
   .location-form {
@@ -325,15 +369,18 @@
   }
 
   .location-headingBox {
-    width: 40vw;
-    height: 20vh;
+    width: 80vw;
+    height: 33vh;
+    margin: auto;
     margin-bottom: 4.6vh;
   }
 
   .location-heading {
     color: white;
     text-align: left;
+    font-size: 11vh;
     font-weight: 600;
+    letter-spacing: 0.3rem;
     font-style: oblique;
     text-shadow: 1px 2px 5px black;
     padding-top: 5vh;
@@ -341,15 +388,14 @@
 
   .location_input-wrap {
     display: flex;
-    border: 2px solid red;
     flex-direction: row;
     width: 40vw;
     height: 10vh;
   }
 
   #search2 {
-    width: 38vw;
-    height: 8vh;
+    width: 70vw;
+    height: 7vh;
     display: flex;
     background-color: rgba(255, 255, 255, 0.968);
     margin: auto;
@@ -368,24 +414,21 @@
     border: none;
     background-color: #4567b7;
     border-radius: 6px;
-    height: 6vh;
-    width: 3.5vw;
-    margin: auto;
-    margin-top: -7vh;
-    margin-left: 34vw;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: 61vw;
+    margin-top: -6.2vh;
     z-index: 3;
-    display: flex;
   }
 
   .searchButtonloc:hover {
     border: none;
     background-color: white;
     border-radius: 6px;
-    height: 6vh;
-    width: 3.5vw;
-    margin: auto;
-    margin-top: -7vh;
-    margin-left: 34vw;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: 61vw;
+    margin-top: -6.2vh;
   }
 
   .searchIcon {
@@ -395,34 +438,41 @@
   }
 
   .area-wrap {
-    width: 33vw;
-    height: 20vh;
+    width: 80vw;
+    height: 18vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 4vh;
+    margin-bottom: 4vh;
   }
 
   .egbeda,
-  .abule,
   .lekki,
-  .oshodi,
+  .oshodi {
+    background-color: black;
+    width: 22vw;
+    height: 6vh;
+    border-radius: 3vh;
+  }
+
+  .abule,
   .sango {
     background-color: black;
-    width: 10vw;
+    width: 25vw;
     height: 6vh;
     border-radius: 3vh;
   }
 
   .island {
     background-color: black;
-    width: 11vw;
+    width: 30vw;
     height: 6vh;
     border-radius: 3vh;
   }
 
   .locIcon {
-    width: 2vw;
+    width: 5vw;
     margin-left: 1vw;
     margin-top: 0.6vh;
     display: block;
@@ -430,11 +480,11 @@
 
   .areaSpantext {
     color: white;
-    font-size: 3.6vh;
+    font-size: 4vh;
     line-height: 0.3rem;
     text-align: left;
-    margin-top: -2.4vh;
-    margin-left: 3.5vw;
+    margin-top: -2vh;
+    margin-left: 7vw;
     display: flex;
   }
 
@@ -454,12 +504,12 @@
     background-attachment: fixed;
     background-position-x: 30%;
     background-position-y: 45%;
-    background-size: 100%;
+    background-size: cover;
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 130vh;
+    height: 530vh;
   }
 
   .hire-wrap {
@@ -469,22 +519,20 @@
 
   .hire-heading {
     background-color: #ffc300;
-    width: 51.5vw;
-    height: 15.5vh;
+    width: 84vw;
+    height: 9vh;
     margin: auto;
-    margin-top: 6vh;
+    margin-top: 10vh;
     padding: 2vw;
     border-radius: 2.6rem;
-    padding-right: -1vw;
     box-shadow: 1px 2px 5px black;
   }
 
   .hire-headingTxt {
     margin: auto;
-    line-height: 9vh;
+    line-height: 6vh;
     text-align: center;
-    padding-top: 6vh;
-    font-size: 10vh;
+    font-size: 7vh;
     color: white;
     display: inline;
     text-shadow: 1px 2px 5px black;
@@ -493,77 +541,71 @@
   .s_providersBox {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 90vw;
-    height: 100vh;
+    width: 55vw;
+    height: 500vh;
     margin: auto;
     margin-top: 7vh;
   }
 
   .column1 {
-    width: 217px;
-    height: 525px;
+    width: 55vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .column2 {
-    width: 217px;
-    height: 525px;
+    width: 55vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.6vh;
   }
 
   .column3 {
-    width: 217px;
-    height: 525px;
+    width: 55vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .column4 {
-    width: 217px;
-    height: 525px;
+    width: 55vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .column5 {
-    width: 217px;
-    height: 525px;
+    width: 55vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .hannah {
     background-image: url("Images/Rectangle 5.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-right: 1.5vw;
+    margin: auto;
   }
 
   .name-text {
     color: white;
-    width: 13vw;
-    margin-top: 15vh;
-    margin-left: 1vw;
+    width: 35vw;
+    margin-top: 22vh;
+    margin-left: 4vw;
   }
 
   .name-txtHead {
@@ -588,7 +630,7 @@
   }
 
   .star {
-    width: 15vw;
+    width: 40vw;
     height: 5vh;
     margin: auto;
     display: flex;
@@ -600,11 +642,11 @@
   }
 
   .MCL {
-    width: 10vw;
+    width: 40vw;
     height: 7vh;
     display: flex;
     justify-content: space-evenly;
-    align-self: flex-end;
+    margin: auto;
   }
 
   .MCLicon-mess {
@@ -613,6 +655,7 @@
 
   .MCLicon-call {
     height: 6vh;
+    width: 6vw;
   }
 
   .MCLicon-loca {
@@ -622,168 +665,146 @@
 
   .coach {
     background-image: url("Images/Rectangle 13.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-right: 1vw;
+    margin: auto;
+    margin-top: 5vh;
   }
 
   .aminat {
     background-image: url("Images/Rectangle 6.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-right: 1.5vw;
+    margin: auto;
   }
 
   .ramon {
     background-image: url("Images/Rectangle 12.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-right: 1.5vw;
+    margin: auto;
   }
 
   .abiola {
     background-image: url("Images/Rectangle 5-1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
+    margin: auto;
   }
 
   .stephen {
     background-image: url("Images/Rectangle 11.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
+    margin: auto;
   }
 
   .james {
     background-image: url("Images/Rectangle 7.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-left: 1vw;
+    margin: auto;
   }
 
   .officer {
     background-image: url("Images/Rectangle 10.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-left: 1vw;
+    margin: auto;
   }
 
   .julius {
     background-image: url("Images/Rectangle 8.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-left: 2vw;
+    margin: auto;
   }
 
   .hilda {
     background-image: url("Images/Rectangle 9.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 210px;
-    height: 240px;
+    width: 280px;
+    height: 300px;
     border-radius: 2.4rem;
     border: 2px solid white;
     display: inline;
     box-shadow: 1px 2px 5px black;
-    margin-left: 2vw;
+    margin: auto;
   }
 
-  .footer {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #4567b7;
-    height: 107vh;
+    height: 250vh;
   }
 
   .line-up {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
+    height: 190vh;
   }
 
   .footer-nav {
     display: flex;
-    flex-direction: row;
-    height: 70vh;
+    flex-direction: column;
     width: 87vw;
+    height: 190vh;
+    background-color: #4567b7;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 1.88px solid white;
-    border-bottom: 1.88px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
   }
 
   .company,
   .servicesFoot,
   .support {
-    width: 18vw;
-    height: 50vh;
+    width: 50vw;
+    height: 42vh;
   }
 
   .legal {
-    width: 24vw;
-    height: 50vh;
+    width: 60vw;
+    height: 42vh;
   }
 
   .footerHeading {
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 6vh;
+    font-size: 5.6vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -794,11 +815,11 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2vh;
-    line-height: 8vh;
+    line-height: 6vh;
   }
 
   .footli {
-    font-size: 4.8vh;
+    font-size: 4.2vh;
     font-weight: 300;
     text-align: left;
   }
@@ -828,7 +849,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.8vh;
+    font-size: 4.3vh;
     font-weight: 300;
     text-align: left;
   }
@@ -841,7 +862,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.8vh;
+    font-size: 4.3vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -850,18 +871,26 @@
     letter-spacing: 0.1rem;
   }
 
-  .logo-text {
+  .line-down {
+    width: 96vw;
+    height: 60vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 86vw;
+    flex-direction: column;
     margin: auto;
-    margin-top: 8vh;
+    margin-bottom: 0vh;
+    background-color: #4567b7;
+  }
+
+  .logo-text {
+    width: 60vw;
+    height: 28vh;
+    margin: auto;
+    margin-top: 6vh;
   }
 
   .wkhLogo {
-    width: 230px;
-    height: 110px;
+    height: 152px;
+    width: 59vw;
   }
 
   .copyright {
@@ -869,37 +898,45 @@
     flex-direction: row;
     height: 5vh;
     margin-top: 15vh;
+    margin: auto;
+    order: 1;
+    width: 55vw;
+    margin-bottom: 7vh;
   }
 
   .copyrightIcon {
     width: 24px;
     height: 24px;
-    display: inline-block;
+    display: inline;
+    padding-top: 1vh;
   }
 
   .pRRtextbox {
     display: inline-block;
     height: 6vh;
-    margin-left: 1vw;
+    margin-left: 0vw;
+    width: 60vw;
   }
 
   .rightsreservedtext {
     color: white;
-    font-size: 4vh;
+    font-size: 3.9vh;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
-    height: 10vh;
-    width: 12vw;
-    margin-top: 7vh;
+    height: 7vh;
+    width: 40vw;
+    margin-top: 10vh;
     justify-content: space-between;
+    margin: auto;
+    order: 0;
   }
 
   .socialsIcon {
-    width: 28px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
     color: white;
   }
 }
