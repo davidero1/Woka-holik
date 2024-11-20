@@ -99,6 +99,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
+  padding-top: 0.5vh;
 }
 
 a#loginButton:hover,
@@ -231,8 +232,10 @@ h1 {
 }
 
 .searchIcon {
-  width: 1.8vw;
+  width: 1.9vw;
   height: 4vh;
+  margin-left: 0.8vw;
+  margin-top: 0.8vh;
 }
 
 .logoBack {

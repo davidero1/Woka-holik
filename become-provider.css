@@ -99,6 +99,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
+  padding-top: 0.5vh;
 }
 
 a#loginButton:hover,
@@ -189,7 +190,8 @@ h1 {
   margin-top: 4vh;
 }
 
-.proButton {
+a.proButton:link,
+a.proButton:visited {
   border: none;
   background-color: #4567b7;
   border-radius: 10px;
@@ -211,7 +213,8 @@ h1 {
   padding-top: 1vh;
 }
 
-.proButton:hover {
+a.proButton:hover,
+a.proButton:active {
   border: 2px solid black;
   background-color: white;
   color: black;
@@ -542,7 +545,8 @@ h1 {
   margin-bottom: 7vh;
 }
 
-.proButton2 {
+a.proButton2:link,
+a.proButton2:visited {
   border: none;
   background-color: white;
   border-radius: 10px;
@@ -564,7 +568,8 @@ h1 {
   padding-top: 1vh;
 }
 
-.proButton2:hover {
+a.proButton2:hover,
+a.proButton2:active {
   border: 2px solid #ffc300;
   background-color: white;
   color: black;

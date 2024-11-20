@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  max-width: 400px;
   font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
 }
 
@@ -23,7 +22,7 @@ body {
   width: 7.5vw;
   height: 9vh;
   margin-top: 3vh;
-  margin-left: 20vh;
+  margin-left: 42vw;
 }
 
 .arrow-backBox {
@@ -94,10 +93,10 @@ p {
 
 .contactIcon {
   width: 40px;
-  height: 38px;
+  height: 45px;
   color: gray;
-  margin-left: 3.3vw;
-  margin-bottom: -8vh;
+  margin-left: 37.55vw;
+  margin-bottom: -7.8vh;
   background-color: rgb(167, 167, 167);
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;

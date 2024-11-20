@@ -99,6 +99,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
+  padding-top: 0.5vh;
 }
 
 a#loginButton:hover,
@@ -515,7 +516,8 @@ a.Alink-emailnumFAQ:active {
   z-index: 0;
 }
 
-#subButton {
+a#subButton:link,
+a#subButton:visited {
   background-color: #b22121;
   color: white;
   text-decoration: none;
@@ -534,7 +536,8 @@ a.Alink-emailnumFAQ:active {
   margin-top: 0.8vh;
 }
 
-#subButton:hover {
+a#subButton:hover,
+a#subButton:active {
   background-color: #8f1b1b;
   color: white;
   text-decoration: none;

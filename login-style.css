@@ -118,7 +118,8 @@ h5 {
   font-style: oblique;
 }
 
-.proceedButton {
+a#proceedButton:link,
+a#proceedButton:visited {
   background-color: #8f1b1b;
   color: white;
   text-decoration: none;
@@ -135,7 +136,8 @@ h5 {
   margin-top: 2vh;
 }
 
-.proceedButton:hover {
+a#proceedButton:hover,
+a#proceedButton:active {
   background-color: #d62828;
   color: white;
   font-style: oblique;

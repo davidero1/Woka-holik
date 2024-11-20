@@ -99,6 +99,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
+  padding-top: 0.5vh;
 }
 
 a#loginButton:hover,
@@ -206,8 +207,8 @@ h1 {
   border-radius: 6px;
   height: 6vh;
   width: 3.5vw;
-  margin-left: -9vh;
-  margin-top: 1vh;
+  margin-left: 44vw;
+  margin-top: -10vh;
   z-index: 3;
 }
 

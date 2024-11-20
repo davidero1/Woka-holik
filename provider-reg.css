@@ -122,7 +122,8 @@ span {
   margin-left: 0.6vw;
 }
 
-.getstartedButton {
+a.getstartedButton:link,
+a.getstartedButton:visited {
   background-color: #8f1b1b;
   color: white;
   text-decoration: none;
@@ -139,7 +140,8 @@ span {
   margin-top: 2vh;
 }
 
-.getstartedButton:hover {
+a.getstartedButton:hover,
+a.getstartedButton:active {
   background-color: #d62828;
   color: white;
   font-style: oblique;
