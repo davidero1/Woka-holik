@@ -269,7 +269,12 @@ h1 {
 
 .intro-img {
   margin-left: 6vh;
-  padding-top: 6.6vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 70vh;
+  border-radius: 30vw;
+  border: 3px solid #ffc300;
+  margin-top: 13vh;
 }
 
 .introImage {
@@ -328,7 +333,7 @@ h1 {
 }
 
 .pintroBox {
-  width: 50vw;
+  width: 55vw;
   height: 66vh;
   display: flex;
   flex-direction: column;

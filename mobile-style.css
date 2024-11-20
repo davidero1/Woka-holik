@@ -295,8 +295,12 @@
 
   .intro-img {
     margin: auto;
-    margin-top: 2vh;
     margin-left: 21vw;
+    border: 3px solid #ffc300;
+    height: 40vh;
+    width: 48vw;
+    padding-top: 0;
+    border-radius: 30vw;
   }
 
   .introImage {
