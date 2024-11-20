@@ -82,7 +82,8 @@ a.Alink-nav:hover:not(.active) {
   margin-left: 25vh;
 }
 
-#loginButton {
+a#loginButton:link,
+a#loginButton:visited {
   background-color: #b22121;
   color: white;
   text-decoration: none;
@@ -99,7 +100,8 @@ a.Alink-nav:hover:not(.active) {
   margin-top: 4.8vh;
 }
 
-#loginButton:hover {
+a#loginButton:hover,
+a#loginButton:active {
   background-color: #8f1b1b;
   color: white;
   font-style: oblique;
