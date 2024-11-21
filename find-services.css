@@ -469,7 +469,7 @@ h4 {
   background-attachment: fixed;
   background-position-x: 30%;
   background-position-y: 45%;
-  background-size: 100%;
+  background-size: cover;
   background-origin: padding-box;
   z-index: 0;
   object-fit: cover;
@@ -513,6 +513,7 @@ h4 {
   height: 80vh;
   margin: auto;
   margin-top: 7vh;
+  margin-right: 10vw;
 }
 
 .column1 {
