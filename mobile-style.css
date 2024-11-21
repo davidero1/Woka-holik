@@ -845,7 +845,8 @@
     z-index: 0;
   }
 
-  #subButton {
+  a#subButton:link,
+  a#subButton:visited {
     background-color: #b22121;
     color: white;
     text-decoration: none;
@@ -863,7 +864,8 @@
     margin-top: 0.7vh;
   }
 
-  #subButton:hover {
+  a#subButton:hover,
+  a#subButton:active {
     background-color: #8f1b1b;
     color: white;
     text-decoration: none;
