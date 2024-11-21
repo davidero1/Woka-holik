@@ -823,8 +823,7 @@
   }
 
   .email-wrap {
-    display: flex;
-    flex-direction: row;
+    position: relative;
     width: 80vw;
     margin: auto;
   }
@@ -860,8 +859,8 @@
     border: none;
     text-align: center;
     z-index: 1;
-    margin-left: -22vw;
-    margin-top: 0.7vh;
+    position: absolute;
+    left: 59vw;
   }
 
   a#subButton:hover,
@@ -869,7 +868,6 @@
     background-color: #8f1b1b;
     color: white;
     text-decoration: none;
-    display: inline-block;
     font-size: 4vh;
     font-weight: 500;
     font-family: "Dongle", sans-serif;
@@ -879,6 +877,7 @@
     height: 5.7vh;
     border: none;
     text-align: center;
+    left: 59vw;
   }
 
   footer {
