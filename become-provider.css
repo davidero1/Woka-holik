@@ -706,11 +706,19 @@ a.Alink-emailnum:active {
   letter-spacing: 0.1rem;
 }
 
-.logo-text {
+.line-down {
+  width: 70vw;
+  height: 30vh;
   display: flex;
   flex-direction: row;
+  margin: auto;
+  margin-bottom: 0vh;
+  background-color: #4567b7;
   justify-content: space-between;
-  width: 86vw;
+}
+
+.logo-text {
+  width: 20vw;
   margin: auto;
   margin-top: 8vh;
 }
@@ -724,7 +732,10 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 15vh;
+  margin-top: 20vh;
+  margin: auto;
+  margin-left: -3vw;
+  width: 23vw;
 }
 
 .copyrightIcon {
@@ -747,14 +758,14 @@ a.Alink-emailnum:active {
 .socials {
   display: flex;
   flex-direction: row;
-  height: 10vh;
-  width: 12vw;
-  margin-top: 7vh;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 12vh;
   justify-content: space-between;
 }
 
 .socialsIcon {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   color: white;
 }
