@@ -444,7 +444,7 @@ a.Alink-emailnumFAQ:active {
 
 .get-better {
   background-color: #ffc300;
-  height: 50vh;
+  height: 48vh;
   display: flex;
   flex-direction: row;
 }
@@ -556,14 +556,15 @@ a#subButton:active {
 .balanceBackg {
   width: 39vw;
   height: 50vh;
+  margin-top: -3vh;
 }
 
 .balBackgImg {
   width: 39vw;
-  height: 50vh;
+  height: 53vh;
   z-index: 0;
   object-fit: contain;
-  object-position: 20% 80%;
+  object-position: 100% 60%;
   display: inline-block;
 }
 
@@ -673,11 +674,28 @@ a.Alink-emailnum:active {
   letter-spacing: 0.1rem;
 }
 
+.line-down {
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 0vh;
+  background-color: #4567b7;
+  justify-content: space-between;
+}
+
 .logo-text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 86vw;
+  margin: auto;
+  margin-top: 8vh;
+}
+
+.logo-text {
+  width: 20vw;
   margin: auto;
   margin-top: 8vh;
 }
@@ -691,7 +709,10 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 15vh;
+  margin-top: 20vh;
+  margin: auto;
+  margin-left: -3vw;
+  width: 23vw;
 }
 
 .copyrightIcon {
@@ -714,14 +735,14 @@ a.Alink-emailnum:active {
 .socials {
   display: flex;
   flex-direction: row;
-  height: 10vh;
-  width: 12vw;
-  margin-top: 7vh;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 12vh;
   justify-content: space-between;
 }
 
 .socialsIcon {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   color: white;
 }
