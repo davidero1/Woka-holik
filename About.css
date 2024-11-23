@@ -215,6 +215,25 @@ h1 {
   justify-content: space-evenly;
 }
 
+.ourTeam {
+  width: 18vw;
+  height: 8vh;
+  background-color: #ffc300;
+  margin: auto;
+  border-radius: 5vw;
+  box-shadow: 1px 2px 5px black;
+  margin-bottom: 10vh;
+}
+
+.oTeamTxt {
+  color: white;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
 .team-wrap-row1,
 .team-wrap-row2 {
   display: flex;
@@ -361,6 +380,9 @@ a.Alink-num:active {
   font-size: 8vh;
   letter-spacing: 0rem;
   padding-left: 3vw;
+  font-weight: 600;
+  color: black;
+  text-align: center;
 }
 
 .statement-wrap1 {
@@ -507,11 +529,28 @@ a.Alink-emailnum:active {
   letter-spacing: 0.1rem;
 }
 
+.line-down {
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 0vh;
+  background-color: #4567b7;
+  justify-content: space-between;
+}
+
 .logo-text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 86vw;
+  margin: auto;
+  margin-top: 8vh;
+}
+
+.logo-text {
+  width: 20vw;
   margin: auto;
   margin-top: 8vh;
 }
@@ -525,7 +564,10 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 15vh;
+  margin-top: 20vh;
+  margin: auto;
+  margin-left: -3vw;
+  width: 23vw;
 }
 
 .copyrightIcon {
@@ -548,14 +590,14 @@ a.Alink-emailnum:active {
 .socials {
   display: flex;
   flex-direction: row;
-  height: 10vh;
-  width: 12vw;
-  margin-top: 7vh;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 12vh;
   justify-content: space-between;
 }
 
 .socialsIcon {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   color: white;
 }
