@@ -1109,13 +1109,12 @@ a.Alink-emailnum:active {
   flex-direction: row;
   height: 10vh;
   width: 20vw;
-  height: 7vh;
+  height: 10vh;
   margin-top: 14vh;
   justify-content: space-between;
 }
 
-.socialsIcon {
-  width: 28px;
-  height: 28px;
+.fa-brands {
   color: white;
+  height: 30px;
 }

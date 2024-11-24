@@ -78,3 +78,22 @@ h1 {
   text-align: center;
   text-shadow: 1px 2px 5px black;
 }
+
+.backHome {
+  margin: auto;
+  margin-top: 10vh;
+}
+
+a.Alink-bckHme:link,
+a.Alink-bckHme:visited {
+  font-size: 4vh;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+}
+
+a.Alink-bckHme:hover,
+a.Alink-bckHme:active {
+  font-size: 4vh;
+  color: #ffc300;
+}
