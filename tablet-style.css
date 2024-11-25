@@ -42,7 +42,7 @@
   }
 
   .logo {
-    width: 32vw;
+    width: 23vw;
     margin-top: -2vh;
   }
 
@@ -137,17 +137,7 @@
   }
 
   .hero {
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 16.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 30%;
-    background-position-y: 45%;
-    background-size: 100%;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
-    height: 49vh;
+    height: 100vh;
     padding-top: 0vh;
   }
 
@@ -483,24 +473,23 @@
   }
 
   .category {
-    background-color: black;
+    background-color: #ffc300;
     height: 560vh;
     width: 96.7vw;
   }
 
   .category-wrap {
-    background-color: black;
+    background-color: #ffc300;
     height: 559.9vh;
     width: 96.5vw;
     margin: auto;
   }
 
   .category-heading {
-    color: white;
+    color: #4567b7;
     text-align: center;
     font-weight: 600;
     font-style: oblique;
-    text-shadow: 1px 2px 5px black;
     padding-top: 3vh;
     padding-bottom: 2vh;
   }
@@ -519,16 +508,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 19.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position-x: 70%;
-    background-position-y: 45%;
-    background-size: cover;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
+    background-color: #ffc300;
   }
 
   .catrow2 {
@@ -538,16 +518,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 20.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 70%;
-    background-position-y: 45%;
-    background-size: cover;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
+    background-color: #ffc300;
   }
 
   .catrow3 {
@@ -557,16 +528,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 21.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 70%;
-    background-position-y: 45%;
-    background-size: cover;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
+    background-color: #ffc300;
   }
 
   .vul,
@@ -647,7 +609,7 @@
   a.Alink-allserviceslink:link,
   a.Alink-allserviceslink:visited {
     font-size: 4vh;
-    color: #d62828;
+    color: #4567b7;
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0.3vw;
@@ -656,7 +618,7 @@
 
   a.Alink-allserviceslink:hover,
   a.Alink-allserviceslink:active {
-    color: white;
+    color: #d62828;
     font-style: oblique;
   }
 
@@ -774,7 +736,7 @@
   }
 
   .sub {
-    background-color: black;
+    background-color: white;
     height: 55vh;
   }
 
@@ -793,14 +755,14 @@
     padding-top: 2vh;
     padding-bottom: 1vh;
     font-size: 7vh;
-    color: white;
+    color: black;
   }
 
   .subPara {
     font-size: 4vh;
     text-align: center;
     line-height: 4vh;
-    color: white;
+    color: black;
     font-style: normal;
     font-weight: 300;
   }
@@ -834,6 +796,7 @@
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 0;
+    box-shadow: 1px 2px 5px black;
   }
 
   #subButton {
@@ -884,16 +847,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 30%;
-    background-position-y: 90%;
-    background-size: cover;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
+    background-color: white;
   }
 
   .app-img {
