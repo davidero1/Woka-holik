@@ -26,11 +26,13 @@ body {
 
 .logoBox {
   background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 
 .logo {
-  width: 19vw;
-  height: 18vh;
+  width: 15vw;
+  height: 15vh;
 }
 
 .navBox {
@@ -138,7 +140,7 @@ a#loginButton:active {
   object-position: 100% 100%;
   height: 80vh;
   padding-top: 12vh;
-  background-color: #ffc300;
+  /* background-color: #ffc300; */
   z-index: 0;
 }
 
@@ -213,16 +215,18 @@ h1 {
 
 .termsIcon {
   height: 19vh;
+  /*
   box-shadow: 1px 2px 5px black;
   border-radius: 1.2rem;
   padding: 1.5vh;
   background-color: black;
-  border: 2.2px solid white;
+  border: 2.2px solid white; */
   z-index: 3;
 }
 
 .termsIcon:hover {
   height: 20vh;
+  /*
   box-shadow: 1px 2px 5px black;
   border-radius: 1.2rem;
   padding: 1.5vh;
@@ -230,6 +234,7 @@ h1 {
   border: 2.2px solid white;
   transition: ease-out 0.3s;
   transition-delay: 0s;
+  */
 }
 
 #termsButton1,
@@ -246,10 +251,12 @@ h1 {
 }
 
 .logotext {
+  display: none;
+  /*
   z-index: 4;
   margin-top: -14vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .lt1 {
@@ -282,17 +289,19 @@ h1 {
   width: 11vw;
 }
 
+/*
 .logotext-img {
   width: 10vw;
   height: 5vh;
   opacity: 0.1;
 }
+  */
 
 .FAQ {
   height: 145vh;
   display: flex;
   flex-direction: column;
-  margin-top: 6vh;
+  margin-top: 10vh;
   background-color: white;
 }
 
@@ -307,7 +316,7 @@ h1 {
 
 .faqHeadingTxt {
   font-family: "Dongle", sans-serif;
-  color: black;
+  color: #4567b7;
   font-size: 16vh;
   font-weight: 600;
   font-style: normal;
@@ -354,6 +363,7 @@ h1 {
   display: block;
   font-size: 6vh;
   text-align: center;
+  color: #4567b7;
 }
 
 .fqBbox,
@@ -401,7 +411,7 @@ h1 {
 }
 
 .faqContactHeading {
-  color: black;
+  color: #4567b7;
   font-style: oblique;
   font-weight: 600;
   font-size: 6vh;
@@ -437,7 +447,8 @@ a.Alink-emailnumFAQ:active {
 }
 
 .faqsubHeading {
-  color: #d62828;
+  color: #4567b7;
+  /*color: #d62828;*/
   font-weight: 600;
   margin-right: 1vw;
 }
@@ -450,25 +461,26 @@ a.Alink-emailnumFAQ:active {
 }
 
 .get-better-wrap {
-  width: 59.8vw;
+  margin: auto;
+  width: 80vw;
+  /*width: 59.8vw; */
 }
 
 .get-betterHeading {
   margin: auto;
   line-height: 9vh;
-  text-align: right;
+  text-align: center;
   padding-top: 4vh;
   padding-bottom: 1vh;
   font-size: 10vh;
-  color: white;
+  color: #4567b7;
   font-weight: 600;
   letter-spacing: 0.3rem;
-  text-shadow: 1px 2px 5px black;
 }
 
 .get-betterPara {
   font-size: 7vh;
-  text-align: right;
+  text-align: center;
   line-height: 7vh;
   color: black;
   font-style: normal;
@@ -497,7 +509,6 @@ a.Alink-emailnumFAQ:active {
   width: 45vw;
   margin: auto;
   margin-top: 3vh;
-  margin-right: 0vh;
 }
 
 #email {
@@ -554,6 +565,7 @@ a#subButton:active {
 }
 
 .balanceBackg {
+  display: none;
   width: 39vw;
   height: 50vh;
   margin-top: -3vh;

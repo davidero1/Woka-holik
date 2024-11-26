@@ -37,7 +37,8 @@
   }
 
   .logo {
-    width: 32vw;
+    width: 25vw;
+    height: 11vh;
   }
 
   .navBox {
@@ -48,8 +49,8 @@
     background-color: white;
     width: 36vw;
     height: 16vh;
-    margin-top: -1vh;
     padding-left: 2vh;
+    margin-top: 5vh;
   }
 
   .logo {
@@ -158,6 +159,7 @@
     height: 62vh;
     display: flex;
     flex-direction: row;
+    /*
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -167,7 +169,7 @@
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 100% 100%; */
   }
 
   .hero-wrap {
@@ -281,6 +283,7 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
+    /*
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -290,7 +293,7 @@
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 100% 100%;*/
   }
 
   /*
@@ -367,6 +370,7 @@
 
   .how-to {
     height: 135vh;
+    /*
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 21.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -376,7 +380,7 @@
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 100% 100%;*/
   }
 
   .how-to-wrap {
@@ -471,6 +475,7 @@
 
   .experience {
     height: 230vh;
+    /*
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 27.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -480,7 +485,7 @@
     background-origin: padding-box;
     z-index: 0;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 100% 100%; */
   }
 
   .expHeading {
@@ -571,7 +576,8 @@
 
   .stand-out {
     height: 75vh;
-    background-color: #344c86;
+    background-color: #4567b7;
+    /* background-color: #344c86; */
   }
 
   .stand-out-wrap {

@@ -26,11 +26,13 @@ body {
 
 .logoBox {
   background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 
 .logo {
-  width: 19vw;
-  height: 18vh;
+  width: 15vw;
+  height: 15vh;
 }
 
 .navBox {
@@ -126,16 +128,7 @@ a#loginButton:active {
 }
 
 .find-services-hero {
-  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: 30%;
-  background-position-y: 45%;
-  background-size: 100%;
-  background-origin: padding-box;
-  z-index: 0;
-  object-fit: cover;
-  object-position: 100% 100%;
+  background-color: white;
   height: 90vh;
 }
 
@@ -267,6 +260,7 @@ a.searchButton:active {
 
 h4 {
   font-size: 5vh;
+  color: black;
 }
 
 .serviceGo {
@@ -307,12 +301,13 @@ h4 {
 #home,
 #weld,
 #private {
-  color: #d62828;
+  color: #4567b7;
 }
 
 .servLabel {
   font-size: 5vh;
   margin-right: 2vw;
+  color: #4567b7;
 }
 
 .location {
@@ -464,16 +459,7 @@ h4 {
 }
 
 .hire {
-  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: 30%;
-  background-position-y: 45%;
-  background-size: cover;
-  background-origin: padding-box;
-  z-index: 0;
-  object-fit: cover;
-  object-position: 100% 100%;
+  background-color: #4567b7;
   height: 130vh;
 }
 
@@ -592,13 +578,13 @@ h4 {
 }
 
 .name-text {
-  color: white;
   width: 13vw;
   margin-top: 15vh;
   margin-left: 1vw;
 }
 
 .name-txtHead {
+  color: white;
   font-size: 6vh;
   letter-spacing: 0.3rem;
   font-style: oblique;
@@ -607,6 +593,7 @@ h4 {
 }
 
 .name-txtPara {
+  color: white;
   font-size: 4.1vh;
   line-height: 4vh;
   text-shadow: 1px 2px 5px black;

@@ -26,11 +26,13 @@ body {
 
 .logoBox {
   background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 
 .logo {
-  width: 19vw;
-  height: 18vh;
+  width: 15vw;
+  height: 15vh;
 }
 
 .navBox {
@@ -197,6 +199,7 @@ a#bookButton:active {
 }
 
 .booking-imgBox {
+  /*
   background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 17.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -206,7 +209,7 @@ a#bookButton:active {
   background-origin: padding-box;
   z-index: 0;
   object-fit: cover;
-  object-position: 100% 100%;
+  object-position: 100% 100%; */
   height: 38vh;
   width: 40vw;
   border-radius: 3rem;
@@ -290,6 +293,7 @@ a#bookButton:active {
 }
 
 .payment {
+  /*
   background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -299,7 +303,7 @@ a#bookButton:active {
   background-origin: padding-box;
   z-index: 0;
   object-fit: cover;
-  object-position: 100% 100%;
+  object-position: 100% 100%; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -521,6 +525,7 @@ a#bookButton:active {
 .balanceBackg {
   width: 67vw;
   height: 50vh;
+  /*
   background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 28.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -530,7 +535,7 @@ a#bookButton:active {
   background-origin: padding-box;
   z-index: 0;
   object-fit: cover;
-  object-position: 100% 100%;
+  object-position: 100% 100%; */
   margin-right: 0vw;
 }
 

@@ -37,7 +37,7 @@
   }
 
   .logo {
-    width: 32vw;
+    width: 23vw;
   }
 
   .navBox {
@@ -46,9 +46,9 @@
 
   .logoBox {
     background-color: white;
-    width: 36vw;
-    height: 16vh;
-    margin-top: -1vh;
+    width: 35vw;
+    height: 15vh;
+    margin-top: 4vh;
     padding-left: 2vh;
   }
 
@@ -155,16 +155,7 @@
   }
 
   .find-services-hero {
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 30%;
-    background-position-y: 45%;
-    background-size: cover;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
+    background-color: white;
     height: 150vh;
   }
 
@@ -501,16 +492,7 @@
   }
 
   .hire {
-    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 30%;
-    background-position-y: 45%;
-    background-size: cover;
-    background-origin: padding-box;
-    z-index: 0;
-    object-fit: cover;
-    object-position: 100% 100%;
+    background-color: #4567b7;
     height: 560vh;
   }
 
