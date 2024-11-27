@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,14 +13,27 @@
     />
     <link rel="icon" href="Icons/favicon-32x32.png" />
     <link rel="stylesheet" href="About.css" />
+    <link rel="stylesheet" href="mobile-about.css" />
+    <link rel="stylesheet" href="tablet-about.css" />
+    <script
+      src="https://kit.fontawesome.com/d2339a278b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header class="head-wrap">
+<<<<<<< HEAD
+      <div class="nav-wrap">
+        <div class="logoBox">
+          <img
+            src="Images/final logo text 2.png"
+=======
       <nav class="nav-wrap">
         <div class="logoBox">
           <img
             src="final logo text.svg"
+>>>>>>> b74609f7eb0da7918c0e863cb5ee3e0775971b8a
             class="logo"
             alt="Woka:Holik Logo"
             width="auto"
@@ -27,6 +41,58 @@
           />
         </div>
 
+<<<<<<< HEAD
+        <div class="navBox">
+          <div class="navbar">
+            <ul class="navul">
+              <li class="navli">
+                <a class="Alink-nav active" href="index.html" target="_self"
+                  >Home</a
+                >
+              </li>
+              <li class="navli">
+                <a
+                  class="Alink-nav active"
+                  href="find-services.html"
+                  target="_blank"
+                  >Find Services</a
+                >
+              </li>
+              <li class="navli">
+                <a
+                  class="Alink-nav active"
+                  href="become-provider.html"
+                  target="_blank"
+                  >Become a Provider</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="booking.html" target="_blank"
+                  >Bookings</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="support.html" target="_blank"
+                  >Support</a
+                >
+              </li>
+              <li class="navli">
+                <a class="active" href="About.html" target="_blank">About Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="loginBox">
+            <a id="loginButton" href="login-index.html" 
+                        "Login" target="_blank" title="Click here to log in">LOG IN</a>
+          </div>
+        </div>
+
+        <div class="barsIconBox">
+          <div class="barsicon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+=======
         <div class="navbar">
           <ul class="navul">
             <li class="navli">
@@ -63,170 +129,264 @@
           >
             LOG IN
           </button>
+>>>>>>> b74609f7eb0da7918c0e863cb5ee3e0775971b8a
         </div>
-      </nav>
+      </div>
     </header>
 
     <section class="abt-hero">
       <div class="abt-txt">
-        <div class="heading">
-          <h1>Excellence through <span>Team Work</span></h1>
+        <div class="headingBox">
+          <h1>Excellence through <span class="heroYellow">Team Work</span></h1>
         </div>
-        <div class="txt">
-          Welcome to WOKA:HOLiK, your one-stop platform for finding trusted
-          manual labour service providers. At WOKA:HOLiK, we connect skilled
-          artisans with customers who need their expertise. Our mission is to
-          revolutionize the way people find and hire reliable manual labour
-          service.
+
+        <div class="para-txtBox">
+          <p class="paraHeader">
+            Welcome to Woka:Holik, your one-stop platform for finding trusted
+            manual-labour service providers. At Woka:Holik, we connect skilled
+            artisans with customers who need their expertise. Our mission is to
+            revolutionize how people find & hire reliable manual-labour
+            service providers.
+          </p>
         </div>
       </div>
     </section>
+
     <section class="team">
-      <div
-        class="team-wrap"
-        style="display: flex; flex-direction: row; flex-wrap: wrap"
-      >
-        <div class="cee">
-          <img
-            src="Images/Rectangle 59.png"
-            alt="Cynthia"
-            width="389px"
-            height="362px"
-          />
-          <div class="role">Product Designer</div>
-          <h2>Cynthia Adianu</h2>
-          <p>
-            <a href="mailto:cyadianu@gmail.com">cyadianu@gmail.com</a> |
-            +2348168582052
-          </p>
+      <div class="team-wrap">
+        <div class="ourTeam">
+          <h2 class="oTeamTxt">OUR TEAM</h2>
         </div>
-        <div class="timi">
-          <img
-            src="Images/Rectangle 60.png"
-            alt="Timileyin"
-            width="389px"
-            height="362px"
-          />
-          <div class="role">Product Designer</div>
-          <h2>Ajuwon Timileyin</h2>
-          <p>
-            <a href="mailto:ajuwonabayomi111@gmail.com"
-              >ajuwonabayomi111@gmail.com</a
-            >
-            | +2348168133075
-          </p>
+
+        <div class="team-wrap-row1">
+          <div class="cee">
+            <div class="imgBox">
+              <img
+                src="Images/Rectangle 59.png"
+                class="team-mem-img"
+                alt="Cynthia"
+                width="auto"
+                height="auto"
+              />
+            </div>
+
+            <div class="role">
+              <p class="rolePara">Product Designer</p>
+            </div>
+
+            <div class="bioBox">
+              <h2 class="bioBox-name">Cynthia Adianu</h2>
+              <div class="emailnumBox">
+                <p class="bioBox-emailnum">
+                  <a
+                    href="mailto:cyadianu@gmail.com"
+                    class="Alink-email"
+                    title="email"
+                    >support@wokaholik.com</a
+                  >
+                  |
+                  <a href="#" class="Alink-num" title="phone">
+                    +2348168582052
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timi">
+            <div class="imgBox">
+              <img
+                src="Images/Rectangle 60.png"
+                class="team-mem-img"
+                alt="Timileyin"
+                width="auto"
+                height="auto"
+              />
+            </div>
+
+            <div class="role">
+              <p class="rolePara">Product Designer</p>
+            </div>
+
+            <div class="bioBox">
+              <h2 class="bioBox-name">Ajuwon Timileyin</h2>
+              <div class="emailnumBox">
+                <p class="bioBox-emailnum">
+                  <a
+                    href="mailto:ajuwonabayomi111@gmail.com"
+                    class="Alink-email"
+                    title="email"
+                    >support@wokaholik.com</a
+                  >
+                  |
+                  <a href="#" class="Alink-num" title="phone">
+                    +2348168133075
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="precious">
+            <div class="imgBox">
+              <img
+                src="Images/Rectangle 61.png"
+                class="team-mem-img"
+                alt="Precious"
+                width="auto"
+                height="auto"
+              />
+            </div>
+
+            <div class="role">
+              <p class="rolePara">Product Designer</p>
+            </div>
+
+            <div class="bioBox">
+              <h2 class="bioBox-name">Precious Onyedika Chijoka</h2>
+              <div class="emailnumBox">
+                <p class="bioBox-emailnum">
+                  <a
+                    href="mailto:preciousnwabuisi@gmail.com"
+                    class="Alink-email"
+                    title="email"
+                    >support@wokaholik.com</a
+                  >
+                  |
+                  <a href="#" class="Alink-num" title="phone"> +97335652029 </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="precious">
-          <img
-            src="Images/Rectangle 61.png"
-            alt="Precious"
-            width="389px"
-            height="362px"
-          />
-          <div class="role">Product Designer</div>
-          <h2>Precious Onyedika Chijoka</h2>
-          <p>
-            <a href="mailto:preciousnwabuisi@gmail.com"
-              >preciousnwabuisi@gmail.com</a
-            >
-            | +97335652029
-          </p>
-        </div>
-        <div class="ezi">
-          <img
-            src="Images/Rectangle 59-1.png"
-            alt="Eziefa"
-            width="389px"
-            height="362px"
-          />
-          <div class="role">Project Manager</div>
-          <h2>Eziefakaegho Ewere Nwaham</h2>
-          <p>
-            <a href="mailto:zizieziefa@gmail.com">zizieziefa@gmail.com</a>
-            | +2348108170229
-          </p>
-        </div>
-        <div class="sev">
-          <img
-            src="Images/Rectangle 59-2.png"
-            alt="Sevorji"
-            width="389px"
-            height="362px"
-          />
-          <div class="role">Front End Engineer</div>
-          <h2>Sunday Sevorji</h2>
-          <p>
-            <a href="mailto:jamesmandate002@gmail.com"
-              >jamesmandate002@gmail.com</a
-            >
-            | +2347059786921
-          </p>
-        </div>
-        <div class="ero">
-          <img
-            src="Images/Rectangle 59-3.png"
-            alt="Ero-Phillips"
-            width="389px"
-            height="362px"
-          />
-          <div class="role">Front End Engineer</div>
-          <h2>Ero-Phillips Ayotunde David</h2>
-          <p>
-            <a href="mailto:daviderophillips@gmail.com"
-              >daviderophillips@gmail.com</a
-            >
-            | +2348159821443
-          </p>
+
+        <div class="team-wrap-row2">
+          <div class="ezi">
+            <div class="imgBox">
+              <img
+                src="Images/Rectangle 59-1.png"
+                class="team-mem-img"
+                alt="Eziefa"
+                width="auto"
+                height="auto"
+              />
+            </div>
+
+            <div class="role">
+              <p class="rolePara">Project Manager</p>
+            </div>
+
+            <div class="bioBox">
+              <h2 class="bioBox-name">Eziefakaegho Ewere Nwaham</h2>
+              <div class="emailnumBox">
+                <p class="bioBox-emailnum">
+                  <a
+                    href="mailto:zizieziefa@gmail.com"
+                    class="Alink-email"
+                    title="email"
+                    >support@wokaholik.com</a
+                  >
+                  |
+                  <a href="#" class="Alink-num" title="phone">
+                    +2348108170229
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sev">
+            <div class="imgBox">
+              <img
+                src="Images/Rectangle 59-2.png"
+                class="team-mem-img"
+                alt="Sevorji"
+                width="auto"
+                height="auto"
+              />
+            </div>
+
+            <div class="role">
+              <p class="rolePara">Front-End Engineer</p>
+            </div>
+
+            <div class="bioBox">
+              <h2 class="bioBox-name">Sunday Sevorji</h2>
+
+              <div class="emailnumBox">
+                <p class="bioBox-emailnum">
+                  <a
+                    href="mailto:jamesmandate002@gmail.com"
+                    class="Alink-email"
+                    title="email"
+                    >support@wokaholik.com</a
+                  >
+                  |
+                  <a href="#" class="Alink-num" title="phone">
+                    +2347059786921
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ero">
+            <div class="imgBox">
+              <img
+                src="Images/Rectangle 59-3.png"
+                class="team-mem-img"
+                alt="Ero-Phillips"
+                width="auto"
+                height="auto"
+              />
+            </div>
+
+            <div class="role">
+              <p class="rolePara">Front-End Engineer</p>
+            </div>
+
+            <div class="bioBox">
+              <h2 class="bioBox-name">Ero-Phillips Ayotunde David</h2>
+
+              <div class="emailnumBox">
+                <p class="bioBox-emailnum">
+                  <a
+                    href="mailto:daviderophillips@gmail.com"
+                    class="Alink-email"
+                    title="email"
+                    >support@wokaholik.com</a
+                  >
+                  |
+                  <a href="#" class="Alink-num" title="phone">
+                    +2348159821443
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
     <section class="mission">
-      <div
-        class="mission-yellow-wrap"
-        style="
-          width: 61.875rem;
-          height: 24.375rem;
-          background-color: #ffc300;
-          border-top-left-radius: 10rem;
-          border-bottom-right-radius: 10rem;
-          display: flex;
-          flex-direction: row;
-        "
-      >
+      <div class="mission-yellow-wrap">
         <div class="mission-state">
-          <h1>MISSION STATEMENT</h1>
-          <div
-            class="statement-wrap"
-            style="
-              width: 17.688rem;
-              height: 16.938rem;
-              text-align: center;
-              background-color: #ffff;
-              border-radius: 50rem;
-            "
-          >
-            <p>
+          <h1 class="mstextHeading">MISSION STATEMENT</h1>
+          <div class="statement-wrap1">
+            <p class="mstextPara1">
               "Empowering communities by connecting skilled manual labor service
               providers with individuals and businesses in need, fostering
               convenience, reliability, and economic growth."
             </p>
           </div>
         </div>
+
         <div class="vision-state">
-          <h1>VISION STATEMENT</h1>
-          <div
-            class="statement-wrap"
-            style="
-              width: 17.688rem;
-              height: 16.938rem;
-              text-align: center;
-              background-color: #ffff;
-              border-radius: 50rem;
-            "
-          >
-            <p>
+          <h1 class="mstextHeading">VISION STATEMENT</h1>
+          <div class="statement-wrap2">
+            <p class="mstextPara2">
               "To become the premier platform for accessible, efficient, and
-              trustworthy manual labor services, rrevolutionizing the way people
+              trustworthy manual labor services, revolutionizing the way people
               find and engage skilled professionals, and transforming the
               livelihoods of small and medium-scale enterprises(SMSEs) and their
               customers."
@@ -235,82 +395,115 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="line-up"></div>
-      <div class="footer-nav" style="display: flex; flex-direction: row">
-        <div class="company">
-          <h2>Company</h2>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="services">
-          <h2>Services</h2>
-          <ul>
-            <li><a href="#">Bookings</a></li>
-            <li><a href="#">Service Providers</a></li>
-            <li><a href="#">Partners with us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-        <div class="legal">
-          <h2>Legal</h2>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Service Providers Terms of Service</a></li>
-            <li><a href="#">Cookie Policy</a></li>
-          </ul>
-        </div>
-        <div class="support">
-          <h2>Support</h2>
-          <a href="#">support@wokaholik.com</a><br />
-          <a href="#">+234 567 8910 123</a>
-          <p>Team 8, Capstone Project,<br />Vephla Institute,<br />Nigeria</p>
+
+    <footer>
+      <div class="line-up">
+        <div class="footer-nav">
+          <div class="company">
+            <h2 class="footerHeading">Company</h2>
+            <ul class="footul">
+              <li class="footli">
+                <a class="Alink-foot" href="#">About Us</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Contact Us</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Terms & Conditions</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Privacy Policy</a>
+              </li>
+              <li class="footli"><a class="Alink-foot" href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="servicesFoot">
+            <h2 class="footerHeading">Services</h2>
+            <ul class="footul">
+              <li class="footli">
+                <a class="Alink-foot" href="#">Bookings</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Service Providers</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Partner with us</a>
+              </li>
+              <li class="footli"><a class="Alink-foot" href="#">Careers</a></li>
+              <li class="footli"><a class="Alink-foot" href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="legal">
+            <h2 class="footerHeading">Legal</h2>
+            <ul class="footul">
+              <li class="footli">
+                <a class="Alink-foot" href="#">Privacy Policy</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Terms of Service</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#"
+                  >Service Providers Terms of Service</a
+                >
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="support">
+            <h2 class="footerHeading">Support</h2>
+            <a class="Alink-emailnum" href="#" title="email us"
+              >support@wokaholik.com</a
+            ><br />
+            <a class="Alink-emailnum" href="#" title="call us"
+              >+234 567 8910 123</a
+            >
+            <p class="paraTeam8">
+              Team 8, Capstone Project,<br />Vephla Institute,<br />Nigeria.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="line-down"></div>
-      <div
-        class="logo-text"
-        style="background-color: #4567b7; display: flex; flex-direction: row"
-      >
-        <img
-          src="Images/final logo text 1.png"
-          alt="Logo"
-          width="280px"
-          height="140px"
-        />
-        <div class="copyright" style="display: flex; flex-direction: row">
+
+      <div class="line-down">
+        <div class="logo-text">
+          <img
+            src="Images/final logo text 1.png"
+            class="wkhLogo"
+            alt="Logo"
+            width="auto"
+            height="auto"
+          />
+        </div>
+
+        <div class="copyright">
           <img
             src="Icons/mdi_copyright@2x.svg"
+            class="copyrightIcon"
             alt="copyright"
-            width="24px"
-            height="24px"
+            width="auto"
+            height="auto"
           />
-          <a href="#" style="color: white"
-            >2024 wokaholik. All rights reserved</a
-          >
+          <div class="pRRtextbox">
+            <p class="rightsreservedtext">
+              2024 wokaholik. All rights reserved
+            </p>
+          </div>
         </div>
-        <div class="socials" style="display: flex; flex-direction: row">
-          <img
-            src="Icons/inst.svg"
-            alt="instagram"
-            width="36px"
-            height="36px"
-          />
-          <img src="Icons/twi.svg" alt="Twitter" width="36px" height="36px" />
-          <img src="Icons/link.svg" alt="Linkedin" width="36px" height="36px" />
-          <img
-            src="Icons/facebooknew.svg"
-            alt="Facebook"
-            width="36px"
-            height="36px"
-          />
+
+        <div class="socials">
+          <i class="fa-brands fa-instagram"></i>
+
+          <i class="fa-brands fa-x-twitter"></i>
+          
+          <i class="fa-brands fa-linkedin-in"></i>
+
+          <i class="fa-brands fa-facebook"></i>
         </div>
       </div>
     </footer>
