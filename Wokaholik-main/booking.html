@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,269 +12,464 @@
       rel="stylesheet"
     />
     <link rel="icon" href="Icons/favicon-32x32.png" />
-    <link rel="stylesheet" href="become-provider.css" />
+    <link rel="stylesheet" href="booking.css" />
+    <link rel="stylesheet" href="mobile-booking.css" />
+    <link rel="stylesheet" href="tablet-booking.css" />
+    <script
+      src="https://kit.fontawesome.com/d2339a278b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
     <header class="head-wrap">
-      <nav class="nav-wrap" style="display: flex; flex-direction: row">
-        <div class="logo">
+      <div class="nav-wrap">
+        <div class="logoBox">
           <img
-            src="Images/final logo monogram 3.png"
+            src="Images/final logo text 2.png"
+            class="logo"
             alt="Woka:Holik Logo"
-            width="120px"
-            height="60px"
+            width="auto"
+            height="auto"
           />
         </div>
-        <div class="navbar">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Find Services</a></li>
-            <li><a href="#">Become a Provider</a></li>
-            <li><a href="#">Bookings</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
+
+        <div class="navBox">
+          <div class="navbar">
+            <ul class="navul">
+              <li class="navli">
+                <a class="Alink-nav active" href="index.html" target="_self"
+                  >Home</a
+                >
+              </li>
+              <li class="navli">
+                <a
+                  class="Alink-nav active"
+                  href="find-services.html"
+                  target="_blank"
+                  >Find Services</a
+                >
+              </li>
+              <li class="navli">
+                <a
+                  class="Alink-nav active"
+                  href="become-provider.html"
+                  target="_blank"
+                  >Become a Provider</a
+                >
+              </li>
+              <li class="navli">
+                <a class="active" href="booking.html" target="_blank"
+                  >Bookings</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="support.html" target="_blank"
+                  >Support</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="About.html" target="_blank"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="loginBox">
+            <a id="loginButton" href="login-index.html" 
+                        "Login" target="_blank" title="Click here to log in">LOG IN</a>
+          </div>
         </div>
-        <div class="Login">
-          <button type="button">LOG IN</button>
+
+        <div class="barsIconBox">
+          <div class="barsicon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
+
     <section class="booking-hero">
-      <div class="booking-hero-wrap" style="display: flex; flex-direction: row">
+      <div class="booking-hero-wrap">
         <div class="booking-text">
-          <h2>Booking a Session<br />with a Service Provider</h2>
-          <button type="submit">Book Now</button>
+          <h1>Book a Session with a Service Provider</h1>
+
+          <div class="bButtonBox">
+            <a href="booking.html" id="bookButton" title="Book now">
+              Book Now
+            </a>
+          </div>
         </div>
-        <div class="booking-img">
+
+        <div class="booking-imgBox">
           <img
             src="Images/Booking hero.png"
+            class="booking-img"
             alt="Lady"
-            width="563px"
-            height="312px"
+            width="auto"
+            height="auto"
           />
         </div>
       </div>
-      <div
-        class="calender-wrap"
-        style="
-          border: 1px solid #4567b7;
-          border-radius: 1rem;
-          width: 1200px;
-          height: 200px;
-        "
-      >
-        <h4>Calender</h4>
-        <div
-          class="line"
-          style="
-            border-bottom: 1px solid black;
-            width: 1143px;
-            margin-top: 2rem;
-            margin-left: 1.5rem;
-          "
-        ></div>
-        <div class="date" style="display: flex; flex-direction: row">
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >SUN<br /><b>07</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >MON<br /><b>08</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >TUE<br /><b>09</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >WED<br /><b>10</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >THUR<br /><b>11</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >FRI<br /><b>12</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >SAT<br /><b>13</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >SUN<br /><b>14</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >MON<br /><b>15</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >TUE<br /><b>16</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >WED<br /><b>17</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >THUR<br /><b>18</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >FRI<br /><b>19</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >SAT<br /><b>20</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >SUN<br /><b>21</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >MON<br /><b>22</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >TUE<br /><b>23</b>
-          </span>
-          <span
-            style="text-align: center; margin-left: 1.5rem; margin-top: 2rem"
-            >WED<br /><b>24</b>
-          </span>
+
+      <div class="calender-wrap">
+        <h4 class="calHeading">Calendar</h4>
+
+        <div class="line"></div>
+
+        <div class="date">
+          <p class="date-days">
+            SUN <span class="date-no"><b>07</b> </span>
+          </p>
+
+          <p class="date-days">
+            MON <span class="date-no"><b>08</b> </span>
+          </p>
+
+          <p class="date-days">
+            TUE <span class="date-no"><b>09</b> </span>
+          </p>
+
+          <p class="date-days">
+            WED <span class="date-no"><b>10</b> </span>
+          </p>
+
+          <p class="date-days">
+            THUR <span class="date-no"><b>11</b> </span>
+          </p>
+
+          <p class="date-days">
+            FRI <span class="date-no"><b>12</b> </span>
+          </p>
+
+          <p class="date-days">
+            SAT <span class="date-no"><b>13</b> </span>
+          </p>
+
+          <p class="date-days">
+            SUN <span class="date-no"><b>14</b> </span>
+          </p>
+
+          <p class="date-days">
+            MON <span class="date-no"><b>15</b> </span>
+          </p>
+
+          <p class="date-days">
+            TUE <span class="date-no"><b>16</b> </span>
+          </p>
+
+          <p class="date-days">
+            WED <span class="date-no"><b>17</b> </span>
+          </p>
+
+          <p class="date-days">
+            THUR <span class="date-no"><b>18</b> </span>
+          </p>
+
+          <p class="date-days">
+            FRI <span class="date-no"><b>19</b> </span>
+          </p>
+
+          <p class="date-days">
+            SAT <span class="date-no"><b>20</b> </span>
+          </p>
+
+          <p class="date-days">
+            SUN <span class="date-no"><b>21</b> </span>
+          </p>
+
+          <p class="date-days">
+            MON <span class="date-no"><b>22</b> </span>
+          </p>
+
+          <p class="date-days">
+            TUE <span class="date-no"><b>23</b> </span>
+          </p>
+
+          <p class="date-days">
+            WED <span class="date-no"><b>24</b> </span>
+          </p>
         </div>
       </div>
     </section>
+
     <section class="payment">
       <div class="progress">
-        <img src="Icons/1.svg" alt="sign in" />
-        <img src="Icons/2.svg" alt="" />
-        <img src="Icons/3.svg" alt="" />
-        <img src="Icons/4.svg" alt="" />
-      </div>
-      <div class="payment-form">
-        <form action="">
-          <h3>Payment</h3>
-          <div class="fade-line"></div>
-          <h4>TOTAL PAYMENT AMOUNT N50,000</h4>
-          <div class="payment-providers">
-            <img src="Icons/mastercard.svg" alt="mastercard" />
-            <img src="Icons/paypal.svg" alt="paypal" />
-            <img src="Icons/visa-logo.svg" alt="visa & mastercard" />
-          </div>
-          <div class="payment-input">
-            <label for="cardName">Name on card</label>
-            <input type="text" id="cardName" name="cardName" /><br />
-            <label for="cardNum">Card Number</label>
-            <input type="text" id="cardNum" name="cardNum" /><br />
-            <label for="EXP">Expiration Date</label>
-            <input type="number" id="EXP" name="EXP" min="2" max="2" />
-            <input type="number" id="EXP" name="EXP" min="2" max="2" />
-            <label for="cvv">CVV/CVC</label>
-            <input type="number" id="cvv" name="cvv" min="2" max="2" />
-            <input type="number" id="cvc" name="cvc" min="2" max="2" />
-          </div>
-        </form>
-      </div>
-    </section>
-    <section class="balance">
-      <div
-        class="balance-wrap"
-        style="background-color: #ffc300; display: flex; flex-direction: row"
-      >
-        <div class="balance-img">
-          <img src="Icons/Group 71.svg" alt="question mark" />
-        </div>
-        <div class="balance-text">
-          <h1>Current Balance</h1>
-          <p>You don't have an initial deposit</p>
-          <a href="#">Kindly Login</a>
-          <span>or</span>
-          <a href="#">Sign Up</a>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="line-up"></div>
-      <div class="footer-nav" style="display: flex; flex-direction: row">
-        <div class="company">
-          <h2>Company</h2>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="services">
-          <h2>Services</h2>
-          <ul>
-            <li><a href="#">Bookings</a></li>
-            <li><a href="#">Service Providers</a></li>
-            <li><a href="#">Partners with us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-        <div class="legal">
-          <h2>Legal</h2>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Service Providers Terms of Service</a></li>
-            <li><a href="#">Cookie Policy</a></li>
-          </ul>
-        </div>
-        <div class="support">
-          <h2>Support</h2>
-          <a href="#">support@wokaholik.com</a><br />
-          <a href="#">+234 567 8910 123</a>
-          <p>Team 8, Capstone Project,<br />Vephla Institute,<br />Nigeria</p>
-        </div>
-      </div>
-      <div class="line-down"></div>
-      <div
-        class="logo-text"
-        style="background-color: #4567b7; display: flex; flex-direction: row"
-      >
         <img
-          src="Images/final logo text 1.png"
-          alt="Logo"
-          width="280px"
-          height="140px"
+          src="Icons/1.svg"
+          class="numberIcon"
+          width="auto"
+          height="auto"
+          alt="sign in"
         />
-        <div class="copyright" style="display: flex; flex-direction: row">
+        <img
+          src="Icons/2.svg"
+          class="numberIcon"
+          width="auto"
+          height="auto"
+          alt="sign in"
+        />
+        <img
+          src="Icons/3.svg"
+          class="numberIcon"
+          width="auto"
+          height="auto"
+          alt="sign in"
+        />
+        <img
+          src="Icons/4.svg"
+          class="numberIcon4"
+          width="auto"
+          height="auto"
+          alt="sign in"
+        />
+      </div>
+
+      <div class="payment-form">
+        <div class="payment-text">
+          <h3 class="paymentHeading">Payment</h3>
+          <div class="faded-line"></div>
+          <h4 class="paymentsubHeading">TOTAL PAYMENT AMOUNT <b>N50,000</b></h4>
+        </div>
+
+        <div class="payment-providers">
           <img
-            src="Icons/mdi_copyright@2x.svg"
-            alt="copyright"
-            width="24px"
-            height="24px"
+            src="Icons/mastercard.svg"
+            class="paymentIcon"
+            width="auto"
+            height="auto"
+            alt="mastercard"
           />
-          <a href="#" style="color: white"
-            >2024 wokaholik. All rights reserved</a
+
+          <img
+            src="Icons/paypal.svg"
+            class="paymentIcon"
+            width="auto"
+            height="auto"
+            alt="paypal"
+          />
+
+          <img
+            src="Icons/visa-logo.svg"
+            class="paymentIcon2"
+            width="auto"
+            height="auto"
+            alt="visa & mastercard"
+          />
+        </div>
+
+        <div class="payment-input">
+          <form action="google.com/payment">
+            <div class="cName">
+              <label for="cardNameL" class="formL">Name on card</label>
+              <input
+                type="text"
+                id="cardName"
+                name="cardName"
+                placeholder="John Doe"
+              /><br />
+            </div>
+
+            <div class="cNum">
+              <label for="cardNum" class="formL">Card Number</label>
+              <input
+                type="text"
+                id="cardNum"
+                name="cardNum"
+                placeholder="0000-000-000-0000"
+                min="14"
+                max="14"
+              /><br />
+            </div>
+
+            <div class="cName2">
+              <div class="cName2a">
+                <label for="EXP EXP2" class="formL">Expiration Date</label>
+                <input
+                  type="number"
+                  id="EXP"
+                  name="EXP"
+                  min="2"
+                  max="2"
+                  placeholder="00"
+                />
+                <p class="fSlash">/</p>
+                <input
+                  type="number"
+                  id="EXP2"
+                  name="EXP"
+                  min="2"
+                  max="2"
+                  placeholder="00"
+                />
+              </div>
+
+              <div class="cName2b">
+                <label for="number" class="formL">CVV/CVC</label>
+                <input
+                  type="number"
+                  id="CVV"
+                  name="cvc"
+                  min="3"
+                  max="3"
+                  placeholder="000"
+                />
+              </div>
+            </div>
+
+            <div class="bookingButtonBox">
+              <a
+                href="#"
+                id="bookingButton"
+                title="Complete your booking"
+              >
+                Complete Booking
+            </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="balance">
+      <div class="balance-wrap">
+        <div class="balance-img">
+          <img
+            src="Icons/Group 71.svg"
+            class="balanceIcon"
+            width="auto"
+            height="auto"
+            alt="question mark"
+          />
+        </div>
+
+        <div class="balance-text">
+          <h1 class="balanceHeading">Current Balance</h1>
+          <p class="balancePara">You don't have an initial deposit</p>
+          <span class="orTxt"> Kindly </span>
+          <a href="login-index.html" class="Alink-cBlink" title="log in here"
+            >Log in</a
+          >
+          <span class="orTxt"> or </span>
+          <a href="signup-index.html" class="Alink-cBlink" title="sign in here"
+            >Sign in</a
           >
         </div>
-        <div class="socials" style="display: flex; flex-direction: row">
+
+        <div class="balanceBackg">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="line-up">
+        <div class="footer-nav">
+          <div class="company">
+            <h2 class="footerHeading">Company</h2>
+            <ul class="footul">
+              <li class="footli">
+                <a class="Alink-foot" href="#">About Us</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Contact Us</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Terms & Conditions</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Privacy Policy</a>
+              </li>
+              <li class="footli"><a class="Alink-foot" href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="servicesFoot">
+            <h2 class="footerHeading">Services</h2>
+            <ul class="footul">
+              <li class="footli">
+                <a class="Alink-foot" href="#">Bookings</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Service Providers</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Partner with us</a>
+              </li>
+              <li class="footli"><a class="Alink-foot" href="#">Careers</a></li>
+              <li class="footli"><a class="Alink-foot" href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="legal">
+            <h2 class="footerHeading">Legal</h2>
+            <ul class="footul">
+              <li class="footli">
+                <a class="Alink-foot" href="#">Privacy Policy</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Terms of Service</a>
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#"
+                  >Service Providers Terms of Service</a
+                >
+              </li>
+              <li class="footli">
+                <a class="Alink-foot" href="#">Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="support">
+            <h2 class="footerHeading">Support</h2>
+            <a class="Alink-emailnum" href="#" title="email us"
+              >support@wokaholik.com</a
+            ><br />
+            <a class="Alink-emailnum" href="#" title="call us"
+              >+234 567 8910 123</a
+            >
+            <p class="paraTeam8">
+              Team 8, Capstone Project,<br />Vephla Institute,<br />Nigeria.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="line-down">
+        <div class="logo-text">
           <img
-            src="Icons/inst.svg"
-            alt="instagram"
-            width="36px"
-            height="36px"
+            src="Images/final logo text 1.png"
+            class="wkhLogo"
+            alt="Logo"
+            width="auto"
+            height="auto"
           />
-          <img src="Icons/twi.svg" alt="Twitter" width="36px" height="36px" />
-          <img src="Icons/link.svg" alt="Linkedin" width="36px" height="36px" />
+        </div>
+
+        <div class="copyright">
           <img
-            src="Icons/facebooknew.svg"
-            alt="Facebook"
-            width="36px"
-            height="36px"
+            src="Icons/mdi_copyright@2x.svg"
+            class="copyrightIcon"
+            alt="copyright"
+            width="auto"
+            height="auto"
           />
+          <div class="pRRtextbox">
+            <p class="rightsreservedtext">
+              2024 wokaholik. All rights reserved
+            </p>
+          </div>
+        </div>
+
+        <div class="socials">
+          <i class="fa-brands fa-instagram"></i>
+
+          <i class="fa-brands fa-x-twitter"></i>
+          
+          <i class="fa-brands fa-linkedin-in"></i>
+
+          <i class="fa-brands fa-facebook"></i>
         </div>
       </div>
     </footer>
