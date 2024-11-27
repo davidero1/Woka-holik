@@ -273,7 +273,7 @@ a.proButton:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 77vw;
+  width: 66vw;
   margin: auto;
   margin-top: 2vh;
 }
@@ -296,21 +296,21 @@ a.proButton:active {
 }
 
 .watchIcons {
-  width: 12vw;
+  width: 10vw;
   height: 12vh;
   display: flex;
   justify-content: space-between;
 }
 
 .watchIcon {
-  height: 47px;
+  height: 45px;
 }
 
 .y_logo {
   margin: auto;
   display: flex;
   width: 7vw;
-  margin-top: 20vh;
+  margin-top: 17vh;
 }
 
 .ytIcon {

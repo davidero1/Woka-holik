@@ -363,10 +363,11 @@ a.Alink-num:active {
 }
 
 .mission-yellow-wrap {
-  width: 77vw;
-  height: 70vh;
+  width: 80vw;
+  height: 73vh;
   background-color: #ffc300;
-  border-radius: 16vw; /* OR border-top-left-radius: 16vw; border-bottom-right-radius: 16vw; */
+  border-top-left-radius: 16vw;
+  border-bottom-right-radius: 16vw;
   display: flex;
   flex-direction: row;
   margin: auto;

@@ -235,14 +235,15 @@ a.searchButton:active {
 .para-txt {
   color: #d62828;
   font-weight: 300;
-  font-size: 10vh;
+  font-size: 9vh;
   font-style: normal;
+  text-align: center;
 }
 
 .introObl {
   font-family: "Dongle", sans-serif;
   color: #4567b7;
-  font-size: 18vh;
+  font-size: 13vh;
   font-weight: 600;
   letter-spacing: 0.3rem;
   font-style: oblique;
