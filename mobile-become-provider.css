@@ -519,8 +519,8 @@
     width: 60vw;
     background-color: white;
     border-radius: 2vh;
-    box-shadow: 1px 2px 5px black;
     margin: auto;
+    border: 2px solid #4567b7;
   }
 
   .review:hover {
@@ -529,6 +529,7 @@
     transition: ease-in-out 0.5s;
     background-color: #ffc300;
     border-radius: 2vh;
+    border: none;
     box-shadow: 1px 2px 5px black;
     margin: auto;
   }

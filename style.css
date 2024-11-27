@@ -629,8 +629,17 @@ a.Alink-allserviceslink:active {
   width: 30vw;
   background-color: rgb(255, 254, 252);
   border-radius: 2vh;
-  border: 1px solid #ffc300;
+  border: 1px solid #4567b7;
+}
+
+.review:hover {
+  height: 57vh;
+  width: 33vw;
+  transition: ease-in-out 0.5s;
+  background-color: #ffc300;
+  border-radius: 2vh;
   box-shadow: 1px 2px 5px black;
+  margin: auto;
 }
 
 .reviewBio {

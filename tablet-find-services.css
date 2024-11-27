@@ -291,6 +291,7 @@
   }
 
   .serviceGo {
+    display: none;
     background-color: #b22121;
     color: white;
     text-decoration: none;

@@ -696,9 +696,18 @@
     height: 57vh;
     width: 60vw;
     background-color: rgb(255, 254, 252);
-    border: 1px solid #ffc300;
+    border: 1px solid #4567b7;
     border-radius: 3vh;
+  }
+
+  .review:hover {
+    height: 60vh;
+    width: 62vw;
+    transition: ease-in-out 0.5s;
+    background-color: #ffc300;
+    border-radius: 2vh;
     box-shadow: 1px 2px 5px black;
+    margin: auto;
   }
 
   .reviewBio {
