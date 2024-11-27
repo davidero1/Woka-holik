@@ -43,8 +43,8 @@ body {
   list-style: none;
   width: 53vw;
   margin: auto;
-  margin-left: 10vh;
-  margin-top: 5vh;
+  margin-left: 12vh;
+  margin-top: 8vh;
 }
 
 .navul {
@@ -56,8 +56,7 @@ body {
 }
 
 .navli {
-  font-size: 4.6vh;
-  font-weight: 500;
+  font-size: 2.5vh;
   text-align: center;
 }
 
@@ -91,9 +90,7 @@ a#loginButton:visited {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
-  font-weight: 500;
-  font-family: "Dongle", sans-serif;
+  font-size: 2.5vh;
   font-style: normal;
   border-radius: 1.2rem;
   width: 8.5vw;
@@ -101,7 +98,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
-  padding-top: 0.5vh;
+  padding-top: 1vh;
 }
 
 a#loginButton:hover,
@@ -159,10 +156,8 @@ a#loginButton:active {
 }
 
 h1 {
-  font-family: "Dongle", sans-serif;
   color: white;
-  font-size: 16vh;
-  font-weight: 300;
+  font-size: 7vh;
   font-style: normal;
   letter-spacing: 0.2vw;
   text-align: center;
@@ -181,10 +176,8 @@ h1 {
 }
 
 .paraHeader {
-  font-family: "Dongle", sans-serif;
   color: white;
-  font-size: 7vh;
-  font-weight: 100;
+  font-size: 4vh;
   font-style: normal;
   line-height: 7vh;
   text-align: center;
@@ -315,10 +308,8 @@ h1 {
 }
 
 .faqHeadingTxt {
-  font-family: "Dongle", sans-serif;
   color: #4567b7;
-  font-size: 16vh;
-  font-weight: 600;
+  font-size: 8vh;
   font-style: normal;
   letter-spacing: 0.3rem;
   text-align: center;
@@ -326,15 +317,13 @@ h1 {
 }
 
 .faqParaTxt {
-  font-family: "Dongle", sans-serif;
   color: #4567b7;
-  font-size: 7vh;
-  font-weight: 100;
+  font-size: 4vh;
   font-style: normal;
   line-height: 7vh;
   text-align: center;
   display: block;
-  margin-top: -5vh;
+  margin-top: 2vh;
 }
 
 .FAQ-wrap {
@@ -361,7 +350,7 @@ h1 {
 
 .usersHeadingTxt {
   display: block;
-  font-size: 6vh;
+  font-size: 3.4vh;
   text-align: center;
   color: #4567b7;
 }
@@ -404,22 +393,20 @@ h1 {
 }
 
 .qB {
-  font-size: 4vh;
+  font-size: 2.5vh;
   color: #292d32;
-  padding-left: 3vw;
+  padding-left: 2vw;
   padding-top: 1.5vh;
 }
 
 .faqContactHeading {
   color: #4567b7;
   font-style: oblique;
-  font-weight: 600;
-  font-size: 6vh;
-  letter-spacing: 0.3rem;
+  font-size: 3.5vh;
 }
 
 .faqContactPara {
-  font-size: 4.4vh;
+  font-size: 2.6vh;
   text-align: left;
   color: black;
   text-decoration: none;
@@ -432,10 +419,8 @@ a.Alink-emailnumFAQ:visited {
   color: black;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.6vh;
   text-align: left;
 }
 
@@ -472,19 +457,18 @@ a.Alink-emailnumFAQ:active {
   text-align: center;
   padding-top: 4vh;
   padding-bottom: 1vh;
-  font-size: 10vh;
+  font-size: 6vh;
   color: #4567b7;
   font-weight: 600;
   letter-spacing: 0.3rem;
 }
 
 .get-betterPara {
-  font-size: 7vh;
+  font-size: 3.6vh;
   text-align: center;
-  line-height: 7vh;
+  line-height: 6vh;
   color: black;
   font-style: normal;
-  font-weight: 300;
 }
 
 .subText {
@@ -499,7 +483,7 @@ a.Alink-emailnumFAQ:active {
   color: #ffc300;
   font-style: oblique;
   font-weight: 600;
-  font-size: 8vh;
+  font-size: 6vh;
   letter-spacing: 0.3rem;
 }
 
@@ -520,8 +504,7 @@ a.Alink-emailnumFAQ:active {
   border-radius: 6px;
   border: 0.1rem solid rgba(132, 132, 132, 0.358);
   padding-left: 2vw;
-  font-family: "Dongle", sans-serif;
-  font-size: 4vh;
+  font-size: 2.5vh;
   text-align: left;
   color: rgb(211, 211, 211);
   z-index: 0;
@@ -533,9 +516,7 @@ a#subButton:visited {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
-  font-weight: 500;
-  font-family: "Dongle", sans-serif;
+  font-size: 2.5vh;
   font-style: normal;
   border-radius: 1.1rem;
   width: 12vw;
@@ -545,6 +526,7 @@ a#subButton:visited {
   z-index: 1;
   margin-left: -19.6vw;
   margin-top: 0.8vh;
+  padding-top: 1.3vh;
 }
 
 a#subButton:hover,
@@ -553,15 +535,13 @@ a#subButton:active {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
-  font-weight: 500;
-  font-family: "Dongle", sans-serif;
   font-style: oblique;
   border-radius: 1.1rem;
   width: 12vw;
   height: 6.4vh;
   border: none;
   text-align: center;
+  padding-top: 1.3vh;
 }
 
 .balanceBackg {
@@ -581,8 +561,8 @@ a#subButton:active {
 }
 
 footer {
-  height: 106vh;
   background-color: #4567b7;
+  height: 107vh;
 }
 
 .line-up {
@@ -608,18 +588,19 @@ footer {
 .support {
   width: 18vw;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .legal {
-  width: 24vw;
+  width: 25vw;
   height: 50vh;
 }
 
 .footerHeading {
   color: white;
   font-style: oblique;
-  font-weight: 600;
-  font-size: 6vh;
+  font-size: 3.8vh;
   letter-spacing: 0.3rem;
   text-shadow: 1px 2px 5px black;
 }
@@ -634,8 +615,7 @@ footer {
 }
 
 .footli {
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
 }
 
@@ -644,7 +624,6 @@ a.Alink-foot:visited {
   color: white;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
 }
 
@@ -652,7 +631,6 @@ a.Alink-foot:hover,
 a.Alink-foot:active {
   color: white;
   font-style: oblique;
-  font-weight: 300;
   letter-spacing: 0.1rem;
   text-shadow: 1px 2px 5px black;
 }
@@ -662,11 +640,11 @@ a.Alink-emailnum:visited {
   color: white;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
+  padding-bottom: 3vh;
+  padding-top: 4vh;
 }
 
 a.Alink-emailnum:hover,
@@ -677,38 +655,26 @@ a.Alink-emailnum:active {
 }
 
 .paraTeam8 {
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
   color: white;
   text-decoration: none;
   font-style: normal;
+  padding-top: 5vh;
   letter-spacing: 0.1rem;
 }
 
 .line-down {
-  width: 70vw;
+  width: 98vw;
   height: 30vh;
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-bottom: 0vh;
-  background-color: #4567b7;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .logo-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 86vw;
-  margin: auto;
-  margin-top: 8vh;
-}
-
-.logo-text {
-  width: 20vw;
-  margin: auto;
+  width: 18vw;
   margin-top: 8vh;
 }
 
@@ -721,10 +687,9 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 20vh;
-  margin: auto;
-  margin-left: -3vw;
-  width: 23vw;
+  width: 22vw;
+  margin-top: 24vh;
+  justify-content: space-evenly;
 }
 
 .copyrightIcon {
@@ -736,25 +701,25 @@ a.Alink-emailnum:active {
 .pRRtextbox {
   display: inline-block;
   height: 6vh;
+  width: 22vw;
   margin-left: 1vw;
 }
 
 .rightsreservedtext {
   color: white;
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 
 .socials {
   display: flex;
   flex-direction: row;
-  height: 6vh;
-  width: 15vw;
-  margin-top: 12vh;
+  height: 10vh;
+  width: 20vw;
+  margin-top: 14vh;
   justify-content: space-between;
 }
 
 .fa-brands {
-  width: 30px;
-  height: 30px;
   color: white;
+  height: 30px;
 }

@@ -76,7 +76,6 @@
 
   .navli {
     font-size: 4.6vh;
-    font-weight: 500;
     text-align: center;
     display: none;
     text-decoration: none;
@@ -117,8 +116,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4.4vh;
-    font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
     width: 8.5vw;
@@ -185,10 +182,8 @@
   }
 
   h1 {
-    font-family: "Dongle", sans-serif;
     color: white;
     font-size: 11vh;
-    font-weight: 300;
     font-style: normal;
     letter-spacing: 0.2vw;
     text-align: center;
@@ -208,10 +203,8 @@
   }
 
   .paraHeader {
-    font-family: "Dongle", sans-serif;
     color: white;
     font-size: 5.2vh;
-    font-weight: 100;
     font-style: normal;
     line-height: 7vh;
     text-align: center;
@@ -352,10 +345,8 @@
   }
 
   .faqHeadingTxt {
-    font-family: "Dongle", sans-serif;
     color: #4567b7;
     font-size: 12vh;
-    font-weight: 600;
     font-style: normal;
     letter-spacing: 0.3rem;
     text-align: center;
@@ -363,10 +354,8 @@
   }
 
   .faqParaTxt {
-    font-family: "Dongle", sans-serif;
     color: #4567b7;
     font-size: 5.6vh;
-    font-weight: 100;
     font-style: normal;
     line-height: 4vh;
     text-align: center;
@@ -571,7 +560,6 @@
     background-color: rgba(255, 255, 255, 0.968);
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: rgb(211, 211, 211);
@@ -586,9 +574,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4vh;
-    font-weight: 500;
     padding-top: 0.5vh;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.1rem;
     width: 22vw;
@@ -606,9 +592,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4vh;
-    font-weight: 500;
     padding-top: 0.5vh;
-    font-family: "Dongle", sans-serif;
     font-style: oblique;
     border-radius: 1.1rem;
     width: 22vw;

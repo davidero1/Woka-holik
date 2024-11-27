@@ -105,7 +105,6 @@
     display: inline-block;
     font-size: 4.4vh;
     font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
     width: 8.5vw;
@@ -157,7 +156,6 @@
   }
 
   h1 {
-    font-family: "Dongle", sans-serif;
     color: black;
     font-size: 7.4vh;
     font-weight: 300;
@@ -180,7 +178,6 @@
   }
 
   .paraHeader {
-    font-family: "Dongle", sans-serif;
     color: black;
     font-size: 4vh;
     font-weight: 100;
@@ -211,7 +208,6 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: #4567b7;
@@ -304,7 +300,6 @@
   }
 
   .introHeader {
-    font-family: "Dongle", sans-serif;
     color: white;
     font-size: 12vh;
     font-weight: 300;
@@ -414,7 +409,6 @@
   }
 
   .artisan-maxHeading {
-    font-family: "Dongle", sans-serif;
     color: black;
     font-size: 13vh;
     font-weight: 600;
@@ -586,7 +580,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4vh;
-    font-family: "Dongle", sans-serif;
     font-weight: 300;
     font-style: normal;
     margin-bottom: 3vh;
@@ -658,7 +651,6 @@
   }
 
   .expSpan {
-    font-family: "Dongle", sans-serif;
     color: #ffc300;
     font-size: 11vh;
     font-weight: 600;
@@ -799,7 +791,6 @@
     border-radius: 7px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: rgb(211, 211, 211);
@@ -813,7 +804,6 @@
     text-decoration: none;
     font-size: 4vh;
     font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 0.8rem;
     width: 20vw;
@@ -832,7 +822,6 @@
     display: inline-block;
     font-size: 4vh;
     font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: oblique;
     border-radius: 0.8rem;
     width: 20vw;
@@ -980,7 +969,6 @@
     display: flex;
     font-size: 3vh;
     font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
     width: 40vw;

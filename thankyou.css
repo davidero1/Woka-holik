@@ -44,10 +44,8 @@ body {
 }
 
 h1 {
-  font-family: "Dongle", sans-serif;
   color: #d62828;
   font-size: 16vh;
-  font-weight: 300;
   font-style: normal;
   letter-spacing: 0.2vw;
   line-height: 8vh;
@@ -69,10 +67,8 @@ h1 {
 }
 
 .paraHeader {
-  font-family: "Dongle", sans-serif;
   color: white;
   font-size: 6vh;
-  font-weight: 100;
   font-style: normal;
   line-height: 7vh;
   text-align: center;

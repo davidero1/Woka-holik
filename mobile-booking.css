@@ -118,8 +118,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4.4vh;
-    font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
     width: 8.5vw;
@@ -183,10 +181,8 @@
   }
 
   h1 {
-    font-family: "Dongle", sans-serif;
     color: white;
     font-size: 9vh;
-    font-weight: 300;
     font-style: normal;
     letter-spacing: 0.2vw;
     line-height: 6.6vh;
@@ -211,8 +207,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4.8vh;
-    font-weight: 600;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
     letter-spacing: 0.3rem;
@@ -425,7 +419,6 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: rgb(211, 211, 211);
@@ -442,7 +435,6 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: rgb(211, 211, 211);
@@ -460,7 +452,6 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 1vw;
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: rgb(211, 211, 211);
@@ -478,7 +469,6 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 1vw;
-    font-family: "Dongle", sans-serif;
     font-size: 4vh;
     text-align: left;
     color: rgb(211, 211, 211);
@@ -548,8 +538,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4.4vh;
-    font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.1rem;
     width: 40vw;
@@ -637,8 +625,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4vh;
-    font-family: "Dongle", sans-serif;
-    font-weight: 300;
     font-style: normal;
     margin-bottom: 3vh;
   }

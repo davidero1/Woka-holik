@@ -43,8 +43,8 @@ body {
   list-style: none;
   width: 53vw;
   margin: auto;
-  margin-left: 10vh;
-  margin-top: 5vh;
+  margin-left: 12vh;
+  margin-top: 8vh;
 }
 
 .navul {
@@ -56,8 +56,7 @@ body {
 }
 
 .navli {
-  font-size: 4.6vh;
-  font-weight: 500;
+  font-size: 2.5vh;
   text-align: center;
 }
 
@@ -91,8 +90,6 @@ a#loginButton:visited {
   text-decoration: none;
   display: inline-block;
   font-size: 4.4vh;
-  font-weight: 500;
-  font-family: "Dongle", sans-serif;
   font-style: normal;
   border-radius: 1.2rem;
   width: 8.5vw;
@@ -161,10 +158,8 @@ a#loginButton:active {
 }
 
 h1 {
-  font-family: "Dongle", sans-serif;
   color: black;
   font-size: 11vh;
-  font-weight: 300;
   font-style: normal;
   letter-spacing: 0.2vw;
   line-height: 8vh;
@@ -186,10 +181,8 @@ h1 {
 }
 
 .paraHeader {
-  font-family: "Dongle", sans-serif;
   color: black;
   font-size: 7vh;
-  font-weight: 100;
   font-style: normal;
   line-height: 7vh;
   text-align: center;
@@ -429,8 +422,8 @@ a.Alink-num:active {
 }
 
 footer {
-  height: 106vh;
   background-color: #4567b7;
+  height: 107vh;
 }
 
 .line-up {
@@ -456,18 +449,19 @@ footer {
 .support {
   width: 18vw;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .legal {
-  width: 24vw;
+  width: 25vw;
   height: 50vh;
 }
 
 .footerHeading {
   color: white;
   font-style: oblique;
-  font-weight: 600;
-  font-size: 6vh;
+  font-size: 3.8vh;
   letter-spacing: 0.3rem;
   text-shadow: 1px 2px 5px black;
 }
@@ -482,8 +476,7 @@ footer {
 }
 
 .footli {
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
 }
 
@@ -492,7 +485,6 @@ a.Alink-foot:visited {
   color: white;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
 }
 
@@ -500,7 +492,6 @@ a.Alink-foot:hover,
 a.Alink-foot:active {
   color: white;
   font-style: oblique;
-  font-weight: 300;
   letter-spacing: 0.1rem;
   text-shadow: 1px 2px 5px black;
 }
@@ -510,11 +501,11 @@ a.Alink-emailnum:visited {
   color: white;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
+  padding-bottom: 3vh;
+  padding-top: 4vh;
 }
 
 a.Alink-emailnum:hover,
@@ -525,38 +516,26 @@ a.Alink-emailnum:active {
 }
 
 .paraTeam8 {
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
   color: white;
   text-decoration: none;
   font-style: normal;
+  padding-top: 5vh;
   letter-spacing: 0.1rem;
 }
 
 .line-down {
-  width: 70vw;
+  width: 98vw;
   height: 30vh;
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-bottom: 0vh;
-  background-color: #4567b7;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .logo-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 86vw;
-  margin: auto;
-  margin-top: 8vh;
-}
-
-.logo-text {
-  width: 20vw;
-  margin: auto;
+  width: 18vw;
   margin-top: 8vh;
 }
 
@@ -569,10 +548,9 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 20vh;
-  margin: auto;
-  margin-left: -3vw;
-  width: 23vw;
+  width: 22vw;
+  margin-top: 24vh;
+  justify-content: space-evenly;
 }
 
 .copyrightIcon {
@@ -584,25 +562,25 @@ a.Alink-emailnum:active {
 .pRRtextbox {
   display: inline-block;
   height: 6vh;
+  width: 22vw;
   margin-left: 1vw;
 }
 
 .rightsreservedtext {
   color: white;
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 
 .socials {
   display: flex;
   flex-direction: row;
-  height: 6vh;
-  width: 15vw;
-  margin-top: 12vh;
+  height: 10vh;
+  width: 20vw;
+  margin-top: 14vh;
   justify-content: space-between;
 }
 
 .fa-brands {
-  width: 30px;
-  height: 30px;
   color: white;
+  height: 30px;
 }

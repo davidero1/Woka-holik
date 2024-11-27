@@ -118,8 +118,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 4.4vh;
-    font-weight: 500;
-    font-family: "Dongle", sans-serif;
     font-style: normal;
     border-radius: 1.2rem;
     width: 8.5vw;
@@ -189,10 +187,8 @@
   }
 
   h1 {
-    font-family: "Dongle", sans-serif;
     color: black;
     font-size: 11vh;
-    font-weight: 300;
     font-style: normal;
     letter-spacing: 0.2vw;
     line-height: 7vh;
@@ -214,10 +210,8 @@
   }
 
   .paraHeader {
-    font-family: "Dongle", sans-serif;
     color: black;
     font-size: 4.8vh;
-    font-weight: 100;
     font-style: normal;
     line-height: 5vh;
     text-align: center;

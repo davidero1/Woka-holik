@@ -43,8 +43,8 @@ body {
   list-style: none;
   width: 53vw;
   margin: auto;
-  margin-left: 10vh;
-  margin-top: 5vh;
+  margin-left: 12vh;
+  margin-top: 8vh;
 }
 
 .navul {
@@ -56,8 +56,7 @@ body {
 }
 
 .navli {
-  font-size: 4.6vh;
-  font-weight: 500;
+  font-size: 2.5vh;
   text-align: center;
 }
 
@@ -92,8 +91,6 @@ a#loginButton:visited {
   text-decoration: none;
   display: inline-block;
   font-size: 4.4vh;
-  font-weight: 500;
-  font-family: "Dongle", sans-serif;
   font-style: normal;
   border-radius: 1.2rem;
   width: 8.5vw;
@@ -152,10 +149,8 @@ a#loginButton:active {
 }
 
 h1 {
-  font-family: "Dongle", sans-serif;
   color: white;
-  font-size: 10vh;
-  font-weight: 300;
+  font-size: 5.5vh;
   font-style: normal;
   letter-spacing: 0.2vw;
   line-height: 6.6vh;
@@ -178,16 +173,14 @@ a#bookButton:visited {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.8vh;
-  font-weight: 600;
-  font-family: "Dongle", sans-serif;
+  font-size: 3vh;
   font-style: normal;
   border-radius: 1.2rem;
-  letter-spacing: 0.3rem;
   width: 15vw;
   height: 7.5vh;
   border: none;
   text-align: center;
+  padding-top: 1.4vh;
 }
 
 a#bookButton:hover,
@@ -253,7 +246,7 @@ a#bookButton:active {
   height: auto;
   margin-left: 1.5rem;
   margin-top: 1rem;
-  font-size: 4vh;
+  font-size: 2vh;
   color: rgba(76, 76, 76, 0.881);
 }
 
@@ -264,7 +257,7 @@ a#bookButton:active {
   height: auto;
   margin-left: 1.5rem;
   margin-top: 1rem;
-  font-size: 4vh;
+  font-size: 2vh;
   color: rgba(76, 76, 76, 0.881);
 }
 
@@ -275,18 +268,18 @@ a#bookButton:active {
   height: auto;
   margin-left: 1.5rem;
   margin-top: 1rem;
-  font-size: 4vh;
+  font-size: 2vh;
   color: rgba(76, 76, 76, 0.881);
 }
 
 .date-no {
   color: black;
   margin-top: 0vh;
-  font-size: 6vh;
+  font-size: 4vh;
 }
 
 .calHeading {
-  font-size: 6.6vh;
+  font-size: 4vh;
   letter-spacing: 0.2rem;
   margin-top: 1vh;
   margin-left: 1vw;
@@ -328,7 +321,7 @@ a#bookButton:active {
 }
 
 .paymentHeading {
-  font-size: 9vh;
+  font-size: 4vh;
 }
 
 .faded-line {
@@ -338,7 +331,7 @@ a#bookButton:active {
 }
 
 .paymentsubHeading {
-  font-size: 5vh;
+  font-size: 3vh;
   font-weight: 300;
 }
 
@@ -359,7 +352,7 @@ a#bookButton:active {
 }
 
 .formL {
-  font-size: 4vh;
+  font-size: 2.6vh;
   margin-right: 1vw;
 }
 
@@ -372,8 +365,7 @@ a#bookButton:active {
   border-radius: 6px;
   border: 0.1rem solid rgba(132, 132, 132, 0.358);
   padding-left: 2vw;
-  font-family: "Dongle", sans-serif;
-  font-size: 4vh;
+  font-size: 2.5vh;
   text-align: left;
   color: rgb(211, 211, 211);
   z-index: 3;
@@ -389,8 +381,7 @@ a#bookButton:active {
   border-radius: 6px;
   border: 0.1rem solid rgba(132, 132, 132, 0.358);
   padding-left: 2vw;
-  font-family: "Dongle", sans-serif;
-  font-size: 4vh;
+  font-size: 2.5vh;
   text-align: left;
   color: rgb(211, 211, 211);
   z-index: 3;
@@ -407,8 +398,7 @@ a#bookButton:active {
   border-radius: 6px;
   border: 0.1rem solid rgba(132, 132, 132, 0.358);
   padding-left: 1vw;
-  font-family: "Dongle", sans-serif;
-  font-size: 4vh;
+  font-size: 2.5vh;
   text-align: left;
   color: rgb(211, 211, 211);
   z-index: 3;
@@ -425,8 +415,7 @@ a#bookButton:active {
   border-radius: 6px;
   border: 0.1rem solid rgba(132, 132, 132, 0.358);
   padding-left: 1vw;
-  font-family: "Dongle", sans-serif;
-  font-size: 4vh;
+  font-size: 2.5vh;
   text-align: left;
   color: rgb(211, 211, 211);
   z-index: 3;
@@ -434,7 +423,7 @@ a#bookButton:active {
 }
 
 .fSlash {
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 .cName {
@@ -492,16 +481,16 @@ a#bookButton:active {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
+  font-size: 2.5vh;
   font-weight: 500;
-  font-family: "Dongle", sans-serif;
   font-style: normal;
   border-radius: 1.1rem;
-  width: 12vw;
+  width: 13vw;
   height: 6.4vh;
   border: none;
   text-align: center;
   z-index: 1;
+  padding-top: 1.4vh;
 }
 
 #bookingButton:hover {
@@ -513,6 +502,7 @@ a#bookButton:active {
   transition: ease-out 0.5s;
   transition-delay: 0s;
   padding-left: 0.5vw;
+  padding-top: 1.2vh;
 }
 
 .balance {
@@ -572,10 +562,11 @@ a#bookButton:active {
   margin-left: 2vw;
   padding-top: 6vh;
   height: 40vh;
+  width: 40vw;
 }
 
 .balanceHeading {
-  font-size: 9vh;
+  font-size: 5vh;
   color: black;
   height: 12vh;
   font-weight: 600;
@@ -584,7 +575,7 @@ a#bookButton:active {
 }
 
 .balancePara {
-  font-size: 7vh;
+  font-size: 3vh;
   color: white;
   line-height: 6vh;
   text-shadow: 1px 2px 5px black;
@@ -595,9 +586,7 @@ a.Alink-cBlink:visited {
   color: #d62828;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.8vh;
-  font-family: "Dongle", sans-serif;
-  font-weight: 300;
+  font-size: 2.6vh;
   font-style: normal;
   margin-bottom: 3vh;
 }
@@ -611,12 +600,12 @@ a.Alink-cBlink:active {
 }
 
 .orTxt {
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 
 footer {
-  height: 106vh;
   background-color: #4567b7;
+  height: 107vh;
 }
 
 .line-up {
@@ -642,18 +631,19 @@ footer {
 .support {
   width: 18vw;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .legal {
-  width: 24vw;
+  width: 25vw;
   height: 50vh;
 }
 
 .footerHeading {
   color: white;
   font-style: oblique;
-  font-weight: 600;
-  font-size: 6vh;
+  font-size: 3.8vh;
   letter-spacing: 0.3rem;
   text-shadow: 1px 2px 5px black;
 }
@@ -668,8 +658,7 @@ footer {
 }
 
 .footli {
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
 }
 
@@ -678,7 +667,6 @@ a.Alink-foot:visited {
   color: white;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
 }
 
@@ -686,7 +674,6 @@ a.Alink-foot:hover,
 a.Alink-foot:active {
   color: white;
   font-style: oblique;
-  font-weight: 300;
   letter-spacing: 0.1rem;
   text-shadow: 1px 2px 5px black;
 }
@@ -696,11 +683,11 @@ a.Alink-emailnum:visited {
   color: white;
   text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.1rem;
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
+  padding-bottom: 3vh;
+  padding-top: 4vh;
 }
 
 a.Alink-emailnum:hover,
@@ -711,29 +698,26 @@ a.Alink-emailnum:active {
 }
 
 .paraTeam8 {
-  font-size: 4.8vh;
-  font-weight: 300;
+  font-size: 2.8vh;
   text-align: left;
   color: white;
   text-decoration: none;
   font-style: normal;
+  padding-top: 5vh;
   letter-spacing: 0.1rem;
 }
 
 .line-down {
-  width: 70vw;
+  width: 98vw;
   height: 30vh;
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-bottom: 0vh;
-  background-color: #4567b7;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .logo-text {
-  width: 20vw;
-  margin: auto;
+  width: 18vw;
   margin-top: 8vh;
 }
 
@@ -746,10 +730,9 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 20vh;
-  margin: auto;
-  margin-left: -3vw;
-  width: 23vw;
+  width: 22vw;
+  margin-top: 24vh;
+  justify-content: space-evenly;
 }
 
 .copyrightIcon {
@@ -761,25 +744,25 @@ a.Alink-emailnum:active {
 .pRRtextbox {
   display: inline-block;
   height: 6vh;
+  width: 22vw;
   margin-left: 1vw;
 }
 
 .rightsreservedtext {
   color: white;
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 
 .socials {
   display: flex;
   flex-direction: row;
-  height: 6vh;
-  width: 15vw;
-  margin-top: 12vh;
+  height: 10vh;
+  width: 20vw;
+  margin-top: 14vh;
   justify-content: space-between;
 }
 
 .fa-brands {
-  width: 30px;
-  height: 30px;
   color: white;
+  height: 30px;
 }
