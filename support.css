@@ -26,11 +26,17 @@ body {
 
 .logoBox {
   background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 
 .logo {
-  width: 19vw;
-  height: 18vh;
+  width: 15vw;
+  height: 15vh;
+}
+
+.navBox {
+  display: flex;
 }
 
 .navbar {
@@ -57,18 +63,21 @@ body {
 
 a.Alink-nav:link,
 a.Alink-nav:visited {
-  color: rgba(76, 76, 76, 0.881);
+  color: black;
   text-decoration: none;
   font-style: normal;
 }
 
-a.Alink-nav:hover {
+a.Alink-nav:hover:not(.active) {
   color: black;
   font-style: oblique;
 }
 
-a.Alink-nav:active {
+a.Alink-nav:active,
+.active {
   color: #d62828;
+  font-style: oblique;
+  text-decoration: none;
 }
 
 .loginBox {
@@ -76,7 +85,8 @@ a.Alink-nav:active {
   margin-left: 25vh;
 }
 
-#loginButton {
+a#loginButton:link,
+a#loginButton:visited {
   background-color: #b22121;
   color: white;
   text-decoration: none;
@@ -91,12 +101,30 @@ a.Alink-nav:active {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
+  padding-top: 0.5vh;
 }
 
-#loginButton:hover {
+a#loginButton:hover,
+a#loginButton:active {
   background-color: #8f1b1b;
   color: white;
   font-style: oblique;
+}
+
+.barsiconBox {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+  margin-right: 3rem;
+}
+
+.barsicon {
+  display: none;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 6vh;
 }
 
 .support-hero {
@@ -112,7 +140,7 @@ a.Alink-nav:active {
   object-position: 100% 100%;
   height: 80vh;
   padding-top: 12vh;
-  background-color: #ffc300;
+  /* background-color: #ffc300; */
   z-index: 0;
 }
 
@@ -169,10 +197,10 @@ h1 {
   background-color: #4567b7;
   width: 612px;
   height: 198px;
-  border-radius: 3rem;
+  border-radius: 3vw;
   margin: auto;
   box-shadow: 1px 2px 5px black;
-  margin-top: -6vh;
+  margin-top: 0vh;
   z-index: 1;
 }
 
@@ -187,16 +215,18 @@ h1 {
 
 .termsIcon {
   height: 19vh;
+  /*
   box-shadow: 1px 2px 5px black;
   border-radius: 1.2rem;
   padding: 1.5vh;
   background-color: black;
-  border: 2.2px solid white;
+  border: 2.2px solid white; */
   z-index: 3;
 }
 
 .termsIcon:hover {
   height: 20vh;
+  /*
   box-shadow: 1px 2px 5px black;
   border-radius: 1.2rem;
   padding: 1.5vh;
@@ -204,6 +234,7 @@ h1 {
   border: 2.2px solid white;
   transition: ease-out 0.3s;
   transition-delay: 0s;
+  */
 }
 
 #termsButton1,
@@ -220,22 +251,26 @@ h1 {
 }
 
 .logotext {
+  display: none;
+  /*
   z-index: 4;
-  margin-top: -11vh;
+  margin-top: -14vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .lt1 {
   display: flex;
   width: 25vw;
   justify-content: space-evenly;
+  margin-left: 2vw;
 }
 
 .lt2 {
   display: flex;
   width: 25vw;
   justify-content: space-evenly;
+  margin-right: 1vw;
 }
 
 .logotext-imgBox1 {
@@ -254,17 +289,19 @@ h1 {
   width: 11vw;
 }
 
+/*
 .logotext-img {
   width: 10vw;
   height: 5vh;
   opacity: 0.1;
 }
+  */
 
 .FAQ {
   height: 145vh;
   display: flex;
   flex-direction: column;
-  margin-top: 6vh;
+  margin-top: 10vh;
   background-color: white;
 }
 
@@ -279,7 +316,7 @@ h1 {
 
 .faqHeadingTxt {
   font-family: "Dongle", sans-serif;
-  color: black;
+  color: #4567b7;
   font-size: 16vh;
   font-weight: 600;
   font-style: normal;
@@ -326,6 +363,7 @@ h1 {
   display: block;
   font-size: 6vh;
   text-align: center;
+  color: #4567b7;
 }
 
 .fqBbox,
@@ -340,7 +378,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #292d32;
-  width: 424px;
+  width: 430px;
   height: 49px;
   background-color: #d9d9d9;
   border-radius: 7px;
@@ -350,7 +388,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color: white;
-  width: 424px;
+  width: 430px;
   height: 49px;
   background-color: #ffc300;
   border-radius: 7px;
@@ -368,12 +406,12 @@ h1 {
 .qB {
   font-size: 4vh;
   color: #292d32;
-  padding-left: 4vw;
+  padding-left: 3vw;
   padding-top: 1.5vh;
 }
 
 .faqContactHeading {
-  color: black;
+  color: #4567b7;
   font-style: oblique;
   font-weight: 600;
   font-size: 6vh;
@@ -409,38 +447,40 @@ a.Alink-emailnumFAQ:active {
 }
 
 .faqsubHeading {
-  color: #d62828;
+  color: #4567b7;
+  /*color: #d62828;*/
   font-weight: 600;
   margin-right: 1vw;
 }
 
 .get-better {
   background-color: #ffc300;
-  height: 50vh;
+  height: 48vh;
   display: flex;
   flex-direction: row;
 }
 
 .get-better-wrap {
-  width: 59.8vw;
+  margin: auto;
+  width: 80vw;
+  /*width: 59.8vw; */
 }
 
 .get-betterHeading {
   margin: auto;
   line-height: 9vh;
-  text-align: right;
+  text-align: center;
   padding-top: 4vh;
   padding-bottom: 1vh;
   font-size: 10vh;
-  color: white;
+  color: #4567b7;
   font-weight: 600;
   letter-spacing: 0.3rem;
-  text-shadow: 1px 2px 5px black;
 }
 
 .get-betterPara {
   font-size: 7vh;
-  text-align: right;
+  text-align: center;
   line-height: 7vh;
   color: black;
   font-style: normal;
@@ -469,7 +509,6 @@ a.Alink-emailnumFAQ:active {
   width: 45vw;
   margin: auto;
   margin-top: 3vh;
-  margin-right: 0vh;
 }
 
 #email {
@@ -488,7 +527,8 @@ a.Alink-emailnumFAQ:active {
   z-index: 0;
 }
 
-#subButton {
+a#subButton:link,
+a#subButton:visited {
   background-color: #b22121;
   color: white;
   text-decoration: none;
@@ -507,7 +547,8 @@ a.Alink-emailnumFAQ:active {
   margin-top: 0.8vh;
 }
 
-#subButton:hover {
+a#subButton:hover,
+a#subButton:active {
   background-color: #8f1b1b;
   color: white;
   text-decoration: none;
@@ -524,20 +565,22 @@ a.Alink-emailnumFAQ:active {
 }
 
 .balanceBackg {
+  display: none;
   width: 39vw;
   height: 50vh;
+  margin-top: -3vh;
 }
 
 .balBackgImg {
   width: 39vw;
-  height: 50vh;
+  height: 53vh;
   z-index: 0;
   object-fit: contain;
-  object-position: 20% 80%;
+  object-position: 100% 60%;
   display: inline-block;
 }
 
-.footer {
+footer {
   height: 106vh;
   background-color: #4567b7;
 }
@@ -643,11 +686,28 @@ a.Alink-emailnum:active {
   letter-spacing: 0.1rem;
 }
 
+.line-down {
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 0vh;
+  background-color: #4567b7;
+  justify-content: space-between;
+}
+
 .logo-text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 86vw;
+  margin: auto;
+  margin-top: 8vh;
+}
+
+.logo-text {
+  width: 20vw;
   margin: auto;
   margin-top: 8vh;
 }
@@ -661,7 +721,10 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 15vh;
+  margin-top: 20vh;
+  margin: auto;
+  margin-left: -3vw;
+  width: 23vw;
 }
 
 .copyrightIcon {
@@ -684,14 +747,14 @@ a.Alink-emailnum:active {
 .socials {
   display: flex;
   flex-direction: row;
-  height: 10vh;
-  width: 12vw;
-  margin-top: 7vh;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 12vh;
   justify-content: space-between;
 }
 
-.socialsIcon {
-  width: 28px;
-  height: 28px;
+.fa-brands {
+  width: 30px;
+  height: 30px;
   color: white;
 }

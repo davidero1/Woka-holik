@@ -12,13 +12,19 @@
     />
     <link rel="icon" href="Icons/favicon-32x32.png" />
     <link rel="stylesheet" href="find-services.css" />
+    <link rel="stylesheet" href="mobile-find-services.css">
+    <link rel="stylesheet" href="tablet-find-services.css">
+    <script
+      src="https://kit.fontawesome.com/d2339a278b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="head-wrap">
-      <nav class="nav-wrap">
+      <div class="nav-wrap">
         <div class="logoBox">
           <img
-            src="final logo text.svg"
+            src="Images/final logo text 2.png"
             class="logo"
             alt="Woka:Holik Logo"
             width="auto"
@@ -26,32 +32,58 @@
           />
         </div>
 
-        <div class="navbar">
-          <ul class="navul">
-            <li class="navli"><a class="Alink-nav" href="index.html" target="_blank">Home</a></li>
-            <li class="navli">
-              <a class="Alink-nav" href="find-services.html" target="_self">Find Services</a>
-            </li>
-            <li class="navli">
-              <a class="Alink-nav" href="become-provider.html" target="_blank">Become a Provider</a>
-            </li>
-            <li class="navli"><a class="Alink-nav" href="booking.html" target="_blank">Bookings</a></li>
-            <li class="navli"><a class="Alink-nav" href="support.html" target="_blank">Support</a></li>
-            <li class="navli"><a class="Alink-nav" href="about.html" target="_blank">About Us</a></li>
-          </ul>
+        <div class="navBox">
+          <div class="navbar">
+            <ul class="navul">
+              <li class="navli">
+                <a class="Alink-nav active" href="index.html" target="_self">Home</a>
+              </li>
+              <li class="navli">
+                <a
+                  class="active"
+                  href="find-services.html"
+                  target="_blank"
+                  >Find Services</a
+                >
+              </li>
+              <li class="navli">
+                <a
+                  class="Alink-nav active"
+                  href="become-provider.html"
+                  target="_blank"
+                  >Become a Provider</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="booking.html" target="_blank"
+                  >Bookings</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="support.html" target="_blank"
+                  >Support</a
+                >
+              </li>
+              <li class="navli">
+                <a class="Alink-nav active" href="About.html" target="_blank"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="loginBox">
+            <a id="loginButton" href="login-index.html" 
+              "Login" target="_blank" title="Click here to log in">LOG IN</a>
+          </div>
         </div>
 
-        <div class="loginBox">
-          <button
-            href="#"
-            id="loginButton"
-            type="button"
-            title="Click here to log in"
-          >
-            LOG IN
-          </button>
+        <div class="barsIconBox">
+          <div class="barsicon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
 
     <section class="find-services-hero">
@@ -64,15 +96,15 @@
         </div>
 
         <div class="searchBox">
-          <form action="">
-            <div class="f_input-wrap">
+          <div class="f_input-wrap">
+            <form action="find-services.html">
               <input
                 type="search"
                 id="searchservice"
                 name="search"
                 placeholder="Search for any service...."
               />
-              <button type="submit" class="searchButton">
+              <a class="searchButton" href="find-services.html" title="Search">
                 <img
                   src="Icons/search-normal.png"
                   class="searchIcon"
@@ -80,183 +112,202 @@
                   width="auto"
                   height="auto"
                 />
-              </button>
-            </div>
+              </a>
+            </form>
+          </div>
+          </div>
+
+          <div class="para-txtBox">
+            <p class="para-txt">
+              Which Service do you need today on
+              <span class="introObl">Woka:Holik</span> ?
+            </p>
+          </div>
+
+          <div class="services">
+            <h4> You can choose below:</h4>
+          <form action="find-services.html">
+            <input
+              type="radio"
+              id="any"
+              name="any"
+              value="any"
+              title="work"
+              placeholder="work"
+            />
+             
+            <label for="Any" class="servLabel">Any type of work</label>
+
+            <input
+              type="radio"
+              id="auto"
+              name="auto"
+              value="Auto"
+              title="auto"
+              placeholder="auto"
+            />
+             
+            <label for="Auto" class="servLabel">Auto Mechanic</label>
+
+            <input
+              type="radio"
+              id="house"
+              name="house"
+              value="housekeeping"
+              title="housekeeping"
+              placeholder="housekeeping"
+            />
+             
+            <label for="House" class="servLabel">Housekeeping</label>
+
+            <input
+              type="radio"
+              id="elect"
+              name="elect"
+              value="Electrician"
+              title="electrician"
+              placeholder="electrician"
+            />
+             
+            <label for="electrician" class="servLabel">Electrician</label>
+
+            <input
+              type="radio"
+              id="mech"
+              name="mech"
+              value="mech"
+              title="mechanic"
+              placeholder="mechanic"
+            />
+             
+            <label for="mechanic" class="servLabel">Mechanic</label>
+
+            <input
+              type="radio"
+              id="carpenter"
+              name="carpenter"
+              value="carpenter"
+              title="carpenter"
+              placeholder="carpenter"
+            />
+             
+            <label for="carpenter" class="servLabel">Carpenter</label>
+
+            <input
+              type="radio"
+              id="paint"
+              name="paint"
+              value="paint"
+              title="painter"
+              placeholder="painter"
+            />
+             
+            <label for="Painter" class="servLabel">Painter</label>
+
+            <input
+              type="radio"
+              id="dry"
+              name="dry"
+              value="dry"
+              title="drycleaner"
+              placeholder="drycleaner"
+            />
+             
+            <label for="dry" class="servLabel">Laundry and Dry cleaning</label>
+
+            <input
+              type="radio"
+              id="sec"
+              name="sec"
+              value="sec"
+              title="security"
+              placeholder="security"
+            />
+             
+            <label for="security" class="servLabel">Security Services</label>
+
+            <input
+              type="radio"
+              id="car"
+              name="car"
+              value="car"
+              title="car wash"
+              placeholder="carwash"
+            />
+             
+            <label for="car wash" class="servLabel">Car Wash Services</label>
+
+            <input
+              type="radio"
+              id="fit"
+              name="fit"
+              value="fit"
+              title="fitness trainer"
+              placeholder="fitness trainer"
+            />
+             
+            <label for="fitness" class="servLabel">Fitness Trainer</label>
+
+            <input
+              type="radio"
+              id="trans"
+              name="trans"
+              value="trans"
+              title="logistics"
+              placeholder="logistics"
+            />
+             
+            <label for="trans" class="servLabel"
+              >Transportation and Logistics</label
+            >
+
+            <input
+              type="radio"
+              id="cat"
+              name="cat"
+              value="cat"
+              title="Caterers"
+              placeholder="Caterers"
+            />
+             
+            <label for="caterer" class="servLabel">Caterers</label>
+
+            <input
+              type="radio"
+              id="home"
+              name="home"
+              value="home"
+              title="home Renovation"
+              placeholder="home Renovation"
+            />
+             
+            <label for="home" class="servLabel">Home Renovation</label>
+
+            <input
+              type="radio"
+              id="weld"
+              name="weld"
+              value="weld"
+              title="Welding"
+              placeholder="Welding"
+            />
+             
+            <label for="weld" class="servLabel">Welding Service</label>
+
+            <input
+              type="radio"
+              id="private"
+              name="private"
+              value="private"
+              title="private tutor"
+              placeholder="private tutor"
+            />
+             
+            <label for="private" class="servLabel"
+              >Tutoring and Private Lessons</label
+            >
+            <input type="submit" class="serviceGo" title="Go" value="Go">
           </form>
-        </div>
-
-        <div class="para-txtBox">
-          <p class="para-txt">
-            Which Service do you need today on
-            <span class="introObl">Woka:Holik</span>
-          </p>
-        </div>
-
-        <div class="services">
-          <input
-            type="radio"
-            id="any"
-            name="any"
-            value="any"
-            title="work"
-            placeholder="work"
-          />
-           
-          <label for="Any" class="servLabel">Any type of work</label>
-          <input
-            type="radio"
-            id="auto"
-            name="auto"
-            value="Auto"
-            title="auto"
-            placeholder="auto"
-          />
-           
-          <label for="Auto" class="servLabel">Auto Mechanic</label>
-          <input
-            type="radio"
-            id="house"
-            name="house"
-            value="housekeeping"
-            title="housekeeping"
-            placeholder="housekeeping"
-          />
-           
-          <label for="House" class="servLabel">Housekeeping</label>
-          <input
-            type="radio"
-            id="elect"
-            name="elect"
-            value="Electrician"
-            title="electrician"
-            placeholder="electrician"
-          />
-           
-          <label for="electrician" class="servLabel">Electrician</label>
-          <input
-            type="radio"
-            id="mech"
-            name="mech"
-            value="mech"
-            title="mechanic"
-            placeholder="mechanic"
-          />
-           
-          <label for="mechanic" class="servLabel">Mechanic</label>
-          <input
-            type="radio"
-            id="carpenter"
-            name="carpenter"
-            value="carpenter"
-            title="carpenter"
-            placeholder="carpenter"
-          />
-           
-          <label for="carpenter" class="servLabel">Carpenter</label>
-          <input
-            type="radio"
-            id="paint"
-            name="paint"
-            value="paint"
-            title="painter"
-            placeholder="painter"
-          />
-           
-          <label for="Painter" class="servLabel">Painter</label><br />
-          <input
-            type="radio"
-            id="dry"
-            name="dry"
-            value="dry"
-            title="drycleaner"
-            placeholder="drycleaner"
-          />
-           
-          <label for="dry" class="servLabel">Laundry and Dry cleaning</label>
-          <input
-            type="radio"
-            id="sec"
-            name="sec"
-            value="sec"
-            title="security"
-            placeholder="security"
-          />
-           
-          <label for="security" class="servLabel">Security Services</label>
-          <input
-            type="radio"
-            id="car"
-            name="car"
-            value="car"
-            title="car wash"
-            placeholder="carwash"
-          />
-           
-          <label for="car wash" class="servLabel">Car Wash Services</label>
-          <input
-            type="radio"
-            id="fit"
-            name="fit"
-            value="fit"
-            title="fitness trainer"
-            placeholder="fitness trainer"
-          />
-           
-          <label for="fitness" class="servLabel">Fitness Trainer</label>
-          <input
-            type="radio"
-            id="trans"
-            name="trans"
-            value="trans"
-            title="logistics"
-            placeholder="logistics"
-          />
-           
-          <label for="trans" class="servLabel"
-            >Transportation and Logistics</label
-          ><br />
-          <input
-            type="radio"
-            id="cat"
-            name="cat"
-            value="cat"
-            title="Caterers"
-            placeholder="Caterers"
-          />
-           
-          <label for="caterer" class="servLabel">Caterers</label>
-          <input
-            type="radio"
-            id="home"
-            name="home"
-            value="home"
-            title="home Renovation"
-            placeholder="home Renovation"
-          />
-           
-          <label for="home" class="servLabel">Home Renovation</label>
-          <input
-            type="radio"
-            id="weld"
-            name="weld"
-            value="weld"
-            title="Welding"
-            placeholder="Welding"
-          />
-           
-          <label for="weld" class="servLabel">Welding Service</label>
-          <input
-            type="radio"
-            id="private"
-            name="private"
-            value="private"
-            title="private tutor"
-            placeholder="private tutor"
-          />
-           
-          <label for="private" class="servLabel"
-            >Tutoring and Private Lessons</label
-          >
         </div>
       </div>
     </section>
@@ -434,226 +485,235 @@
           </div>
         
 
-        <div class="column2">
-          <div
-            class="aminat"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">Aminat</h4>
-              <p class="name-txtPara">Hairdresser</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+          <div class="column2">
+            <div
+              class="aminat"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Aminat</h4>
+                <p class="name-txtPara">Hairdresser</p>
               </div>
 
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
-              </div>
-            </div>
-          </div>
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
 
-          <div
-            class="ramon"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">Ramon</h4>
-              <p class="name-txtPara">Welder</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-              </div>
-
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
                   <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
                   <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
               </div>
             </div>
-          </div>
-          
 
-        <div class="column3">
-          <div
-            class="abiola"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">Abiola</h4>
-              <p class="name-txtPara">Vulcanizer</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+            <div
+              class="ramon"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Ramon</h4>
+                <p class="name-txtPara">Welder</p>
               </div>
 
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
-              </div>
-            </div>
-          </div>
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
 
-          <div class="stephen"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">Stephen</h4>
-              <p class="name-txtPara">Painter</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-              </div>
-
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column4">
-          <div
-            class="james"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">James</h4>
-              <p class="name-txtPara">Electrician</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-              </div>
-
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                    <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                    <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
               </div>
             </div>
           </div>  
-          
 
-          <div
-            class="officer"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">Officer Wale</h4>
-              <p class="name-txtPara">Security Personnel</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+          <div class="column3">
+            <div
+              class="abiola"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Abiola</h4>
+                <p class="name-txtPara">Vulcanizer</p>
               </div>
 
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
+
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                  <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                  <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
+              </div>
+            </div>
+
+            <div class="stephen"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Stephen</h4>
+                <p class="name-txtPara">Painter</p>
+              </div>
+
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
+
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                  <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                  <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column4">
+            <div
+              class="james"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">James</h4>
+                <p class="name-txtPara">Electrician</p>
+              </div>
+
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
+
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                  <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                  <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
+              </div>
+            </div>  
+            
+
+            <div
+              class="officer"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Officer Wale</h4>
+                <p class="name-txtPara">Security Personnel</p>
+              </div>
+
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
+
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                  <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                  <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column5">
+            <div
+              class="julius"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Julius</h4>
+                <p class="name-txtPara">Car Washer</p>
+              </div>
+
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
+
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                  <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                  <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
+              </div>
+            </div>
+          
+            <div
+              class="hilda"
+            >
+              <div class="name-text">
+                <h4 class="name-txtHead">Hilda Baci</h4>
+                <p class="name-txtPara">Caterer</p>
+              </div>
+
+              <div class="star-wrap">
+                <div class="star">
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                  <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
+                </div>
+
+                <div class="MCL">
+                  <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
+                  <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
+                  <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        
 
-        <div class="column5">
-          <div
-            class="julius"
+        <div class="servProParaBox">
+          <a
+            href="find-services.html"
+            class="Alink-allserviceslink"
+            title="All services"
+            >Browse all our Wokas</a
           >
-            <div class="name-text">
-              <h4 class="name-txtHead">Julius</h4>
-              <p class="name-txtPara">Car Washer</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star-white.svg" class="starIcon" width="auto" height="auto" alt="star" />
-              </div>
-
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
-              </div>
-            </div>
-          </div>
-        
-          <div
-            class="hilda"
-          >
-            <div class="name-text">
-              <h4 class="name-txtHead">Hilda Baci</h4>
-              <p class="name-txtPara">Caterer</p>
-            </div>
-
-            <div class="star-wrap">
-              <div class="star">
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-                <img src="Icons/star_gold.svg" class="starIcon" width="auto" height="auto" alt="star" />
-              </div>
-
-              <div class="MCL">
-                <img src="Icons/messager.svg" class="MCLicon-mess" width="auto" height="auto" alt="messenger" />
-                <img src="Icons/phone.svg" class="MCLicon-call" width="auto" height="auto" alt="call-calling" />
-                <img src="Icons/lagos.svg" class="MCLicon-loca" width="auto" height="auto" alt="location" />
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer">
+    <footer>
       <div class="line-up">
         <div class="footer-nav">
 
@@ -728,15 +788,17 @@
         </div>
       </div>
 
-      <div class="line-down"></div>
-      <div class="logo-text">
-        <img
-          src="Images/final logo text 1.png"
-          class="wkhLogo"
-          alt="Logo"
-          width="auto"
-          height="auto"
-        />
+      <div class="line-down">
+        <div class="logo-text">
+          <img
+            src="Images/final logo text 1.png"
+            class="wkhLogo"
+            alt="Logo"
+            width="auto"
+            height="auto"
+          />
+        </div>
+
         <div class="copyright">
           <img
             src="Icons/mdi_copyright@2x.svg"
@@ -747,40 +809,19 @@
           />
           <div class="pRRtextbox">
             <p class="rightsreservedtext">
-              2024 wokaholik. All rights reserved
+              2024 Woka:Holik. All rights reserved
             </p>
           </div>
         </div>
 
         <div class="socials">
-          <img
-            src="Icons/mdi_instagram.png"
-            class="socialsIcon"
-            alt="instagram"
-            width="auto"
-            height="auto"
-          />
-          <img
-            src="Icons/mdi_twitter.png"
-            class="socialsIcon"
-            alt="Twitter"
-            width="auto"
-            height="auto"
-          />
-          <img
-            src="Icons/mdi_linkedin.png"
-            class="socialsIcon"
-            alt="Linkedin"
-            width="auto"
-            height="auto"
-          />
-          <img
-            src="Icons/ic_baseline-facebook.png"
-            class="socialsIcon"
-            alt="Facebook"
-            width="auto"
-            height="auto"
-          />
+          <i class="fa-brands fa-instagram"></i>
+
+          <i class="fa-brands fa-x-twitter"></i>
+          
+          <i class="fa-brands fa-linkedin-in"></i>
+
+          <i class="fa-brands fa-facebook"></i>
         </div>
       </div>
     </footer>

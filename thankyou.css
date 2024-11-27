@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+.thk-hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 28.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: cover;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.thk-txt {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 40vh;
+  width: 80vw;
+}
+
+.thkBox {
+  margin: auto;
+  width: 60vw;
+  height: 22vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Dongle", sans-serif;
+  color: #d62828;
+  font-size: 16vh;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.2vw;
+  line-height: 8vh;
+  text-align: center;
+}
+
+.heroYellow {
+  color: white;
+  font-size: 20vh;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.para-txtBox {
+  width: 50vw;
+  margin: auto;
+}
+
+.paraHeader {
+  font-family: "Dongle", sans-serif;
+  color: white;
+  font-size: 6vh;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 7vh;
+  text-align: center;
+  text-shadow: 1px 2px 5px black;
+}
+
+.backHome {
+  margin: auto;
+  margin-top: 10vh;
+}
+
+a.Alink-bckHme:link,
+a.Alink-bckHme:visited {
+  font-size: 4vh;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+}
+
+a.Alink-bckHme:hover,
+a.Alink-bckHme:active {
+  font-size: 4vh;
+  color: #ffc300;
+}

@@ -26,11 +26,17 @@ body {
 
 .logoBox {
   background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 
 .logo {
-  width: 19vw;
-  height: 18vh;
+  width: 15vw;
+  height: 15vh;
+}
+
+.navBox {
+  display: flex;
 }
 
 .navbar {
@@ -57,18 +63,21 @@ body {
 
 a.Alink-nav:link,
 a.Alink-nav:visited {
-  color: rgba(76, 76, 76, 0.881);
+  color: black;
   text-decoration: none;
   font-style: normal;
 }
 
-a.Alink-nav:hover {
+a.Alink-nav:hover:not(.active) {
   color: black;
   font-style: oblique;
 }
 
-a.Alink-nav:active {
+a.Alink-nav:active,
+.active {
   color: #d62828;
+  font-style: oblique;
+  text-decoration: none;
 }
 
 .loginBox {
@@ -76,7 +85,8 @@ a.Alink-nav:active {
   margin-left: 25vh;
 }
 
-#loginButton {
+a#loginButton:link,
+a#loginButton:visited {
   background-color: #b22121;
   color: white;
   text-decoration: none;
@@ -91,26 +101,35 @@ a.Alink-nav:active {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
+  padding-top: 0.5vh;
 }
 
-#loginButton:hover {
+a#loginButton:hover,
+a#loginButton:active {
   background-color: #8f1b1b;
   color: white;
   font-style: oblique;
 }
 
+.barsiconBox {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+  margin-right: 3rem;
+}
+
+.barsicon {
+  display: none;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 6vh;
+}
+
 .find-services-hero {
-  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: 30%;
-  background-position-y: 45%;
-  background-size: 100%;
-  background-origin: padding-box;
-  z-index: 0;
-  object-fit: cover;
-  object-position: 100% 100%;
-  height: 80vh;
+  background-color: white;
+  height: 90vh;
 }
 
 .f_hero-wrap {
@@ -155,7 +174,7 @@ h1 {
 }
 
 .f_input-wrap {
-  display: flex;
+  position: relative;
 }
 
 #searchservice {
@@ -170,29 +189,36 @@ h1 {
   font-family: "Dongle", sans-serif;
   font-size: 4vh;
   text-align: left;
-  color: rgb(211, 211, 211);
+  color: #4567b7;
   z-index: 3;
   box-shadow: 1px 2px 5px black;
 }
 
-.searchButton {
+a.searchButton:link,
+a.searchButton:visited {
   border: none;
   background-color: #4567b7;
   border-radius: 6px;
   height: 6vh;
   width: 3.5vw;
-  margin-left: -9.6vh;
-  margin-top: 1vh;
+  left: 44vw;
+  top: 1vh;
+  padding-left: 0.7vw;
+  padding-top: 0.7vh;
   z-index: 3;
+  position: absolute;
 }
 
-.searchButton:hover {
+a.searchButton:hover,
+a.searchButton:active {
   border: none;
   background-color: white;
   border-radius: 6px;
   height: 6vh;
-  margin-left: -9.6vh;
-  margin-top: 1vh;
+  left: 44vw;
+  top: 1vh;
+  padding-left: 0.7vw;
+  padding-top: 0.7vh;
   width: 3.5vw;
 }
 
@@ -216,7 +242,7 @@ h1 {
 .introObl {
   font-family: "Dongle", sans-serif;
   color: #4567b7;
-  font-size: 20vh;
+  font-size: 18vh;
   font-weight: 600;
   letter-spacing: 0.3rem;
   font-style: oblique;
@@ -230,6 +256,33 @@ h1 {
   width: 88vw;
   margin: auto;
   text-align: center;
+}
+
+h4 {
+  font-size: 5vh;
+  color: black;
+}
+
+.serviceGo {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.4vh;
+  font-weight: 500;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 8.5vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+}
+
+.serviceGo:hover {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
 }
 
 #any,
@@ -248,12 +301,13 @@ h1 {
 #home,
 #weld,
 #private {
-  color: #d62828;
+  color: #4567b7;
 }
 
 .servLabel {
   font-size: 5vh;
   margin-right: 2vw;
+  color: #4567b7;
 }
 
 .location {
@@ -372,7 +426,7 @@ h1 {
 
 .island {
   background-color: black;
-  width: 11vw;
+  width: 12vw;
   height: 6vh;
   border-radius: 3vh;
 }
@@ -405,16 +459,7 @@ h1 {
 }
 
 .hire {
-  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: 30%;
-  background-position-y: 45%;
-  background-size: 100%;
-  background-origin: padding-box;
-  z-index: 0;
-  object-fit: cover;
-  object-position: 100% 100%;
+  background-color: #4567b7;
   height: 130vh;
 }
 
@@ -426,7 +471,7 @@ h1 {
 .hire-heading {
   background-color: #ffc300;
   width: 51.5vw;
-  height: 15.5vh;
+  height: 15vh;
   margin: auto;
   margin-top: 6vh;
   padding: 2vw;
@@ -450,10 +495,11 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 90vw;
-  height: 100vh;
+  width: 80vw;
+  height: 80vh;
   margin: auto;
   margin-top: 7vh;
+  margin-right: 10vw;
 }
 
 .column1 {
@@ -480,6 +526,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-left: 1vw;
   justify-content: space-evenly;
 }
 
@@ -515,14 +562,29 @@ h1 {
   margin-right: 1.5vw;
 }
 
+.hannah:hover {
+  background-image: url("Images/Rectangle 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1.5vw;
+}
+
 .name-text {
-  color: white;
   width: 13vw;
-  margin-top: 20vh;
+  margin-top: 15vh;
   margin-left: 1vw;
 }
 
 .name-txtHead {
+  color: white;
   font-size: 6vh;
   letter-spacing: 0.3rem;
   font-style: oblique;
@@ -531,6 +593,7 @@ h1 {
 }
 
 .name-txtPara {
+  color: white;
   font-size: 4.1vh;
   line-height: 4vh;
   text-shadow: 1px 2px 5px black;
@@ -544,8 +607,8 @@ h1 {
 }
 
 .star {
-  width: 15vw;
-  height: 5vh;
+  width: 13vw;
+  height: 4vh;
   margin: auto;
   display: flex;
 }
@@ -560,8 +623,7 @@ h1 {
   height: 7vh;
   display: flex;
   justify-content: space-evenly;
-  align-self: flex-end;
-  margin-right: 1vh;
+  margin: auto;
 }
 
 .MCLicon-mess {
@@ -591,6 +653,21 @@ h1 {
   margin-right: 1vw;
 }
 
+.coach:hover {
+  background-image: url("Images/Rectangle 13.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1vw;
+}
+
 .aminat {
   background-image: url("Images/Rectangle 6.png");
   background-position: center;
@@ -600,6 +677,21 @@ h1 {
   height: 240px;
   border-radius: 2.4rem;
   border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1.5vw;
+}
+
+.aminat:hover {
+  background-image: url("Images/Rectangle 6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
   display: inline;
   box-shadow: 1px 2px 5px black;
   margin-right: 1.5vw;
@@ -619,6 +711,21 @@ h1 {
   margin-right: 1.5vw;
 }
 
+.ramon:hover {
+  background-image: url("Images/Rectangle 12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 1.5vw;
+}
+
 .abiola {
   background-image: url("Images/Rectangle 5-1.png");
   background-position: center;
@@ -628,6 +735,20 @@ h1 {
   height: 240px;
   border-radius: 2.4rem;
   border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+}
+
+.abiola:hover {
+  background-image: url("Images/Rectangle 5-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
   display: inline;
   box-shadow: 1px 2px 5px black;
 }
@@ -645,6 +766,20 @@ h1 {
   box-shadow: 1px 2px 5px black;
 }
 
+.stephen:hover {
+  background-image: url("Images/Rectangle 11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+}
+
 .james {
   background-image: url("Images/Rectangle 7.png");
   background-position: center;
@@ -654,6 +789,21 @@ h1 {
   height: 240px;
   border-radius: 2.4rem;
   border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 1vw;
+}
+
+.james:hover {
+  background-image: url("Images/Rectangle 7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
   display: inline;
   box-shadow: 1px 2px 5px black;
   margin-left: 1vw;
@@ -673,6 +823,21 @@ h1 {
   margin-left: 1vw;
 }
 
+.officer:hover {
+  background-image: url("Images/Rectangle 10.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 1vw;
+}
+
 .julius {
   background-image: url("Images/Rectangle 8.png");
   background-position: center;
@@ -682,6 +847,21 @@ h1 {
   height: 240px;
   border-radius: 2.4rem;
   border: 2px solid white;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 2vw;
+}
+
+.julius:hover {
+  background-image: url("Images/Rectangle 8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
   display: inline;
   box-shadow: 1px 2px 5px black;
   margin-left: 2vw;
@@ -701,7 +881,48 @@ h1 {
   margin-left: 2vw;
 }
 
-.footer {
+.hilda:hover {
+  background-image: url("Images/Rectangle 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 215px;
+  height: 255px;
+  transition: ease-in-out 0.5s;
+  border-radius: 2.4rem;
+  border: 3px solid #ffc300;
+  display: inline;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 2vw;
+}
+
+.servProParaBox {
+  margin: auto;
+  margin-top: 85vh;
+  margin-left: -15vw;
+}
+
+a.Alink-allserviceslink:link,
+a.Alink-allserviceslink:visited {
+  color: #ffc300;
+  text-decoration: none;
+  text-align: center;
+  font-size: 6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+  margin: auto;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-allserviceslink:hover,
+a.Alink-allserviceslink:active {
+  color: white;
+  font-style: oblique;
+}
+
+footer {
   background-color: #4567b7;
   height: 107vh;
 }
@@ -807,11 +1028,19 @@ a.Alink-emailnum:active {
   letter-spacing: 0.1rem;
 }
 
-.logo-text {
+.line-down {
+  width: 70vw;
+  height: 30vh;
   display: flex;
   flex-direction: row;
+  margin: auto;
+  margin-bottom: 0vh;
+  background-color: #4567b7;
   justify-content: space-between;
-  width: 86vw;
+}
+
+.logo-text {
+  width: 20vw;
   margin: auto;
   margin-top: 8vh;
 }
@@ -825,7 +1054,10 @@ a.Alink-emailnum:active {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  margin-top: 15vh;
+  margin-top: 20vh;
+  margin: auto;
+  margin-left: -3vw;
+  width: 23vw;
 }
 
 .copyrightIcon {
@@ -848,14 +1080,14 @@ a.Alink-emailnum:active {
 .socials {
   display: flex;
   flex-direction: row;
-  height: 10vh;
-  width: 12vw;
-  margin-top: 7vh;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 12vh;
   justify-content: space-between;
 }
 
-.socialsIcon {
-  width: 28px;
-  height: 28px;
+.fa-brands {
+  width: 30px;
+  height: 30px;
   color: white;
 }
