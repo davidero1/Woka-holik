@@ -219,8 +219,8 @@ a.searchButton:active {
 }
 
 .searchIcon {
-  width: 1.8vw;
-  height: 4vh;
+  width: 4vw;
+  height: 3.4vh;
 }
 
 .para-txtBox {
@@ -898,7 +898,7 @@ a.Alink-allserviceslink:visited {
   color: #ffc300;
   text-decoration: none;
   text-align: center;
-  font-size: 4vh;
+  font-size: 2.7vh;
   font-style: normal;
   letter-spacing: 0.3vw;
   margin: auto;

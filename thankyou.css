@@ -45,30 +45,30 @@ body {
 
 h1 {
   color: #d62828;
-  font-size: 16vh;
+  font-size: 7vh;
   font-style: normal;
-  letter-spacing: 0.2vw;
+  letter-spacing: 0.1rem;
   line-height: 8vh;
   text-align: center;
 }
 
 .heroYellow {
   color: white;
-  font-size: 20vh;
+  font-size: 7.7vh;
   font-weight: 600;
   font-style: oblique;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
   text-shadow: 1px 2px 5px black;
 }
 
 .para-txtBox {
-  width: 50vw;
+  width: 75vw;
   margin: auto;
 }
 
 .paraHeader {
   color: white;
-  font-size: 6vh;
+  font-size: 3vh;
   font-style: normal;
   line-height: 7vh;
   text-align: center;
@@ -82,14 +82,16 @@ h1 {
 
 a.Alink-bckHme:link,
 a.Alink-bckHme:visited {
-  font-size: 4vh;
+  font-size: 3vh;
   color: white;
+  font-style: normal;
   text-decoration: none;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
 a.Alink-bckHme:hover,
 a.Alink-bckHme:active {
-  font-size: 4vh;
+  font-size: 3vh;
+  font-style: oblique;
   color: #ffc300;
 }
