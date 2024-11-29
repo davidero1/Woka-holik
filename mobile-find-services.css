@@ -45,19 +45,6 @@
     display: none;
   }
 
-  .logoBox {
-    background-color: white;
-    width: 36vw;
-    height: 16vh;
-    margin-top: -1vh;
-    padding-left: 2vh;
-  }
-
-  .logo {
-    width: 32vw;
-    margin-top: -2vh;
-  }
-
   .navbar {
     list-style: none;
     display: none;
@@ -140,6 +127,7 @@
     width: 7vw;
     height: 12vh;
     margin-right: 5vw;
+    margin-top: 3vh;
   }
 
   .barsicon {
@@ -169,27 +157,27 @@
     width: 80vw;
     height: 30vh;
     text-align: left;
-    margin-top: 0vh;
+    margin-top: 5vh;
     margin-left: 5vw;
     padding-top: 3vh;
   }
 
   h1 {
     color: black;
-    font-size: 11vh;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 0.2vw;
-    line-height: 9vh;
+    font-size: 5.7vh;
+    letter-spacing: 0.1rem;
+    line-height: 7vh;
     text-align: left;
+    font-weight: 500;
   }
 
   .heroYellow {
     color: #ffc300;
+    font-size: 7vh;
     font-weight: 600;
     font-style: oblique;
     letter-spacing: 0.3rem;
-    text-shadow: 1px 2px 5px black;
+    text-shadow: 1px 2px 5px #4567b7;
   }
 
   .searchBox {
@@ -214,7 +202,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2vh;
     text-align: left;
     color: #4567b7;
     z-index: 3;
@@ -259,21 +247,20 @@
   .para-txt {
     color: #d62828;
     font-weight: 300;
-    font-size: 6vh;
-    font-style: normal;
+    font-size: 3.3vh;
     line-height: 4vh;
   }
 
   .introObl {
     color: #4567b7;
-    font-size: 14vh;
+    font-size: 7vh;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     font-style: oblique;
     text-align: left;
-    line-height: 13vh;
+    line-height: 7vh;
     height: 26vh;
-    margin-top: -3vh;
+    margin-top: 1vh;
   }
 
   .services {
@@ -284,7 +271,10 @@
   }
 
   h4 {
-    font-size: 5vh;
+    font-size: 3vh;
+    color: black;
+    text-align: left;
+    padding-bottom: 2vh;
   }
 
   .serviceGo {
@@ -292,7 +282,7 @@
     background-color: #b22121;
     color: white;
     text-decoration: none;
-    font-size: 4.4vh;
+    font-size: 2.4vh;
     font-weight: 500;
     font-style: normal;
     border-radius: 1.2rem;
@@ -329,8 +319,8 @@
   }
 
   .servLabel {
-    font-size: 4.8vh;
-    margin-right: 6vw;
+    font-size: 2.6vh;
+    margin-right: 3vw;
   }
 
   .location {
@@ -367,9 +357,9 @@
   .location-heading {
     color: white;
     text-align: left;
-    font-size: 11vh;
+    font-size: 6vh;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     font-style: oblique;
     text-shadow: 1px 2px 5px black;
     padding-top: 5vh;
@@ -391,7 +381,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2.5vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 3;
@@ -420,8 +410,8 @@
   }
 
   .searchIcon {
-    width: 1.8vw;
-    height: 4vh;
+    width: 4vw;
+    height: 3.7vh;
     margin: auto;
   }
 
@@ -468,7 +458,7 @@
 
   .areaSpantext {
     color: white;
-    font-size: 4vh;
+    font-size: 2.2vh;
     line-height: 0.3rem;
     text-align: left;
     margin-top: -2vh;
@@ -510,7 +500,7 @@
     margin: auto;
     line-height: 5vh;
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
     color: white;
     display: inline-block;
     text-shadow: 1px 2px 5px black;
@@ -598,15 +588,15 @@
   }
 
   .name-txtHead {
-    font-size: 6vh;
-    letter-spacing: 0.3rem;
+    font-size: 3.6vh;
+    letter-spacing: 0.1rem;
     font-style: oblique;
-    line-height: 4vh;
+    line-height: 3vh;
     text-shadow: 1px 2px 5px black;
   }
 
   .name-txtPara {
-    font-size: 4.1vh;
+    font-size: 2.4vh;
     line-height: 4vh;
     text-shadow: 1px 2px 5px black;
   }
@@ -875,10 +865,10 @@
     color: #ffc300;
     text-decoration: none;
     text-align: center;
-    font-size: 6vh;
+    font-size: 2.7vh;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.1rem;
     margin: auto;
     text-shadow: 1px 2px 5px black;
     position: absolute;
@@ -905,14 +895,12 @@
   .footer-nav {
     display: flex;
     flex-direction: column;
-    width: 87vw;
     height: 190vh;
-    background-color: #4567b7;
+    width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.88px solid white;
   }
 
   .company,
@@ -931,7 +919,7 @@
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -946,7 +934,7 @@
   }
 
   .footli {
-    font-size: 4.2vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -976,7 +964,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -989,7 +977,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -999,43 +987,41 @@
   }
 
   .line-down {
-    width: 96vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    margin-bottom: 0vh;
-    background-color: #4567b7;
+    margin-top: 10vh;
   }
 
   .logo-text {
     width: 60vw;
-    height: 28vh;
+    height: 30vh;
     margin: auto;
-    margin-top: 6vh;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 100px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
-    width: 55vw;
-    margin-bottom: 7vh;
+    width: 70vw;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -1047,15 +1033,14 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 3.9vh;
+    font-size: 1.7vh;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
     height: 7vh;
-    width: 60vw;
-    margin-top: 10vh;
+    width: 40vw;
     justify-content: space-between;
     margin: auto;
     order: 0;

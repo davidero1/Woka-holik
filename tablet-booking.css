@@ -30,31 +30,19 @@
 
   .logoBox {
     background-color: white;
-    width: 35vw;
-    height: 15vh;
-    margin-top: 4vh;
+    width: 36vw;
+    height: 16vh;
     padding-left: 2vh;
+    margin-top: 5vh;
   }
 
   .logo {
-    width: 23vw;
+    width: 25vw;
+    height: 11vh;
   }
 
   .navBox {
     display: none;
-  }
-
-  .logoBox {
-    background-color: white;
-    width: 36vw;
-    height: 16vh;
-    margin-top: -1vh;
-    padding-left: 2vh;
-  }
-
-  .logo {
-    width: 32vw;
-    margin-top: -2vh;
   }
 
   .navbar {
@@ -155,7 +143,7 @@
   .booking-hero {
     display: flex;
     flex-direction: column;
-    height: 140vh;
+    height: 120vh;
     background-color: white;
   }
 
@@ -181,11 +169,11 @@
 
   h1 {
     color: white;
-    font-size: 9vh;
+    font-size: 4.8vh;
     font-style: normal;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1rem;
     line-height: 6.6vh;
-    text-align: center;
+    font-weight: 500;
     text-align: left;
     height: 19vh;
     text-shadow: 1px 2px 5px black;
@@ -205,15 +193,15 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 4.8vh;
+    font-size: 2.8vh;
     font-style: normal;
     border-radius: 1.2rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     width: 35vw;
     height: 7.5vh;
     border: none;
     text-align: center;
-    padding-top: 0.5vh;
+    padding-top: 1.2vh;
   }
 
   a#bookButton:hover,
@@ -256,7 +244,7 @@
     border: 1.5px solid #4567b7;
     border-radius: 3rem;
     width: 86vw;
-    height: 66vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -265,7 +253,10 @@
   }
 
   .calHeading {
-    font-size: 5.6vh;
+    font-size: 4vh;
+    letter-spacing: 0.1rem;
+    margin-top: 1vh;
+    margin-left: 1vw;
     text-align: center;
   }
 
@@ -287,47 +278,40 @@
   .date-days {
     text-align: center;
     border: 2px solid white;
-    width: 9vw;
+    width: 6vw;
     height: auto;
     margin-left: 1.5rem;
     margin-top: 1rem;
-    font-size: 4vh;
+    font-size: 2vh;
     color: rgba(76, 76, 76, 0.881);
   }
 
   .date-days:hover {
     text-align: center;
     border-bottom: 3px solid #d62828;
-    width: 9vw;
+    width: 6vw;
     height: auto;
     margin-left: 1.5rem;
     margin-top: 1rem;
-    font-size: 4vh;
+    font-size: 2vh;
     color: rgba(76, 76, 76, 0.881);
   }
 
   .date-days:active {
     text-align: center;
     border-bottom: 3px solid #d62828;
-    width: 9vw;
+    width: 6vw;
     height: auto;
     margin-left: 1.5rem;
     margin-top: 1rem;
-    font-size: 4vh;
+    font-size: 2vh;
     color: rgba(76, 76, 76, 0.881);
   }
 
   .date-no {
     color: black;
     margin-top: 0vh;
-    font-size: 5.5vh;
-  }
-
-  .calHeading {
-    font-size: 6.6vh;
-    letter-spacing: 0.2rem;
-    margin-top: 1vh;
-    margin-left: 1vw;
+    font-size: 3.6vh;
   }
 
   .payment {
@@ -341,18 +325,19 @@
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%; */
-    height: 130vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
   }
 
   .progress {
-    width: 40vw;
+    width: 35vw;
     height: 35vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 2vh;
   }
 
   .payment-form {
@@ -367,8 +352,8 @@
   }
 
   .paymentHeading {
-    font-size: 7vh;
-    letter-spacing: 0.3rem;
+    font-size: 4vh;
+    letter-spacing: 0.1rem;
   }
 
   .faded-line {
@@ -378,18 +363,18 @@
   }
 
   .paymentsubHeading {
-    font-size: 4vh;
+    font-size: 2.5vh;
     font-weight: 300;
   }
 
   .numberIcon {
-    height: 16vh;
+    height: 15vh;
     display: inline-block;
     padding-top: 4vh;
   }
 
   .numberIcon4 {
-    height: 16vh;
+    height: 15vh;
     display: inline-block;
     padding-top: 4vh;
     margin-right: 4vw;
@@ -405,8 +390,9 @@
   }
 
   .formL {
-    font-size: 3.8vh;
+    font-size: 2.4vh;
     margin-right: 1vw;
+    margin-top: 1vh;
   }
 
   #cardName {
@@ -418,7 +404,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 3;
@@ -434,7 +420,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 3;
@@ -451,7 +437,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 1vw;
-    font-size: 4vh;
+    font-size: 2vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 3;
@@ -468,7 +454,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 1vw;
-    font-size: 4vh;
+    font-size: 2vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 3;
@@ -476,7 +462,10 @@
   }
 
   .fSlash {
-    font-size: 6vh;
+    font-size: 3vh;
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 
   .cName {
@@ -536,7 +525,7 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 4.4vh;
+    font-size: 2.4vh;
     font-style: normal;
     border-radius: 1.1rem;
     width: 40vw;
@@ -607,15 +596,14 @@
   }
 
   .balanceHeading {
-    font-size: 7vh;
+    font-size: 5vh;
     color: black;
   }
 
   .balancePara {
-    font-size: 4.4vh;
+    font-size: 3vh;
     color: white;
-    line-height: 4vh;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
     text-shadow: 1px 2px 5px black;
   }
 
@@ -624,21 +612,21 @@
     color: #d62828;
     text-decoration: none;
     display: inline-block;
-    font-size: 4vh;
+    font-size: 2.7vh;
     font-style: normal;
-    margin-bottom: 3vh;
   }
 
   a.Alink-cBlink:hover,
   a.Alink-cBlink:active {
-    color: #8f1b1b;
+    color: white;
     font-style: oblique;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px black;
   }
 
   .orTxt {
-    font-size: 4vh;
+    font-size: 2.5vh;
   }
 
   footer {
@@ -656,18 +644,16 @@
   .footer-nav {
     display: flex;
     flex-direction: column;
-    width: 87vw;
     height: 190vh;
-    background-color: #4567b7;
+    width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.88px solid white;
   }
 
   .company,
-  .servicesFoot,
+  .services,
   .support {
     width: 50vw;
     height: 42vh;
@@ -675,14 +661,14 @@
 
   .legal {
     width: 60vw;
-    height: 40vh;
+    height: 42vh;
   }
 
   .footerHeading {
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -697,7 +683,7 @@
   }
 
   .footli {
-    font-size: 4.2vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -727,7 +713,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -740,7 +726,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -750,39 +736,41 @@
   }
 
   .line-down {
-    width: 90vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    background-color: #4567b7;
+    margin-top: 10vh;
   }
 
   .logo-text {
-    width: 55vw;
-    height: 27vh;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 108px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
-    width: 55vw;
+    width: 70vw;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -794,15 +782,14 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 3.9vh;
+    font-size: 1.7vh;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
     height: 7vh;
-    width: 60vw;
-    margin-top: 10vh;
+    width: 40vw;
     justify-content: space-between;
     margin: auto;
     order: 0;

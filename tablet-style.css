@@ -35,14 +35,15 @@
 
   .logoBox {
     background-color: white;
-    width: 35vw;
-    height: 15vh;
-    margin-top: 4vh;
+    width: 36vw;
+    height: 16vh;
     padding-left: 2vh;
+    margin-top: 5vh;
   }
 
   .logo {
-    width: 23vw;
+    width: 25vw;
+    height: 11vh;
   }
 
   .navbar {
@@ -98,7 +99,8 @@
     margin-left: 25vh;
   }
 
-  #loginButton {
+  a#loginButton:link,
+  a#loginButton:visited {
     background-color: #b22121;
     color: white;
     text-decoration: none;
@@ -114,19 +116,25 @@
     margin-top: 4.8vh;
   }
 
-  #loginButton:hover {
+  a#loginButton:hover,
+  a#loginButton:active {
     background-color: #8f1b1b;
     color: white;
     font-style: oblique;
   }
 
-  .barsiconBox {
+  .barsIconBox {
     display: flex;
+    background-color: white;
+    width: 7vw;
+    height: 12vh;
+    margin-right: 5vw;
   }
 
   .barsicon {
-    margin-right: 2rem;
-    margin-top: 3vh;
+    display: inline-block;
+    margin-top: 0vh;
+    padding-top: 4vh;
   }
 
   .fa-solid {
@@ -135,63 +143,63 @@
   }
 
   .hero {
-    height: 100vh;
-    padding-top: 0vh;
+    background-color: white;
+    height: 80vh;
   }
 
   .hero-div-wrap {
     display: flex;
     flex-direction: column;
-    height: 45vh;
+    height: 80vh;
     justify-content: space-between;
-    padding-bottom: 2vh;
   }
 
   .hero-text {
-    width: 75vw;
-    height: 40vh;
+    width: 85vw;
+    height: 60vh;
     text-align: left;
     margin-top: 0vh;
     margin-left: 5vw;
+    padding-top: 5vh;
   }
 
   h1 {
     color: black;
-    font-size: 7.4vh;
-    font-weight: 300;
+    font-size: 5.6vh;
+    font-weight: 500;
     font-style: normal;
     letter-spacing: 0.2vw;
-    line-height: 6vh;
+    line-height: 7vh;
   }
 
   .heroYellow {
     color: #ffc300;
     font-weight: 600;
     font-style: oblique;
+    letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
 
   .paraHeaderBox {
-    width: 83vw;
+    width: 85vw;
     margin: auto;
-    padding-top: 2vh;
+    margin-top: 1vh;
   }
 
   .paraHeader {
     color: black;
-    font-size: 4vh;
-    font-weight: 100;
+    font-size: 3vh;
+    font-weight: 400;
     font-style: normal;
-    line-height: 4vh;
+    line-height: 5vh;
     text-align: left;
   }
 
   .searchBox {
     display: flex;
     flex-direction: row;
-    width: 59vw;
-    height: 7vh;
-    margin-top: -3vh;
+    width: 80vw;
+    height: 8vh;
     margin-left: 5vw;
   }
 
@@ -200,15 +208,15 @@
   }
 
   #search {
-    width: 70vw;
-    height: 6vh;
+    width: 80vw;
+    height: 7vh;
     display: flex;
     background-color: rgba(255, 255, 255, 0.968);
     margin: auto;
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2.4vh;
     text-align: left;
     color: #4567b7;
     z-index: 3;
@@ -219,10 +227,11 @@
     border: none;
     background-color: #4567b7;
     border-radius: 6px;
-    height: 4.6vh;
-    width: 6.4vw;
-    margin-left: -6vh;
-    margin-top: 0.7vh;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: -7.7vh;
+    margin-top: 0.8vh;
+    padding-left: 1vw;
     z-index: 3;
   }
 
@@ -230,15 +239,15 @@
     border: none;
     background-color: white;
     border-radius: 6px;
-    height: 4.6vh;
-    width: 6.4vw;
-    margin-left: -6vh;
-    margin-top: 0.7vh;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: -7.7vh;
+    margin-top: 0.8vh;
   }
 
   .searchIcon {
-    width: 3.9vw;
-    height: 3vh;
+    width: 4vw;
+    height: 3.4vh;
   }
 
   .logoBack {
@@ -253,7 +262,7 @@
   }
 
   .intro {
-    height: 130vh;
+    height: 140vh;
     background-color: #4567b7;
     display: flex;
     flex-direction: row;
@@ -276,8 +285,9 @@
 
   .intro-img {
     margin: auto;
-    margin-top: 2vh;
     margin-left: 21vw;
+    padding-top: 0;
+    margin-top: 7vh;
   }
 
   .introImage {
@@ -286,22 +296,21 @@
   }
 
   .intro-textBox {
-    width: 80vw;
-    height: 96vh;
+    width: 60vw;
+    height: 90vh;
     z-index: 6;
     align-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
-    margin-left: 6vw;
     margin-top: 0vh;
     margin-bottom: 5vh;
   }
 
   .introHeader {
     color: white;
-    font-size: 12vh;
+    font-size: 7vh;
     font-weight: 300;
     font-style: normal;
     text-align: center;
@@ -318,17 +327,16 @@
   }
 
   .hintroBox {
-    width: 65vw;
-    height: 10vh;
+    width: 66vw;
+    height: 16vh;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1vh;
   }
 
   .minHeader {
     color: #d62828;
     font-weight: 300;
-    font-size: 7.3vh;
+    font-size: 4vh;
     font-style: normal;
     text-align: left;
   }
@@ -352,8 +360,8 @@
   .p2,
   .p3,
   .p4 {
-    font-size: 4vh;
-    text-align: left;
+    font-size: 2.8vh;
+    text-align: justify;
     color: white;
     text-shadow: 1px 2px 5px black;
     line-height: 4vh;
@@ -370,7 +378,7 @@
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 137vh;
+    height: 142vh;
   }
 
   .artisan-wrap {
@@ -403,20 +411,19 @@
   .artisan-minHeading {
     color: #d62828;
     font-weight: 300;
-    font-size: 7.3vh;
+    font-size: 4.5vh;
     font-style: normal;
     text-align: center;
   }
 
   .artisan-maxHeading {
     color: black;
-    font-size: 13vh;
-    font-weight: 600;
+    font-size: 8vh;
+    font-weight: 700;
     font-style: normal;
     text-align: center;
-    line-height: 13vh;
-    height: 26vh;
-    letter-spacing: 0.4rem;
+    line-height: 4vh;
+    height: 15vh;
   }
 
   .line {
@@ -438,18 +445,17 @@
   }
 
   .request {
-    font-size: 4vh;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 4vh;
+    font-size: 3vh;
+    font-weight: 600;
+    line-height: 5vh;
   }
 
   .inspection,
   .quote,
   .project {
-    font-size: 4vh;
-    line-height: 4vh;
-    font-weight: 300;
+    font-size: 2.7vh;
+    line-height: 5vh;
+    font-weight: 500;
     color: rgba(76, 76, 76, 0.881);
   }
 
@@ -457,6 +463,7 @@
     width: 81vw;
     height: 72.5vh;
     margin: auto;
+    padding-left: 2vh;
   }
 
   .phoneimg {
@@ -467,7 +474,7 @@
 
   .category {
     background-color: #ffc300;
-    height: 560vh;
+    height: 565vh;
     width: 96.7vw;
   }
 
@@ -481,10 +488,9 @@
   .category-heading {
     color: #4567b7;
     text-align: center;
+    font-size: 5.4vh;
     font-weight: 600;
     font-style: oblique;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
   }
 
   .service-provider-wrap {
@@ -569,7 +575,7 @@
   }
 
   .catsubHead {
-    font-size: 5vh;
+    font-size: 3vh;
     font-style: normal;
     letter-spacing: 0.3rem;
   }
@@ -579,7 +585,7 @@
     color: #d62828;
     text-decoration: none;
     display: inline-block;
-    font-size: 4vh;
+    font-size: 2.5vh;
     font-weight: 300;
     font-style: normal;
     margin-bottom: 3vh;
@@ -592,7 +598,7 @@
   }
 
   .servProParaBox {
-    width: 50vw;
+    width: 53vw;
     height: 5vh;
     margin: auto;
     margin-top: 1vh;
@@ -600,11 +606,10 @@
 
   a.Alink-allserviceslink:link,
   a.Alink-allserviceslink:visited {
-    font-size: 4vh;
+    font-size: 2.6vh;
     color: #4567b7;
     text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.1vw;
     margin: auto;
   }
 
@@ -641,23 +646,22 @@
   .expHeading {
     margin: auto;
     text-align: center;
-    font-size: 6vh;
+    font-size: 3vh;
     display: inline-block;
     width: 90vw;
     height: 20vh;
-    line-height: 5.4vh;
+    line-height: 5vh;
     padding-bottom: 2vh;
     padding-top: 0vh;
   }
 
   .expSpan {
     color: #ffc300;
-    font-size: 11vh;
+    font-size: 6vh;
     font-weight: 600;
     font-style: oblique;
-    text-shadow: 1px 2px 5px black;
-    letter-spacing: 0.3rem;
-    line-height: 8vh;
+    letter-spacing: 0.1rem;
+    line-height: 5vh;
   }
 
   .experience-wrap {
@@ -705,18 +709,18 @@
   }
 
   .review-name {
-    font-size: 7.7vh;
+    font-size: 4vh;
     text-align: center;
     font-weight: 300;
   }
 
   .review-status {
-    font-size: 5vh;
+    font-size: 3vh;
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.3vw;
     font-style: oblique;
-    margin-top: -3vh;
+    margin-top: 1vh;
   }
 
   .reviewText {
@@ -726,7 +730,7 @@
   }
 
   .review-para {
-    font-size: 4vh;
+    font-size: 2.3vh;
     line-height: 4vh;
     text-align: justify;
   }
@@ -744,7 +748,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 80vw;
+    width: 83vw;
     height: 33vh;
     margin-bottom: 5vh;
   }
@@ -754,17 +758,16 @@
     text-align: center;
     padding-top: 2vh;
     padding-bottom: 1vh;
-    font-size: 7vh;
+    font-size: 4.4vh;
     color: black;
   }
 
   .subPara {
-    font-size: 4vh;
+    font-size: 2.5vh;
     text-align: center;
     line-height: 4vh;
     color: black;
-    font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
   }
 
   .pHyellow {
@@ -776,8 +779,7 @@
   }
 
   .email-wrap {
-    display: flex;
-    flex-direction: row;
+    position: relative;
     width: 80vw;
     margin: auto;
   }
@@ -791,43 +793,46 @@
     border-radius: 7px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2.2vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 0;
     box-shadow: 1px 2px 5px black;
   }
 
-  #subButton {
+  a#subButton:link,
+  a#subButton:visited {
     background-color: #b22121;
     color: white;
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 2.3vh;
     font-weight: 500;
     font-style: normal;
     border-radius: 0.8rem;
     width: 20vw;
-    height: 6vh;
+    height: 5.7vh;
     border: none;
     text-align: center;
     z-index: 1;
-    margin-left: -22vw;
-    margin-top: 0.5vh;
+    position: absolute;
+    left: 59vw;
+    padding-top: 1.1vh;
   }
 
-  #subButton:hover {
+  a#subButton:hover,
+  a#subButton:active {
     background-color: #8f1b1b;
     color: white;
     text-decoration: none;
-    display: inline-block;
-    font-size: 4vh;
+    font-size: 2.3vh;
     font-weight: 500;
     font-style: oblique;
     border-radius: 0.8rem;
     width: 20vw;
-    height: 6vh;
+    height: 5.7vh;
     border: none;
     text-align: center;
+    left: 59vw;
   }
 
   footer {
@@ -844,7 +849,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: #4567b7;
   }
 
   .app-img {
@@ -873,14 +878,13 @@
 
   .app-textBoxHeading {
     height: 15vh;
-    width: 88vw;
+    width: 85vw;
     margin: auto;
   }
 
   .appHeading {
-    font-size: 7vh;
-    font-style: normal;
-    font-weight: 300;
+    font-size: 3vh;
+    font-weight: 500;
     color: white;
     text-align: center;
     line-height: 6vh;
@@ -891,29 +895,29 @@
   .nowRed {
     color: #d62828;
     font-weight: 600;
-    font-size: 7vh;
+    font-size: 3.6vh;
     font-style: oblique;
     letter-spacing: 0.3rem;
   }
 
   .appSpan {
-    font-size: 11vh;
+    font-size: 5vh;
     font-style: oblique;
     font-weight: 600;
-    letter-spacing: 0.4vw;
+    letter-spacing: 0.1vw;
     color: #ffc300;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.1rem;
     text-shadow: 1px 2px 5px black;
   }
 
   .app-textBoxPara {
-    width: 88vw;
+    width: 77vw;
     height: 16vh;
     margin: auto;
   }
 
   .appPara {
-    font-size: 5vh;
+    font-size: 3vh;
     text-align: left;
     line-height: 5vh;
     color: white;
@@ -928,6 +932,7 @@
     width: 83vw;
     justify-content: space-between;
     margin-top: 2vh;
+    margin: auto;
   }
 
   .downloadGplay {
@@ -938,11 +943,11 @@
 
   h6 {
     color: black;
-    font-size: 4vh;
+    font-size: 2.5vh;
     font-weight: 300;
     display: inline-flex;
     margin: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
   }
 
   .appIconBox {
@@ -956,7 +961,8 @@
     width: 22px;
     height: 22px;
     color: white;
-    margin-left: -3vw;
+    margin-left: -5vw;
+    margin-top: 0.5vh;
   }
 
   .appIcon:hover {
@@ -1019,7 +1025,7 @@
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -1034,7 +1040,7 @@
   }
 
   .footli {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -1064,7 +1070,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -1077,7 +1083,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -1087,42 +1093,41 @@
   }
 
   .line-down {
-    width: 95vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 0vh;
+    margin-top: 10vh;
   }
 
   .logo-text {
     width: 60vw;
-    height: 28vh;
+    height: 30vh;
     margin: auto;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 108px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
     width: 70vw;
-    margin-bottom: 17vh;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -1134,7 +1139,7 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 4vh;
+    font-size: 1.7vh;
   }
 
   .socials {
@@ -1142,7 +1147,6 @@
     flex-direction: row;
     height: 7vh;
     width: 40vw;
-    margin-top: 7vh;
     justify-content: space-between;
     margin: auto;
     order: 0;

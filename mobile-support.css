@@ -45,19 +45,6 @@
     display: none;
   }
 
-  .logoBox {
-    background-color: white;
-    width: 36vw;
-    height: 16vh;
-    margin-top: -1vh;
-    padding-left: 2vh;
-  }
-
-  .logo {
-    width: 32vw;
-    margin-top: -2vh;
-  }
-
   .navbar {
     list-style: none;
     display: none;
@@ -163,7 +150,7 @@
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 78vh;
+    height: 70vh;
     /* background-color: #ffc300; */
     z-index: 0;
   }
@@ -171,7 +158,7 @@
   .hero-text {
     margin: auto;
     width: 90vw;
-    height: 28vh;
+    height: 20vh;
     text-align: center;
     z-index: 4;
     margin-top: -6vh;
@@ -179,16 +166,17 @@
 
   .headHeaderBox {
     margin: auto;
-    height: 13vh;
+    height: 8vh;
   }
 
   h1 {
     color: white;
-    font-size: 11vh;
+    font-size: 5.8vh;
     font-style: normal;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1rem;
     text-align: center;
-    line-height: 6.6vh;
+    line-height: 5vh;
+    font-weight: 500;
   }
 
   .heroYellow {
@@ -205,9 +193,9 @@
 
   .paraHeader {
     color: white;
-    font-size: 5.2vh;
+    font-size: 4vh;
     font-style: normal;
-    line-height: 7vh;
+    line-height: 4vh;
     text-align: center;
     text-shadow: 1px 2px 5px black;
   }
@@ -216,8 +204,8 @@
     display: flex;
     flex-direction: row;
     background-color: #4567b7;
-    width: 85vw;
-    height: 35vh;
+    width: 96.6vw;
+    height: 30vh;
     border-radius: 3vw;
     margin: auto;
     box-shadow: 1px 2px 5px black;
@@ -229,7 +217,7 @@
     display: flex;
     flex-direction: row;
     height: 17vh;
-    width: 75vw;
+    width: 85vw;
     justify-content: space-evenly;
     margin: auto;
     margin-left: 0vw;
@@ -247,13 +235,14 @@
 
   .termsIcon:hover {
     height: 18vh;
+    transition: ease-out 0.3s;
+    transition-delay: 0s;
     /* box-shadow: 1px 2px 5px black;
     border-radius: 1.2rem;
     padding: 1.5vh;
     background-color: black;
     border: 2.2px solid white;
-    transition: ease-out 0.3s;
-    transition-delay: 0s; */
+     */
   }
 
   #termsButton1,
@@ -326,6 +315,7 @@
     height: 266vh;
     display: flex;
     flex-direction: column;
+    margin-top: 0;
     /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -347,7 +337,8 @@
 
   .faqHeadingTxt {
     color: #4567b7;
-    font-size: 12vh;
+    font-size: 6vh;
+    font-weight: 600;
     font-style: normal;
     letter-spacing: 0.3rem;
     text-align: center;
@@ -356,7 +347,7 @@
 
   .faqParaTxt {
     color: #4567b7;
-    font-size: 5.6vh;
+    font-size: 3vh;
     font-style: normal;
     line-height: 4vh;
     text-align: center;
@@ -373,7 +364,7 @@
     height: 230vh;
     box-shadow: 1px 2px 5px black;
     background-color: rgb(255, 255, 255);
-    padding-left: 6vw;
+    padding-left: 3vw;
     margin-bottom: 14vh;
     border-radius: 4rem;
   }
@@ -388,7 +379,7 @@
 
   .usersHeadingTxt {
     display: block;
-    font-size: 6vh;
+    font-size: 3.6vh;
     text-align: left;
   }
 
@@ -402,7 +393,7 @@
 
   .FqB {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: #292d32;
     width: 440px;
     height: 49px;
@@ -412,9 +403,9 @@
 
   .FqB:hover {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: white;
-    width: 430px;
+    width: 440px;
     height: 49px;
     background-color: #ffc300;
     border-radius: 7px;
@@ -422,33 +413,37 @@
   }
 
   .faqIcon {
-    width: auto;
-    height: auto;
+    height: 4vh;
     color: black;
-    background-color: red;
     z-index: 8;
+    margin-left: 1vw;
+    margin-top: 1.4vh;
   }
 
   .qB {
-    font-size: 4vh;
+    font-size: 2.2vh;
     color: #292d32;
     padding-left: 3vw;
-    padding-top: 1.5vh;
+    padding-top: 2.1vh;
   }
 
-  .contact {
-    margin-top: 4vh;
+  .contact,
+  .self-help {
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1vh;
   }
+
   .faqContactHeading {
     color: #4567b7;
-    font-style: oblique;
-    font-weight: 600;
-    font-size: 6vh;
-    letter-spacing: 0.3rem;
+    font-size: 3.5vh;
+    letter-spacing: 0.1rem;
   }
 
   .faqContactPara {
-    font-size: 4vh;
+    font-size: 2.2vh;
     text-align: left;
     color: black;
     text-decoration: none;
@@ -461,10 +456,8 @@
     color: black;
     text-decoration: none;
     font-style: normal;
-    font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.4vh;
-    font-weight: 300;
+    font-size: 2.4vh;
     text-align: left;
   }
 
@@ -483,6 +476,7 @@
     color: black;
     font-weight: 600;
     margin-right: 1vw;
+    font-size: 2.6vh;
   }
 
   .get-better {
@@ -510,24 +504,25 @@
 
   .get-betterHeading {
     margin: auto;
-    line-height: 9vh;
-    text-align: right;
+    line-height: 4vh;
+    text-align: center;
     padding-top: 4vh;
     padding-bottom: 1vh;
-    font-size: 9vh;
+    font-size: 5vh;
     color: white;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     text-shadow: 1px 2px 5px black;
   }
 
   .get-betterPara {
     font-size: 4.4vh;
-    text-align: right;
-    line-height: 5vh;
+    text-align: center;
+    line-height: 4vh;
     color: white;
     font-style: normal;
     font-weight: 300;
+    padding-top: 2vh;
     text-shadow: 1px 2px 5px black;
   }
 
@@ -561,7 +556,7 @@
     background-color: rgba(255, 255, 255, 0.968);
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
-    font-size: 4vh;
+    font-size: 2.4vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 0;
@@ -574,7 +569,7 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 4vh;
+    font-size: 2.2vh;
     padding-top: 0.5vh;
     font-style: normal;
     border-radius: 1.1rem;
@@ -592,7 +587,7 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 4vh;
+    font-size: 2.2vh;
     padding-top: 0.5vh;
     font-style: oblique;
     border-radius: 1.1rem;
@@ -632,18 +627,16 @@
   .footer-nav {
     display: flex;
     flex-direction: column;
-    width: 87vw;
     height: 190vh;
-    background-color: #4567b7;
+    width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.88px solid white;
   }
 
   .company,
-  .servicesFoot,
+  .services,
   .support {
     width: 50vw;
     height: 42vh;
@@ -651,14 +644,14 @@
 
   .legal {
     width: 60vw;
-    height: 40vh;
+    height: 42vh;
   }
 
   .footerHeading {
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -673,7 +666,7 @@
   }
 
   .footli {
-    font-size: 4.2vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -703,7 +696,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -716,7 +709,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -726,39 +719,41 @@
   }
 
   .line-down {
-    width: 90vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    background-color: #4567b7;
+    margin-top: 10vh;
   }
 
   .logo-text {
-    width: 55vw;
-    height: 27vh;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 100px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
-    width: 55vw;
+    width: 70vw;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -770,15 +765,14 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 3.9vh;
+    font-size: 1.7vh;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
     height: 7vh;
-    width: 60vw;
-    margin-top: 10vh;
+    width: 40vw;
     justify-content: space-between;
     margin: auto;
     order: 0;

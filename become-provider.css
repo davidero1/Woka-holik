@@ -90,7 +90,7 @@ a#loginButton:visited {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
+  font-size: 2.4vh;
   font-style: normal;
   border-radius: 1.2rem;
   width: 8.5vw;
@@ -98,7 +98,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
-  padding-top: 0.5vh;
+  padding-top: 1.5vh;
 }
 
 a#loginButton:hover,
@@ -154,14 +154,15 @@ h1 {
   font-style: normal;
   line-height: 7vh;
   text-align: center;
+  font-weight: 500;
 }
 
 .heroYellow {
   color: #ffc300;
-  font-size: 8vh;
+  font-size: 7vh;
+  font-weight: 600;
   font-style: oblique;
-  letter-spacing: 0.3rem;
-  text-shadow: 1px 2px 5px black;
+  text-shadow: 1px 2px 5px #4567b7;
 }
 
 .introObl {
@@ -199,7 +200,7 @@ a.proButton:visited {
 
 a.proButton:hover,
 a.proButton:active {
-  border: 2px solid black;
+  border: 2px solid #ffc300;
   background-color: white;
   color: black;
   width: 15vw;
@@ -212,7 +213,7 @@ a.proButton:active {
 .proIcon {
   width: 2vw;
   height: 4.4vh;
-  margin-left: 3vh;
+  margin-left: 1vh;
 }
 
 .para-txtBox {
@@ -347,10 +348,8 @@ a.proButton:active {
   font-size: 7vh;
   font-style: normal;
   text-align: left;
-  line-height: 13vh;
+  line-height: 7vh;
   height: 26vh;
-  margin-top: 1vh;
-  letter-spacing: 0.4rem;
 }
 
 .how_to-write-up {
@@ -364,8 +363,7 @@ a.proButton:active {
 
 .introObl {
   font-style: oblique;
-  font-weight: 600;
-  letter-spacing: 0.4vw;
+  font-weight: 700;
 }
 
 .introYellow {
@@ -392,7 +390,7 @@ a.proButton:active {
 }
 
 .how_to-img {
-  margin-top: 31vh;
+  margin-top: 23.1vh;
 }
 
 .phoneimg {

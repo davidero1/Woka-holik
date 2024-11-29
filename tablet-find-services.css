@@ -28,33 +28,21 @@
     height: 18vh;
   }
 
-  .logoBox {
-    background-color: white;
-    width: 36vw;
-    height: 16vh;
-    padding-left: 2vh;
-    padding-top: 2vh;
-  }
-
-  .logo {
-    width: 23vw;
-  }
-
   .navBox {
     display: none;
   }
 
   .logoBox {
     background-color: white;
-    width: 35vw;
-    height: 15vh;
-    margin-top: 4vh;
+    width: 36vw;
+    height: 16vh;
     padding-left: 2vh;
+    margin-top: 5vh;
   }
 
   .logo {
-    width: 32vw;
-    margin-top: -2vh;
+    width: 25vw;
+    height: 11vh;
   }
 
   .navbar {
@@ -168,26 +156,27 @@
     width: 80vw;
     height: 30vh;
     text-align: left;
-    margin-top: 0vh;
+    margin-top: 5vh;
     margin-left: 5vw;
     padding-top: 3vh;
   }
 
   h1 {
     color: black;
-    font-size: 11vh;
-    font-style: normal;
-    letter-spacing: 0.2vw;
-    line-height: 9vh;
+    font-size: 5.7vh;
+    letter-spacing: 0.1rem;
+    line-height: 7vh;
     text-align: left;
+    font-weight: 500;
   }
 
   .heroYellow {
     color: #ffc300;
+    font-size: 7vh;
     font-weight: 600;
     font-style: oblique;
     letter-spacing: 0.3rem;
-    text-shadow: 1px 2px 5px black;
+    text-shadow: 1px 2px 5px #4567b7;
   }
 
   .searchBox {
@@ -197,6 +186,7 @@
     height: 8vh;
     margin-left: 5vw;
     margin: auto;
+    margin-top: -3vh;
   }
 
   .f_input-wrap {
@@ -212,7 +202,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2.4vh;
     text-align: left;
     color: #4567b7;
     z-index: 3;
@@ -254,21 +244,21 @@
 
   .para-txt {
     color: #d62828;
-    font-weight: 300;
-    font-size: 7vh;
+    font-weight: 500;
+    font-size: 3.3vh;
     font-style: normal;
     line-height: 7vh;
   }
 
   .introObl {
     color: #4567b7;
-    font-size: 15vh;
-    letter-spacing: 0.3rem;
+    font-size: 7vh;
+    letter-spacing: 0.1rem;
     font-style: oblique;
     text-align: left;
     line-height: 13vh;
     height: 26vh;
-    margin-top: -3vh;
+    margin-top: 1vh;
   }
 
   .services {
@@ -280,7 +270,10 @@
   }
 
   h4 {
-    font-size: 5vh;
+    font-size: 2.6vh;
+    color: black;
+    text-align: left;
+    padding-bottom: 2vh;
   }
 
   .serviceGo {
@@ -289,7 +282,7 @@
     color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 4.4vh;
+    font-size: 2.4vh;
     font-style: normal;
     border-radius: 1.2rem;
     width: 8.5vw;
@@ -325,8 +318,8 @@
   }
 
   .servLabel {
-    font-size: 4.8vh;
-    margin-right: 6vw;
+    font-size: 2.6vh;
+    margin-right: 3vw;
   }
 
   .location {
@@ -363,9 +356,9 @@
   .location-heading {
     color: white;
     text-align: left;
-    font-size: 11vh;
+    font-size: 6vh;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     font-style: oblique;
     text-shadow: 1px 2px 5px black;
     padding-top: 5vh;
@@ -387,7 +380,7 @@
     border-radius: 6px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 4vh;
+    font-size: 2.5vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 3;
@@ -416,8 +409,8 @@
   }
 
   .searchIcon {
-    width: 1.8vw;
-    height: 4vh;
+    width: 4vw;
+    height: 3.7vh;
     margin: auto;
   }
 
@@ -464,7 +457,7 @@
 
   .areaSpantext {
     color: white;
-    font-size: 4vh;
+    font-size: 2.2vh;
     line-height: 0.3rem;
     text-align: left;
     margin-top: -2vh;
@@ -505,11 +498,12 @@
 
   .hire-headingTxt {
     margin: auto;
-    line-height: 6vh;
+    line-height: 3vh;
     text-align: center;
-    font-size: 7vh;
+    font-size: 4vh;
     color: white;
     display: inline;
+    padding-left: 1vw;
     text-shadow: 1px 2px 5px black;
   }
 
@@ -596,15 +590,15 @@
   }
 
   .name-txtHead {
-    font-size: 6vh;
-    letter-spacing: 0.3rem;
+    font-size: 3.6vh;
+    letter-spacing: 0.1rem;
     font-style: oblique;
     line-height: 4vh;
     text-shadow: 1px 2px 5px black;
   }
 
   .name-txtPara {
-    font-size: 4.1vh;
+    font-size: 2.4vh;
     line-height: 4vh;
     text-shadow: 1px 2px 5px black;
   }
@@ -861,8 +855,11 @@
 
   .servProParaBox {
     margin: auto;
-    margin-top: 85vh;
-    margin-left: -15vw;
+    width: 50vw;
+    height: 10vh;
+    position: relative;
+    top: 200vh;
+    left: 7vw;
   }
 
   a.Alink-allserviceslink:link,
@@ -870,10 +867,10 @@
     color: #ffc300;
     text-decoration: none;
     text-align: center;
-    font-size: 6vh;
+    font-size: 2.7vh;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.1rem;
     margin: auto;
     text-shadow: 1px 2px 5px black;
   }
@@ -889,7 +886,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #4567b7;
-    height: 250vh;
+    height: 270vh;
   }
 
   .line-up {
@@ -899,14 +896,12 @@
   .footer-nav {
     display: flex;
     flex-direction: column;
-    width: 87vw;
     height: 190vh;
-    background-color: #4567b7;
+    width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.88px solid white;
   }
 
   .company,
@@ -925,7 +920,7 @@
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -940,7 +935,7 @@
   }
 
   .footli {
-    font-size: 4.2vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -970,7 +965,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -983,7 +978,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -993,43 +988,41 @@
   }
 
   .line-down {
-    width: 96vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    margin-bottom: 0vh;
-    background-color: #4567b7;
+    margin-top: 10vh;
   }
 
   .logo-text {
     width: 60vw;
-    height: 28vh;
+    height: 30vh;
     margin: auto;
-    margin-top: 6vh;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 108px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
-    width: 55vw;
-    margin-bottom: 7vh;
+    width: 70vw;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -1041,7 +1034,7 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 3.9vh;
+    font-size: 1.7vh;
   }
 
   .socials {
@@ -1049,7 +1042,6 @@
     flex-direction: row;
     height: 7vh;
     width: 40vw;
-    margin-top: 10vh;
     justify-content: space-between;
     margin: auto;
     order: 0;

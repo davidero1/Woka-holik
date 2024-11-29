@@ -140,6 +140,7 @@
     width: 7vw;
     height: 12vh;
     margin-right: 5vw;
+    margin-top: 3vh;
   }
 
   .barsicon {
@@ -188,19 +189,20 @@
 
   h1 {
     color: black;
-    font-size: 11vh;
+    font-size: 5vh;
     font-style: normal;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1vw;
     line-height: 7vh;
     text-align: center;
+    font-weight: 500;
   }
 
   .heroYellow {
     color: #ffc300;
-    font-size: 12vh;
+    font-size: 6vh;
     font-weight: 600;
     font-style: oblique;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     text-shadow: 1px 2px 5px black;
   }
 
@@ -211,7 +213,7 @@
 
   .paraHeader {
     color: black;
-    font-size: 4.8vh;
+    font-size: 3vh;
     font-style: normal;
     line-height: 5vh;
     text-align: center;
@@ -252,10 +254,10 @@
 
   .oTeamTxt {
     color: white;
-    font-size: 6vh;
+    font-size: 3.6vh;
     text-align: center;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     text-shadow: 1px 2px 5px black;
   }
 
@@ -282,11 +284,6 @@
     height: 325px;
     border-radius: 4vh;
     box-shadow: 1px 2px 5px black;
-    filter: grayscale(0%);
-  }
-
-  .imgBox {
-    order: 0;
   }
 
   .role {
@@ -300,7 +297,7 @@
 
   .rolePara {
     color: black;
-    font-size: 4.4vh;
+    font-size: 2.5vh;
     text-align: center;
   }
 
@@ -313,9 +310,9 @@
   }
 
   .bioBox-name {
-    font-size: 6vh;
+    font-size: 3.6vh;
     color: white;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     text-shadow: 1px 2px 5px black;
     line-height: 6vh;
   }
@@ -331,7 +328,7 @@
   }
 
   .bioBox-emailnum {
-    font-size: 4vh;
+    font-size: 2.4vh;
     color: #d62828;
   }
 
@@ -342,7 +339,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 3.5vh;
+    font-size: 2.2vh;
     text-align: left;
   }
 
@@ -358,7 +355,7 @@
     color: white;
     text-decoration: none;
     font-style: normal;
-    font-size: 3.5vh;
+    font-size: 2.1vh;
     text-align: left;
     letter-spacing: 0.1rem;
   }
@@ -399,12 +396,12 @@
   .mission-state,
   .vision-state {
     height: 60vh;
-    width: 60vw;
+    width: 66vw;
     margin: auto;
   }
 
   .mstextHeading {
-    font-size: 8vh;
+    font-size: 5vh;
     font-weight: 600;
     letter-spacing: 0rem;
     color: black;
@@ -418,7 +415,7 @@
     background-color: #ffff;
     border-radius: 50rem;
     margin: auto;
-    margin-left: -3vw;
+    margin-left: 0vw;
     border: 5px solid #cf9f01;
   }
 
@@ -429,13 +426,13 @@
     background-color: #ffff;
     border-radius: 50rem;
     margin: auto;
-    margin-left: -3vw;
+    margin-left: 0vw;
     border: 5px solid #cf9f01;
   }
 
   .mstextPara1 {
-    font-size: 4.4vh;
-    line-height: 4.8vh;
+    font-size: 2.5vh;
+    line-height: 5vh;
     text-align: center;
     padding-top: 13vh;
     padding-left: 3vw;
@@ -443,8 +440,8 @@
   }
 
   .mstextPara2 {
-    font-size: 4.4vh;
-    line-height: 4.8vh;
+    font-size: 2.5vh;
+    line-height: 5vh;
     text-align: center;
     padding-top: 6vh;
     padding-left: 3vw;
@@ -466,18 +463,16 @@
   .footer-nav {
     display: flex;
     flex-direction: column;
-    width: 87vw;
     height: 190vh;
-    background-color: #4567b7;
+    width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.88px solid white;
   }
 
   .company,
-  .servicesFoot,
+  .services,
   .support {
     width: 50vw;
     height: 42vh;
@@ -485,14 +480,14 @@
 
   .legal {
     width: 60vw;
-    height: 40vh;
+    height: 42vh;
   }
 
   .footerHeading {
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -507,7 +502,7 @@
   }
 
   .footli {
-    font-size: 4.2vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -537,7 +532,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -550,7 +545,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -560,39 +555,41 @@
   }
 
   .line-down {
-    width: 90vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    background-color: #4567b7;
+    margin-top: 10vh;
   }
 
   .logo-text {
-    width: 55vw;
-    height: 27vh;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 108px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
-    width: 55vw;
+    width: 70vw;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -604,15 +601,14 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 3.9vh;
+    font-size: 1.7vh;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
     height: 7vh;
-    width: 60vw;
-    margin-top: 10vh;
+    width: 40vw;
     justify-content: space-between;
     margin: auto;
     order: 0;

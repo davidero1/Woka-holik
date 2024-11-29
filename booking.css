@@ -90,7 +90,7 @@ a#loginButton:visited {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
+  font-size: 2.4vh;
   font-style: normal;
   border-radius: 1.2rem;
   width: 8.5vw;
@@ -98,7 +98,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
-  padding-top: 0.5vh;
+  padding-top: 1.8vh;
 }
 
 a#loginButton:hover,
@@ -154,6 +154,7 @@ h1 {
   font-style: normal;
   letter-spacing: 0.2vw;
   line-height: 6.6vh;
+  font-weight: 500;
   text-align: center;
   text-align: left;
   height: 19vh;
@@ -424,6 +425,9 @@ a#bookButton:active {
 
 .fSlash {
   font-size: 5vh;
+  padding-top: 1.8vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .cName {
@@ -578,6 +582,7 @@ a#bookButton:active {
   font-size: 3vh;
   color: white;
   line-height: 6vh;
+  margin-bottom: 3vh;
   text-shadow: 1px 2px 5px black;
 }
 
@@ -593,10 +598,11 @@ a.Alink-cBlink:visited {
 
 a.Alink-cBlink:hover,
 a.Alink-cBlink:active {
-  color: #8f1b1b;
+  color: white;
   font-style: oblique;
   font-weight: 600;
   letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
 }
 
 .orTxt {

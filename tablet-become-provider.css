@@ -33,28 +33,16 @@
     width: 36vw;
     height: 16vh;
     padding-left: 2vh;
-    padding-top: 2vh;
+    margin-top: 5vh;
   }
 
   .logo {
-    width: 23vw;
+    width: 25vw;
+    height: 11vh;
   }
 
   .navBox {
     display: none;
-  }
-
-  .logoBox {
-    background-color: white;
-    width: 35vw;
-    height: 15vh;
-    margin-top: 4vh;
-    padding-left: 2vh;
-  }
-
-  .logo {
-    width: 32vw;
-    margin-top: -2vh;
   }
 
   .navbar {
@@ -175,7 +163,7 @@
     justify-content: space-around;
     margin: auto;
     height: 63vh;
-    margin-top: 0vh;
+    margin-top: 2vh;
   }
 
   .head-txtBox {
@@ -183,25 +171,25 @@
     width: 80vw;
     height: 30vh;
     text-align: center;
-    z-index: 4;
+    margin-top: 4vh;
   }
 
   h1 {
     color: black;
-    font-size: 10vh;
-    font-style: normal;
-    letter-spacing: 0.2vw;
-    line-height: 9vh;
+    font-size: 5.7vh;
+    letter-spacing: 0.1rem;
+    line-height: 7vh;
     text-align: left;
+    font-weight: 500;
   }
 
   .heroYellow {
     color: #ffc300;
-    font-size: 12vh;
+    font-size: 7vh;
     font-weight: 600;
     font-style: oblique;
-    letter-spacing: 0.3rem;
-    text-shadow: 1px 2px 5px black;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px #4567b7;
   }
 
   .introObl {
@@ -229,17 +217,17 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-size: 4.4vh;
+    font-size: 2.4vh;
     font-style: normal;
     border-radius: 1.2rem;
     color: white;
     padding-left: 3vw;
-    padding-top: 0.4vh;
+    padding-top: 1.8vh;
   }
 
   a.proButton:hover,
   a.proButton:active {
-    border: 2px solid black;
+    border: 2px solid #ffc300;
     background-color: white;
     color: black;
     height: 8vh;
@@ -247,14 +235,14 @@
     transition: ease-out 0.5s;
     transition-delay: 0s;
     padding-left: 3vw;
-    padding-top: 0.4vh;
+    padding-top: 1.8vh;
   }
 
   .proIcon {
     width: 5vw;
     height: 4vh;
     margin-left: 3vh;
-    margin-top: 0.7vh;
+    margin-top: 0;
   }
 
   .para-txtBox {
@@ -264,7 +252,7 @@
 
   .paraHeader {
     color: black;
-    font-size: 4.3vh;
+    font-size: 2.8vh;
     font-style: normal;
     line-height: 5vh;
     text-align: left;
@@ -322,16 +310,15 @@
   }
 
   .watchTxt {
-    font-size: 4vh;
+    font-size: 2.2vh;
     color: white;
-    font-weight: 300;
   }
 
   .wwTyellow {
     color: #ffc300;
     font-style: oblique;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
   }
 
   .watchIcons {
@@ -343,7 +330,7 @@
   }
 
   .watchIcon {
-    height: 47px;
+    height: 45px;
   }
 
   .y_logo {
@@ -351,7 +338,7 @@
     display: flex;
     width: 10vw;
     height: 7vh;
-    margin-top: 0vh;
+    margin-top: -2vh;
   }
 
   .ytIcon {
@@ -360,7 +347,7 @@
   }
 
   .how-to {
-    height: 135vh;
+    height: 144.4vh;
     background-color: #ffc300;
     /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 21.png");
     background-repeat: no-repeat;
@@ -398,19 +385,19 @@
 
   .hired-minHeading {
     color: #d62828;
-    font-weight: 300;
-    font-size: 6vh;
+    font-weight: 500;
+    font-size: 4vh;
     font-style: normal;
   }
 
   .hired-maxHeading {
     color: #4567b7;
-    font-size: 10vh;
+    font-size: 6vh;
     font-style: normal;
     text-align: left;
-    line-height: 13vh;
+    line-height: 7vh;
     height: 26vh;
-    margin-top: -3vh;
+    margin-top: 2vh;
     letter-spacing: 0.4rem;
   }
 
@@ -424,8 +411,9 @@
 
   .introObl {
     font-style: oblique;
-    font-weight: 600;
-    letter-spacing: 0.4vw;
+    font-weight: 700;
+    font-size: 7vh;
+    letter-spacing: 0.1rem;
   }
 
   .introYellow {
@@ -439,16 +427,15 @@
   .take,
   .receive,
   .project {
-    font-size: 4.5vh;
-    font-weight: 500;
+    font-size: 2.7vh;
     text-align: justify;
-    color: rgba(76, 76, 76, 0.881);
-    font-weight: 300;
+    color: rgba(59, 59, 59, 0.881);
+    font-weight: 500;
   }
 
   .current {
     color: black;
-    font-size: 6vh;
+    font-size: 3.3vh;
     font-weight: 600;
   }
 
@@ -483,14 +470,15 @@
     height: 30vh;
     line-height: 6vh;
     text-align: center;
-    font-size: 6vh;
+    font-size: 3.8vh;
   }
 
   .expSpan {
     color: #ffc300;
-    font-size: 13vh;
-    text-shadow: 1px 2px 5px black;
-    letter-spacing: 0.3rem;
+    font-size: 7vh;
+    font-weight: 600;
+    text-shadow: 1px 2px 5px #4567b7;
+    letter-spacing: 0.1rem;
   }
 
   .experience-wrap {
@@ -505,7 +493,7 @@
     width: 60vw;
     background-color: white;
     border-radius: 2vh;
-    border: 2px solid #4567b7;
+    border: 1px solid #4567b7;
     margin: auto;
   }
 
@@ -534,20 +522,20 @@
   }
 
   .review-name {
-    font-size: 6vh;
+    font-size: 3.3vh;
     text-align: center;
     font-weight: 300;
     margin: auto;
   }
 
   .review-status {
-    font-size: 4.4vh;
+    font-size: 2.4vh;
     text-align: center;
     font-weight: 600;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.1rem;
     font-style: oblique;
     margin: auto;
-    margin-top: -2vh;
+    margin-top: 1vh;
   }
 
   .reviewText {
@@ -556,7 +544,7 @@
   }
 
   .review-para {
-    font-size: 4vh;
+    font-size: 2.4vh;
     line-height: 4vh;
     text-align: justify;
   }
@@ -577,11 +565,11 @@
   }
 
   .stand-out-text {
-    margin-top: 4vh;
+    margin-top: 5vh;
   }
 
   .stand-out-Heading {
-    font-size: 6vh;
+    font-size: 3.6vh;
     line-height: 3vh;
     color: white;
     font-weight: 300;
@@ -629,8 +617,8 @@
   }
 
   .footerLogo {
-    width: 340px;
-    height: 160px;
+    width: 300px;
+    height: 130px;
   }
 
   footer {
@@ -648,18 +636,16 @@
   .footer-nav {
     display: flex;
     flex-direction: column;
-    width: 87vw;
     height: 190vh;
-    background-color: #4567b7;
+    width: 87vw;
     margin: auto;
     justify-content: space-between;
     padding: 6vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.88px solid white;
   }
 
   .company,
-  .servicesFoot,
+  .services,
   .support {
     width: 50vw;
     height: 42vh;
@@ -667,14 +653,14 @@
 
   .legal {
     width: 60vw;
-    height: 40vh;
+    height: 42vh;
   }
 
   .footerHeading {
     color: white;
     font-style: oblique;
     font-weight: 600;
-    font-size: 5.6vh;
+    font-size: 2.8vh;
     letter-spacing: 0.3rem;
     text-shadow: 1px 2px 5px black;
   }
@@ -689,7 +675,7 @@
   }
 
   .footli {
-    font-size: 4.2vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -719,7 +705,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
   }
@@ -732,7 +718,7 @@
   }
 
   .paraTeam8 {
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: left;
     color: white;
@@ -742,39 +728,41 @@
   }
 
   .line-down {
-    width: 90vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
-    background-color: #4567b7;
+    margin-top: 10vh;
   }
 
   .logo-text {
-    width: 55vw;
-    height: 27vh;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
   }
 
   .wkhLogo {
-    height: 152px;
-    width: 59vw;
+    height: 108px;
+    width: 40vw;
   }
 
   .copyright {
     display: flex;
     flex-direction: row;
     height: 5vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin: auto;
     order: 1;
-    width: 55vw;
+    width: 70vw;
   }
 
   .copyrightIcon {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 13px;
     display: inline;
-    padding-top: 1vh;
+    padding-top: 0vh;
   }
 
   .pRRtextbox {
@@ -786,15 +774,14 @@
 
   .rightsreservedtext {
     color: white;
-    font-size: 3.9vh;
+    font-size: 1.7vh;
   }
 
   .socials {
     display: flex;
     flex-direction: row;
     height: 7vh;
-    width: 60vw;
-    margin-top: 10vh;
+    width: 40vw;
     justify-content: space-between;
     margin: auto;
     order: 0;

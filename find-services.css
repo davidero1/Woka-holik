@@ -90,7 +90,7 @@ a#loginButton:visited {
   color: white;
   text-decoration: none;
   display: inline-block;
-  font-size: 4.4vh;
+  font-size: 2.4vh;
   font-weight: 500;
   font-style: normal;
   border-radius: 1.2rem;
@@ -99,7 +99,7 @@ a#loginButton:visited {
   border: none;
   text-align: center;
   margin-top: 4.8vh;
-  padding-top: 0.5vh;
+  padding-top: 1.5vh;
 }
 
 a#loginButton:hover,
@@ -138,24 +138,26 @@ a#loginButton:active {
 }
 
 .f_heading {
-  width: 42vw;
+  width: 50vw;
   height: 18vh;
   margin: auto;
 }
 
 h1 {
   color: black;
-  font-size: 7vh;
+  font-size: 6vh;
   font-style: normal;
-  letter-spacing: 0.2vw;
-  line-height: 8vh;
+  line-height: 7vh;
   text-align: center;
+  font-weight: 500;
 }
 
 .heroYellow {
   color: #ffc300;
+  font-size: 7vh;
+  font-weight: 600;
   font-style: oblique;
-  text-shadow: 1px 2px 5px black;
+  text-shadow: 1px 2px 5px #4567b7;
 }
 
 .searchBox {
@@ -236,7 +238,8 @@ a.searchButton:active {
 .introObl {
   color: #4567b7;
   font-size: 6vh;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
   font-style: oblique;
   text-align: left;
   line-height: 13vh;
@@ -391,8 +394,8 @@ h4 {
 }
 
 .searchIcon {
-  width: 1.8vw;
-  height: 4vh;
+  width: 4vw;
+  height: 3.7vh;
   margin: auto;
 }
 
@@ -452,7 +455,7 @@ h4 {
 
 .hire {
   background-color: #4567b7;
-  height: 130vh;
+  height: 140vh;
 }
 
 .hire-wrap {
@@ -485,12 +488,10 @@ h4 {
 .s_providersBox {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 80vw;
-  height: 80vh;
+  width: 90vw;
+  height: 90vh;
   margin: auto;
   margin-top: 7vh;
-  margin-right: 10vw;
 }
 
 .column1 {
@@ -889,8 +890,7 @@ h4 {
 
 .servProParaBox {
   margin: auto;
-  margin-top: 85vh;
-  margin-left: -15vw;
+  margin-top: 5vh;
 }
 
 a.Alink-allserviceslink:link,
